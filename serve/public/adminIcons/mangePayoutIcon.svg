@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="20.926" height="14.084" viewBox="0 0 20.926 14.084">
-  <g id="gareway" transform="translate(-0.3 -3.3)">
-    <path id="Path_34" data-name="Path 34" d="M.5,5.8A2.285,2.285,0,0,1,2.766,3.5H18.76a2.285,2.285,0,0,1,2.266,2.3l-.015,9.356a.489.489,0,1,1-.977,0L20.049,5.8A1.308,1.308,0,0,0,18.76,4.477H2.766A1.308,1.308,0,0,0,1.477,5.8V14.88a1.308,1.308,0,0,0,1.288,1.326l16.954-.063a.489.489,0,0,1,0,.977l-16.954.063A2.285,2.285,0,0,1,.5,14.88Z" transform="translate(0 0)" fill="#fff" stroke="#fff" stroke-width="0.4" fill-rule="evenodd"/>
-    <path id="Path_35" data-name="Path 35" d="M.5,6.921A.459.459,0,0,1,.989,6.5H20.538a.459.459,0,0,1,.489.421.459.459,0,0,1-.489.421H.989A.459.459,0,0,1,.5,6.921Z" transform="translate(0 -0.037)" fill="#fff" stroke="#fff" stroke-width="0.3" fill-rule="evenodd"/>
-    <path id="Path_36" data-name="Path 36" d="M2.5,11.921a.421.421,0,0,1,.421-.421H4.607a.421.421,0,1,1,0,.843H2.921A.421.421,0,0,1,2.5,11.921Z" transform="translate(-0.314 -1.434)" fill="#fff" stroke="#fff" stroke-width="0.3" fill-rule="evenodd"/>
-    <path id="Path_37" data-name="Path 37" d="M2.5,14.421A.421.421,0,0,1,2.921,14H6.293a.421.421,0,1,1,0,.843H2.921A.421.421,0,0,1,2.5,14.421Z" transform="translate(-0.314 -1.465)" fill="#fff" stroke="#fff" stroke-width="0.3" fill-rule="evenodd"/>
-  </g>
-</svg>

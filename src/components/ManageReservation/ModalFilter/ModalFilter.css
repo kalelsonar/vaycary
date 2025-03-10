@@ -1,0 +1,63 @@
+@import '../../../components/common.css';
+@import '../../../components/variables.css';
+
+.root {
+  padding: 25px;
+}
+
+/** RentAll - Begin **/
+.logInModalContainer {
+  width: 468px;
+}
+
+.logInModalBody {
+  padding: 0px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.iconCss {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.errorMessage {
+  color: red;
+  text-align: center;
+}
+.title{
+  font-size: 18px;
+  margin: 0 0 12px;
+}
+.selectField{
+  height: 45px;
+  border: 1px solid var(--border-secondary-color);
+}
+.cancelBtn{
+  color: var(--btn-secondary-bg) !important;
+  margin-right: 30px;
+  font-size: 16px;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+.alignRight{
+  text-align: right;
+  margin-top: 30px;
+}
+.marginTop{
+  margin-top: 30px;
+}
+@media (max-width: 767px) {
+  .logInModalContainer {
+    width: auto;
+  }
+}

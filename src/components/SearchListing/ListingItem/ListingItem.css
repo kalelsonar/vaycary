@@ -1,0 +1,143 @@
+@import '../../variables.css';
+
+.textEllipsis {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.listInfoLink {
+	cursor: pointer;
+	display: block;
+	text-decoration: none !important;
+}
+
+.listingInfo {
+	word-wrap: break-word;
+	font-size: 14px;
+	color: var(--common-text-Secondry-color);
+}
+
+.displayInline {
+	display: inline-block;
+}
+
+.listingTitle {
+	font-size: 16px;
+	color: var(--common-text-color);
+}
+
+.infoPrice {
+	font-size: 18px;
+	color: var(--common-text-color);
+}
+
+.infoReview {
+	word-wrap: break-word;
+	font-size: 16px;
+	line-height: 16px;
+	letter-spacing: normal;
+	color: var(--common-text-color);
+	display: inline;
+}
+
+.instantIcon {
+	color: #ffb400;
+	height: 16px;
+	width: 16px;
+}
+
+.pernightText {
+	font-size: 14px;
+}
+
+.reviewStarGap {
+	gap: 4px;
+}
+
+.listFlex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.currencyText,
+.currencyText:hover,
+.currencyText:active,
+.currencyText:focus {
+	font-size: 16px;
+	font-weight: 600;
+	color: var(--common-text-color);
+	text-decoration: none;
+}
+
+.listItemContainer {
+	margin-bottom: 8px;
+	position: relative;
+}
+
+.mapListItemPadding {
+	padding: 0px 12px 12px;
+}
+
+.listPhotoContainer {
+	position: relative !important;
+	height: 100% !important;
+	background: var(--background-color);
+	border-radius: 15px;
+	border: 1px solid var(--common-border-color);
+}
+
+.priceBreakDownText {
+	font-size: 18px;
+	font-weight: 500;
+    color: var(--common-text-color);
+	margin: 0px;
+	text-align: center;
+}
+
+.popUpTitleSection {
+	display: grid;
+    align-items: center;
+    grid-template-columns: 15px auto;
+    padding: 18px 24px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.paddingTop {
+	padding-top: 12px !important;
+}
+
+.totalText {
+	padding-top: 18px !important;
+	padding-bottom: 18px !important;
+	color: var(--common-text-color) !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+}
+
+.cursorPointer {
+	cursor: pointer;
+}
+
+.totalBeforeTaxText {
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.showPriceValueFlex {
+	display: flex;
+	gap: 4px;
+}
+
+@media screen and (min-width: 321px) {
+	.listItemContainer {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.popUpSection {
+		display: none;
+	}
+}

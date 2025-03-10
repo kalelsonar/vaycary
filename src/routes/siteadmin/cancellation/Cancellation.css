@@ -1,0 +1,45 @@
+@import '../../../components/variables.css';
+@import '../../../components/siteadmin/admin-common.css';
+@import '../../../components/helpers.css';
+.capitalize { 
+	text-transform: capitalize; 
+}
+.panelOutline{
+	border: 1px solid var(--border-color);
+	padding: 24px;
+	border-radius: 6px;
+}
+.tabBtn{
+	border: 1px solid var(--border-color);
+	border-radius: 25px;
+	padding: 12px 24px;
+	color: var(--common-text-color) !important;
+	font-size: 16px;
+	text-decoration: none !important;
+	margin-right: 18px;
+	display: inline-block;
+	font-weight: 500;
+}
+.tabBtnActive{
+	border: 1px solid var(--common-text-color);
+}
+.cancelBlockColor{
+    background-color: var(--background-gray-color);
+	padding: 30px;
+	margin-top: 24px;
+	border-radius: 6px;
+}
+@media screen and (max-width: 767px) {
+	.cancelBlockColor{
+		padding: 15px;
+	}
+	.textAlignCenterXS{
+		text-align: center;
+	}
+	.tabBtn{
+		margin-bottom: 10px;
+	}
+	.panelOutline{
+		padding: 15px;
+	}
+}

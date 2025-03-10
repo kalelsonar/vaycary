@@ -1,0 +1,13 @@
+query getCurrencies($requestedFrom: String, $currentPage: Int) {
+  getCurrencies(requestedFrom: $requestedFrom, currentPage: $currentPage) {
+    count
+    results {
+      id
+      symbol
+      isEnable
+      isPayment
+      isBaseCurrency
+      status
+    }
+  }
+}

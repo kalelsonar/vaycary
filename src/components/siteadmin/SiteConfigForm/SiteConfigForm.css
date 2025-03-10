@@ -1,0 +1,31 @@
+@import '../../../components/variables.css';
+@import '../admin-common.css';
+@import '../admin-form.css';
+@import '../../helpers.css';
+.girdOne {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    column-gap: 22px;
+}
+.girdTwo {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    column-gap: 22px;
+}
+@media screen and (max-width: 1199px) and (min-width: 1024px) {
+    .girdOne {
+        column-gap: 15px;
+    }
+    .girdTwo {
+        grid-template-columns: 49% 49%;
+        column-gap: 15px;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .girdOne {
+        grid-template-columns: 100%;
+    }
+    .girdTwo {
+        grid-template-columns: 100%;
+    }
+}

@@ -1,0 +1,552 @@
+@import '../../components/variables.css';
+@import '../../components/helpers.css';
+
+/*************************Sidenavigation Styles start******************************************/
+.listContainer {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+/*************************Sidenavigation Styles end******************************************/
+.panelHeader {
+  border-radius: 0;
+  width: 100%;
+  display: block;
+  font-size: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border-secondary-color);
+}
+
+.listLayout {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 1.43;
+}
+
+a {
+  color: var(--btn-secondary-bg);
+  text-decoration: none;
+
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: var(--btn-secondary-bg);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.mediaContainer {
+  display: table;
+  position: relative;
+}
+
+.profileAvatarLink {
+  backface-visibility: hidden;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.avatarDisplay {
+  display: table-cell;
+}
+
+.noBorder {
+  border: 0px none !important;
+}
+
+.panelNolist {
+  border-radius: 8px;
+  background: var(--background-common-color);
+  margin-bottom: 0px;
+  padding: 25px 25px 0;
+}
+
+.textCenter {
+  text-align: center;
+  position: relative;
+  z-index: 5;
+}
+
+.textBold {
+  font-weight: bold;
+}
+
+.pullLeft {
+  float: left;
+  margin-right: 2px;
+}
+
+.listStyle {
+  list-style: none;
+  padding: 0;
+}
+
+.mediaDisplay {
+  padding: 0;
+  list-style: none;
+  margin-bottom: 25px;
+}
+
+.mediaDisplayCell {
+  display: table-cell;
+}
+
+.mediaDisplay:last-child {
+  padding-bottom: 25px;
+}
+
+.name {
+  margin: 4px 0;
+  max-width: 74px;
+  word-wrap: break-word;
+}
+
+.reviewMuted {
+  color: var(--common-text-Secondry-color);
+  margin: 5px 0 12px;
+  font-size: 12px;
+}
+
+.reviewTitle {
+  font-weight: bold;
+  color: var(--common-text-color);
+}
+
+.iconColor {
+  color: var(--btn-primary-bg);
+  font-size: 16px;
+}
+
+.horizontalLineThrough {
+  position: relative;
+  z-index: 1;
+  display: block;
+  margin: 15px 0px;
+  width: 100%;
+  color: #767676;
+  text-align: center;
+  font-size: 14px;
+}
+
+.tabs {
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  font-size: inherit;
+  border-bottom: 0px solid var(--border-secondary-color);
+  margin-left: 0px;
+
+}
+
+.tabs>li {
+  margin-right: 27px;
+}
+
+.tabItem {
+  display: block;
+  position: relative;
+  text-align: center;
+  color: var(--common-text-color);
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.tabItem:hover {
+  text-decoration: none;
+}
+
+.active .tabItem {
+  color: var(--btn-secondary-bg) !important;
+  border-color: var(--btn-secondary-bg);
+  text-decoration: none;
+}
+
+.showSm {
+  display: none;
+}
+
+.recommondations {
+  position: relative;
+}
+
+.recommondations li:last-child .horizontalLineThrough {
+  opacity: 0;
+  height: 0;
+  margin: 0px;
+}
+
+.btnRadius {
+  border-radius: 0px;
+}
+
+.linkBtn {
+  border-radius: 4px;
+  padding: 9px 21px;
+}
+
+.noBackground {
+  background: transparent !important;
+}
+
+.displayTable {
+  display: table;
+  width: 100%;
+}
+
+.displayTableRow {
+  padding: 30px 25px;
+}
+
+.displayTableCell {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.rightBg {
+  padding: 15px 10px;
+  position: relative;
+  width: 100%;
+  margin-left: 5px;
+
+}
+
+.LeftBg {
+  width: 10%;
+}
+
+.marginTop {
+  margin-top: 30px;
+}
+
+.nameBold {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.loadMoreLink {
+  display: block;
+  width: 100%;
+  max-width: 200px !important;
+}
+
+.wordbreak {
+  word-break: break-word;
+}
+
+.pullRight {
+  float: right;
+}
+
+.contentTop {
+  margin: 5px 0 20px;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 20px;
+
+}
+
+.mediaDisplayCell p {
+  font-size: 18px;
+}
+
+.icons {
+  width: 18px;
+  margin: -4px 5px 0 0px;
+}
+
+.writeIconCss {
+  width: 14px;
+  margin: -4px 5px 0 0px;
+}
+
+.reviewIcon {
+  width: 10px;
+  margin: -4px 5px 0 0px;
+}
+
+.reviewPanel {
+  padding: 22px 25px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+}
+
+.listAvatarGrid {
+  display: flex;
+  margin-bottom: 18px;
+  column-gap: 8px;
+}
+
+.listDeatilsGrid {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+  border-top-left-radius: 0px;
+  column-gap: 8px;
+}
+
+.listDeatilsGrid::before {
+  display: inline-block;
+  border: 10px solid transparent;
+  border-left: 0;
+  border-right-color: #ffffff;
+  left: auto;
+  right: 100%;
+  border-width: 0 24px 24px 0;
+  border-color: transparent #ffffff transparent transparent;
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: auto;
+  top: 0;
+}
+
+.listDeatilsGrid::after {
+  left: -20px;
+  border-width: 0 22px 22px 0;
+  border-color: transparent #fff transparent transparent;
+  content: "";
+  position: absolute;
+  left: -38px;
+  top: 0;
+  right: auto;
+  width: 38px;
+  height: 40px;
+  background: var(--background-common-color);
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  z-index: 3;
+}
+
+.reviewFlex {
+  display: flex;
+  column-gap: 4px;
+  margin-top: 8px;
+  font-size: 12px;
+}
+
+.dateReviewCss {
+  padding-left: 11px;
+  position: relative;
+  color: var(--common-text-Secondry-color);
+}
+
+.dateReviewCss::after {
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: 2px;
+  width: 3px;
+  height: 3px;
+  background: var(--common-text-color);
+  border-radius: 50%;
+}
+
+.responseFlex {
+  display: flex;
+  column-gap: 12px;
+}
+
+.responseTitle {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.writePanel {
+  margin-bottom: 0;
+}
+
+.writeReviewText {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 25px;
+}
+
+.searchBox {
+  margin-top: 28px;
+}
+
+.searchReviewInput {
+  height: 45px;
+  border-radius: 23px;
+  border: 1px solid var(--border-color);
+  max-width: 382px;
+  width: 100%;
+  background: url('../../../public/SiteIcons/reviewSearch.svg');
+  background-position: 18px 50%;
+  padding-left: 40px;
+  padding-right: 20px;
+  background-repeat: no-repeat;
+}
+
+.rightText {
+  text-align: right;
+}
+
+.writtenReviewTitle {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.loadMoreBtn {
+  padding: 12px 20px;
+}
+
+.noBackground img {
+  background-color: transparent;
+}
+
+.reviewEditProfile {
+  float: right;
+  margin-right: 0 !important;
+  font-size: 16px;
+}
+
+.editProfileArrow {
+  margin-left: 5px;
+}
+
+.noResponse {
+  border-bottom: 0;
+  padding-bottom: 0;
+  margin-bottom: 3px;
+}
+
+.noListHeading {
+  font-size: 20px;
+  margin: 19px 0 10px;
+}
+
+.noListSubHeading {
+  color: var(--common-text-Secondry-color);
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.addNewBtn {
+  padding: 13px 15px;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.editReviewCss {
+  display: flex;
+  align-items: center;
+  column-gap: 3px;
+}
+
+.marginTop {
+  margin-top: 30px;
+}
+
+.panelNolistBottom {
+  padding-bottom: 7px;
+}
+.pastReviewBottom:last-child {
+  padding-bottom: 7px;
+}
+
+.writeReviewIcon {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 767px) {
+  .mediaDisplay {
+    display: block;
+  }
+
+  .textAlignCenter {
+    text-align: left;
+  }
+
+  .name {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .mediaContainer {
+    display: block;
+    text-align: center;
+  }
+
+  .avatarWrapper {
+    float: none;
+  }
+
+  .pullLeft {
+    float: none;
+  }
+
+  .panelNolist {
+    padding: 17px;
+  }
+
+  .listDeatilsGrid {
+    padding: 12px;
+  }
+
+  .profileAvatar {
+    width: 35px;
+    height: 35px;
+  }
+
+  .writeReviewText {
+    font-size: 14px;
+  }
+
+  .nameBold {
+    font-size: 14px;
+  }
+
+  .reviewPanel {
+    padding: 17px 10px;
+  }
+
+  .mobWidth {
+    width: 100%;
+  }
+
+  .reviewEditProfile {
+    float: none;
+    margin-top: 15px;
+  }
+
+  .editReviewCss {
+    justify-content: center;
+  }
+
+  .writeReviewIcon {
+    gap: 10px;
+  }
+
+  .tabs>li {
+    margin-right: 8px;
+  }
+
+  .reviewEditProfile {
+    text-align: right;
+  }
+
+  .mediaDisplay:last-child {
+    padding-bottom: 0px;
+  }
+}

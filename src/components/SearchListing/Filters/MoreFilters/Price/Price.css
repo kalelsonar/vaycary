@@ -1,0 +1,45 @@
+@import '../../../../../components/common.css';
+@import '../../../../../components/variables.css';
+
+.boxCss{
+    width: 100%;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 12px 18px;
+    position: relative;
+    cursor: default;
+}
+
+.minMaxCss{
+    color: var(--common-text-Secondry-color);
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.titleCss{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.lineCss{
+    width: 12px;
+    height: 1px;
+    background-color: var(--common-text-color);
+    margin: 0 30px;
+    display: inline-block;
+    position: relative;
+}
+.showPrice{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.captionCurrenySection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.priceRangePadding {
+    padding: 0px 12px;
+}

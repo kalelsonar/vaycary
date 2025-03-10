@@ -1,0 +1,33 @@
+@import '../../components/variables.css';
+@import '../../components/utils.css';
+@import '../../components/common.css';
+
+.modalCaptionLink,
+.modalCaptionLink:hover,
+.modalCaptionLink:focus {
+	color: var(--btn-secondary-bg);
+	display: inline-block;
+	margin-top: 10px;
+	font-size: 14px;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.formGroup {
+	margin-bottom: 20px;
+}
+
+.titleText {
+	font-size: 22px;
+	font-weight: 600;
+	margin: 0px 0px 22px;
+}
+
+.pwdImage {
+	position: absolute;
+    top: 19px;
+    right: 20px;
+}
+.positionRelative{
+	position: relative;
+}

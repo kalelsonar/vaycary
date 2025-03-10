@@ -1,0 +1,24 @@
+@import '../../../../components/common.css';
+.capitalizeText {
+    text-transform: capitalize;
+}
+.alignCenter{
+    text-align: center;
+}
+.borderRadius {
+    border-radius: 50px !important;
+}
+.clearMobileBtn{
+	color: var(--btn-secondary-bg) !important;
+	text-decoration: underline;
+    background: transparent !important;
+}
+.captionTitle{
+    font-size: 18px;
+    font-weight: 500;
+}
+.smallText{
+    font-size: 16px;
+    color: var(--common-text-Secondry-color);
+    margin-top: 6px;
+}

@@ -1,0 +1,17 @@
+@import '../variables.css';
+.notification{
+  fill: var(--btn-primary-bg);
+  height: 7px;
+  width: 7px;
+  position: absolute;
+  top: 12px;
+  transform: translate3d(4px, -8px, 0);
+}
+
+@media screen and (max-width: 1199px) {
+  .notification {
+    top: 24px;
+    -webkit-transform: translate3d(1px, -8px, 0);
+    transform: translate3d(1px, -8px, 0);
+}
+}

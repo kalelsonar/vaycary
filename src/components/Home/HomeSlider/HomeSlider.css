@@ -1,0 +1,41 @@
+@import '../../variables.css';
+
+.navigationIcon {
+    display: block;
+    fill: rgb(118, 118, 118);
+    height: 36px;
+    width: 36px;
+    font-size: 36px;
+}
+.noMargin {
+    margin: 0 auto;
+}
+.padding {
+    padding: 0 10px;
+}
+
+.containerTitle {
+	color: var(--common-text-color);
+	line-height: 24px;
+	margin: 0 0 45px;
+	padding: 0px 15px 0 6px;
+	font-weight: bold;
+	font-size: 32px;
+}
+.floatLeft{
+	float: left;
+}
+.floatRight{
+	float: right;
+}
+@media screen and (max-width: 1170px) {
+	.containerTitle {
+		text-align: center;
+	}
+}
+@media screen and (max-width: 767px) {
+	.containerTitle {
+		margin: 0 0 40px;
+	}
+}
+

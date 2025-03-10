@@ -1,0 +1,98 @@
+@import '../common.css';
+@import '../../variables.css';
+ .bannerContainer {
+	height: 500px;
+	position: relative;
+	width: 100%;
+	transition: height .2s;
+	cursor: pointer;
+	border-radius: 15px;
+}
+.bannerImage {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	min-height: 500px;
+}
+.viewPhotosBtn {
+	bottom: 20px;
+	right: 20px;
+	position: absolute;
+}
+.bannerImage:hover {
+	cursor: pointer;
+}
+.buttonContainer {
+	padding: 10px 16px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 4px;
+	width: auto;
+	font-size: 15px;
+	line-height: 18px;
+	color: var(--common-text-color);
+	font-weight: normal;
+	border: 1px solid transparent;
+	min-width: 52px;
+	background: #ffffff;
+}
+.wishListIcon {
+	color: #000;
+	font-size: 30px;
+	line-height: 1;
+	font-weight: normal;
+	font-style: normal;
+	cursor: pointer;
+}
+.buttonContainer .wishListIcon {
+	font-size: 20px !important;
+	transform: rotate(-90deg);
+}
+.paddingleft10 {
+	padding-left: 6px;
+}
+.vtrBottom {
+	vertical-align: bottom;
+}
+.vtrMiddle {
+	vertical-align: middle;
+}
+.saveButtonPosition{
+  position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.displayInline{
+  display: inline-block;
+  margin-left: 25px;
+}
+.positionRelative{
+	position: relative;
+}
+.showBtn{
+	color: var(--common-text-color);
+	border: 1px solid var(--common-text-color);
+	border-radius: 4px;
+	font-weight: normal;
+}
+@media screen and (max-height: 1200px) {
+	.saveButtonPosition{
+		  right: 0px;
+	  }
+}
+@media screen and (min-height: 700px) {
+	/* .bannerContainer {
+		height: 552px;
+	} */
+	.leftBanner {
+		height: 552px;
+	}
+}
+@media screen and (min-height: 850px) {
+	/* .bannerContainer {
+		height: 545px;
+	} */
+	.leftBanner {
+		height: 850px;
+	}
+}

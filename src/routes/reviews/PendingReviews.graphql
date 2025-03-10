@@ -1,0 +1,33 @@
+query PendingReviews($offset: Int, $loadCount: Int){
+	pendingReviews(offset: $offset, loadCount: $loadCount){
+        count
+		reservationData {
+			id
+			listId
+			hostId
+			guestId
+			listTitle
+			hostData {
+				profileId
+				firstName
+				lastName
+				picture
+			}
+			guestData {
+				profileId
+				firstName
+				lastName
+				picture
+			}
+			listData {
+				id
+				title
+				street
+				city
+				state
+				country
+				zipcode
+			}
+		}
+	}
+}

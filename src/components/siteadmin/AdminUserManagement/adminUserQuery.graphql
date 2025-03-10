@@ -1,0 +1,21 @@
+query($currentPage:Int) {
+  getAllAdminUsers(currentPage: $currentPage){
+    count
+    results{
+      id
+      email
+      isSuperAdmin
+      roleId
+      createdAt
+      updatedAt
+      adminRole {
+          id
+          name
+          description
+          createdAt
+          updatedAt
+          privileges
+      }
+    }
+  }
+}

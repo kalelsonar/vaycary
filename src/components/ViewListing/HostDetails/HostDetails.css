@@ -1,0 +1,139 @@
+@import '../common.css';
+@import '../../variables.css';
+ .profileAvatarSection {
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+}
+.profileAvatarLink {
+	backface-visibility: hidden;
+	position: relative;
+	display: inline-block;
+	vertical-align: bottom;
+	overflow: hidden;
+	background-color: #bbb;
+	border-radius: 50%;
+	border: 2px solid #fff;
+}
+.profileAvatar {
+	height: 70px;
+	width: 70px;
+}
+.overviewIcon {
+	width: 100%;
+	min-width: 18px;
+	height: auto;
+	text-align: center;
+	color: #767676;
+}
+.reviewStar {
+	display: inline;
+	position: relative;
+	float: left;
+}
+.introPadding {
+	padding-bottom: 15px;
+}
+.hostNameText {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	max-width: 150px;
+	margin: 0 auto;
+}
+.personalHomeIcon{
+	position: relative;
+	top:2px;
+}
+.flex{
+	display: flex;
+	margin-top: 16px;
+	font-size: 18px;
+}
+.locationCss{
+	padding-left: 15px;
+	position: relative;
+}
+.locationCss::before{
+	content: '';
+	width: 5px;
+	height: 5px;
+	background-color: var(--common-text-color);
+	border-radius: 50%;
+	position: absolute;
+	top: 10px;
+	left: 5px;
+}
+.paddingCss{
+	padding: 40px 0px 30px;
+}
+.saveButtonPosition{
+	display: flex;
+	justify-content: flex-end;
+	font-size: 18px;
+	align-items: center;
+	padding-top: 44px;
+}
+.paddingleft10{
+	padding-left: 12px;
+}
+.imgCss{
+	position: relative;
+	top: -2px;
+}
+.buttonContainer{
+	padding-left: 35px;
+	cursor: pointer;
+}
+.countGap{
+	padding-left: 5px;
+}
+.hostFlex{
+	display: grid;
+	grid-template-columns: 50% 50%;
+
+}
+@media screen and (max-width: 1200px) {
+	.paddingCss {
+		padding: 100px 0px 30px 0px;
+	}
+}
+@media screen and (max-width: 640px) {
+	.introCenter {
+		text-align: center;
+	}
+	.bookItPanel {
+		text-align: left;
+	}
+}
+@media screen and (max-width: 767px) {
+	.profileAvatar {
+		height: 54px;
+		width: 54px;
+	}
+	.profileAvatarNew {
+		height: 100px;
+		width: 100px;
+	}
+	
+	.saveButtonPosition {
+		padding-top: 0px;
+		justify-content: flex-start;
+	}
+	.paddingCss {
+		padding: 100px 0px 8px;
+	}
+	.hostFlex{
+		flex-wrap: wrap;
+	}
+	.hostFlex {
+		grid-template-columns: 100%;
+	}
+	.flex{
+		margin-top: 10px;
+	}
+	.mobilePaddingRemove{
+		padding-left: 0;
+		padding-top: 5px;
+	}
+}

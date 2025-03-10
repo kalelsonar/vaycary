@@ -1,0 +1,297 @@
+@import '../common.css';
+@import '../../helpers.css';
+@import '../../variables.css';
+
+.bookItContainer {
+	width: 100%;
+	display: block;
+	position: relative;
+	background: transparent;
+}
+
+.bookItContentBox {
+	width: 100%;
+	background: transparent;
+	border: 1px solid var(--border-secondary-color);
+	border-radius: 15px;
+	z-index: 100;
+	background: #fff;
+	padding: 29px 36px;
+}
+
+.bootItPriceSection {
+	border: 0;
+	padding: 0px 0px 12px;
+	text-transform: capitalize;
+	width: 100%;
+	z-index: 1001;
+	overflow-y: hidden;
+	border-radius: 5px 5px 0 0;
+}
+
+.bookItPriceAmount {
+	display: inline-block;
+}
+
+.bookItPrice {
+	font-size: 24px;
+}
+
+.instantIcon {
+	color: #ffb400;
+	position: relative;
+	bottom: 5px;
+	height: 22px;
+	width: 22px;
+}
+
+.bookItPanel {
+	border-radius: 0;
+	padding: 0px;
+	position: relative;
+	padding-top: 0px;
+	border-radius: 0 0 5px 5px;
+}
+
+.bookItMessage {
+	overflow: hidden;
+	display: block;
+	position: relative;
+}
+
+.discountText {
+	color: #3fb34f !important;
+}
+
+.reviewSection {
+	display: inline-block;
+	float: left;
+	padding-right: 5px;
+}
+
+.scrollTable {
+	max-height: 160px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	width: 100%;
+}
+
+.iconSection {
+	padding-left: 5px;
+}
+
+.positionR {
+	position: relative;
+}
+
+.toolTipColor {
+	color: var(--common-text-color) !important;
+	position: relative;
+	bottom: 5px;
+	height: 18px;
+	width: 18px;
+}
+
+.specialPriceText {
+	display: inline-block;
+	vertical-align: initial;
+	width: auto;
+	word-break: break-word;
+}
+
+.specialPriceIcon {
+	position: absolute;
+	display: inline-block;
+	width: 19px;
+	vertical-align: top;
+	margin-right: 4px;
+}
+
+.paddingLeft {
+	padding: 0 0 0 22px;
+}
+
+.tltip {
+	position: absolute;
+	top: -48px;
+	right: 0;
+	left: 0px;
+	display: none;
+	background: var(--common-text-color);
+	min-width: 280px;
+	text-align: center;
+	padding: 10px;
+	border-radius: 4px;
+	color: #fff;
+}
+
+.specialPriceIcon:hover .tltip {
+	display: block;
+}
+
+.relativeSection::after {
+	content: '';
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 10px;
+	right: 0;
+	top: 34px;
+	bottom: 0;
+	text-align: center;
+	background-color: var(--common-text-color);
+	z-index: 1;
+	max-width: 11px;
+	max-height: 11px;
+	transform: rotate(136deg);
+}
+
+.faqImage {
+	width: 100%;
+	max-width: 19px;
+	vertical-align: top;
+	margin-right: 5px;
+}
+
+.displayCell {
+	display: table-cell;
+}
+
+.decresePadding {
+	padding-right: 2px;
+}
+
+.decWidth {
+	width: 10%;
+	display: inline-block;
+}
+
+.priceCss {
+	display: inline-block;
+}
+
+.noMargin {
+	margin: 0px;
+}
+
+.guestFormControlSelect {
+	height: 76px;
+	padding-bottom: 0px !important;
+	padding-left: 15px !important;
+	background-position: 97% 50%;
+	background-size: 30px 30px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+	border-radius: 6px;
+	margin-bottom: 0px;
+	color: var(--common-text-color);
+	font-size: 16px;
+	padding-top: 15px;
+}
+
+.guestText {
+	position: absolute;
+	top: 12px;
+	left: 30px;
+	font-weight: 500;
+	font-size: 16px;
+	z-index: 1;
+}
+
+.totalText {
+	padding-top: 20px !important;
+	font-size: 20px !important;
+	font-weight: 500 !important;
+}
+
+.smallText,
+.smallText:hover,
+.smallText:focus {
+	font-size: 14px;
+	color: var(--common-text-color);
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+	.container {
+		max-width: 720px;
+	}
+
+	.bookItContentBox {
+		position: static;
+	}
+
+	.bookItContainer {
+		margin-top: 20px;
+		;
+		z-index: 1;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.bookItContainer {
+		margin-top: 0px;
+		margin-bottom: 48px;
+	}
+
+	.bookItContentBox {
+		position: relative;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.bookItContentBox {
+		width: 100%;
+		border: none;
+		padding: 0px 20px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.tltip {
+		position: absolute;
+		top: -48px;
+		right: 0;
+		left: 0;
+		display: none;
+		background: var(--common-text-color);
+		min-width: 260px;
+		text-align: center;
+		padding: 10px;
+		border-radius: 4px;
+		color: #fff;
+	}
+
+	.specialPriceIcon:hover .tltip {
+		display: block;
+	}
+
+	.relativeSection::after {
+		content: '';
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		left: 10px;
+		right: 0;
+		top: 32px;
+		bottom: 0;
+		text-align: center;
+		background-color: var(--common-text-color);
+		z-index: 1;
+		max-width: 11px;
+		max-height: 11px;
+		transform: rotate(136deg);
+	}
+
+	.bookItPriceAmount {
+		float: left;
+	}
+
+	.mobileRight {
+		display: inline-block !important;
+		padding: 6px 0px 0 0;
+	}
+
+	.bookItPanel {
+		text-align: left;
+	}
+}

@@ -1,0 +1,29 @@
+@import '../../variables.css';
+
+.GridCollapse {
+	position: relative;
+}
+
+.containerTitle {
+	color: var(--common-text-color);
+	line-height: normal;
+	margin: 0 0 45px;
+	padding: 0px 15px;
+	font-weight: bold;
+	font-size: 32px;
+	transition: all .4s ease-out;
+}
+
+.noLeftPadding{
+	padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+	.marginLeft {
+		margin: 0 0 24px 34px;
+	}
+	.containerTitle {
+		margin: 0 0 40px;
+	}
+}
+

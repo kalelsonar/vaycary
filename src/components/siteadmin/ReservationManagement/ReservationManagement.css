@@ -1,0 +1,18 @@
+@import '../../../components/variables.css';
+@import '../admin-common.css';
+
+.cancelBtn {
+    color: var(--btn-secondary-bg);
+    cursor: pointer;
+}
+
+.cancelBtn:hover,
+.cancelBtn:focus {
+    text-decoration: underline;
+
+}
+
+.userSelect {
+    height: 40px !important;
+    background-position: 98% 6px !important;
+}

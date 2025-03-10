@@ -1,0 +1,172 @@
+@import '../ListPlaceStep1/ListPlaceStep1.css';
+@import '../../components/utils.css';
+@import '../../components/variables.css';
+
+.saveCalendarContainer {
+	padding: 20px 15px 45px;
+	border: 1px solid var(--border-color);
+	margin-top: 90px;
+	border-radius: 15px;
+}
+
+.selectedDatesBox {
+	padding: 7px 10px 10px;
+	font-size: 14px;
+	line-height: 24px;
+	color: rgb(72, 72, 72);
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	height: 43px;
+}
+
+.arrowIcon {
+	vertical-align: middle;
+	fill: rgb(72, 72, 72);
+	height: 24px;
+	width: 24px;
+	margin: 0px 12px;
+}
+
+.loaderContainer {
+	display: inline;
+}
+
+.landingContentTitle {
+	margin: 0px 0px 18px 0px;
+}
+
+.floatLeftInput {
+	float: left;
+}
+
+.buttonLeft {
+	float: right;
+	margin: 0;
+	position: relative;
+	top: 25px;
+}
+
+.inputHeight {
+	height: 43px;
+	border: inherit;
+	padding: 0;
+
+}
+
+.aBlockWrap {
+	overflow: hidden;
+	background: #ECECEC;
+	border-radius: 26px;
+}
+
+.aBWLeft,
+.aBWRight {
+	width: 50%;
+	float: left;
+}
+
+.aBlockWrap .btnBg {
+	width: 100%;
+	height: 40px;
+	border: 0;
+	color: var(--btn-secondary-bg);
+	background: #ECECEC;
+	box-shadow: inherit;
+}
+
+.aBlockWrap .btnBg:hover,
+.aBlockWrap .btnBg:active,
+.aBlockWrap .btnBg:focus,
+.aBlockWrap .btnBg.active {
+	background: var(--btn-secondary-bg) !important;
+	color: #fff;
+	border-radius: 26px;
+}
+
+.textLeft {
+	text-align: left;
+}
+
+.sDateWrap {
+	margin: 0px 0 10px;
+}
+
+.sDateWrap label {
+	margin: 0;
+}
+
+.marginBottom {
+	margin: 0;
+}
+
+.leftRadius {
+	border-radius: 26px 0 0 26px;
+}
+
+.rightRadius {
+	border-radius: 0 26px 26px 0;
+}
+
+.saveBorder {
+	border: 1px solid var(--border-color);
+	margin-top: 27px;
+	border-radius: 6px;
+}
+
+.noMargin {
+	margin: 0;
+}
+
+.borderTopspecial {
+	border-top: 1px solid var(--border-color);
+	padding: 15px 15px 5px;
+}
+
+.datesBorder {
+	padding: 15px 15px 10px;
+}
+
+.buttonRight {
+	color: var(--btn-secondary-bg) !important;
+	float: right;
+	border: inherit;
+	background-color: transparent !important;
+	padding: 0;
+	margin-right: 26px;
+	position: relative;
+	top: 33px;
+}
+
+.saveBg {
+	background-color: var(--btn-secondary-bg) !important;
+	color: #ffffff !important;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.saveCalendarContainer {
+		padding: 10px 10px 40px 10px;
+		margin-bottom: 90px;
+	}
+
+.sDateWrap {
+	margin: 20px 0 10px;
+}
+
+.sDateWrap h4 {
+	font-size: 14px;
+	margin: 0;
+}
+}
+
+@media screen and (max-width: 767px) {
+	.innerCPopup {
+		width: 100%;
+	}
+}
+
+@media (max-width: 767px) and (min-width: 560px) {
+	.saveCalendarContainer {
+		width: 100%;
+		max-width: 400px;
+	}
+}

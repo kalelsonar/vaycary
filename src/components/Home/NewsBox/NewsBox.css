@@ -1,0 +1,144 @@
+@import '../../helpers.css';
+@import '../../variables.css';
+/** Common - Start **/
+a,
+a:hover,
+a:active a:focus {
+	text-decoration: none;
+	cursor: pointer;
+}
+/** Common - End **/
+/** News box - Start */
+.table {
+	width: 100%;
+	display: table;
+	margin-bottom: 48px;
+	padding-top: 35px;
+}
+.tableCell {
+	display: table-cell;
+	vertical-align: middle;
+}
+.textColumn {
+	width: 45%;
+	padding-right: 80px;
+}
+.imageColumn {
+	width: 55%;
+}
+.imgShadow {
+	width: 70%;
+	float: right;
+}
+.title {
+	font-weight: 600;
+    color: var(--white-color);
+    margin: 0px;
+    font-size: 55px;
+    line-height: 65px;
+}
+.caption {
+	font-weight: 200;
+	color: var(--common-text-color);
+	margin-top: 12px;
+	margin-bottom: 24px;
+	word-wrap: break-word;
+	font-size: 19px;
+	line-height: 24px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.mobileView {
+	display: none;
+}
+.bg{
+	width: 100%;
+    min-height: 400px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border-radius: 22px;
+	padding: 70px;
+	position: relative;
+	overflow: hidden;
+}
+.btn{
+    border-radius: 4px;
+    padding: 10px 21px 12px;
+    margin-top: 50px;
+    display: inline-block;
+	word-break: break-word;
+}
+.innerWidth{
+	max-width:545px;
+	position: relative;
+}
+.bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: transparent linear-gradient(90deg, #1A0000B8 0%, #66545400 100%) 0% 0% no-repeat padding-box;
+	border-radius: 22px;
+	
+}
+.siteColor {
+	color: var(--btn-primary-bg);
+}
+@media (max-width: 1199px) and (min-width: 768px) {
+	.table {
+		padding-top: 35px;
+		padding-left: 24px;
+		padding-right: 24px;
+	}
+	.title {
+		font-size: 26px;
+	}
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+	.bg{
+		padding: 40px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.tableCell {
+		display: block;
+		width: 100%;
+	}
+	.desktopView {
+		display: none;
+	}
+	.mobileView {
+		display: block;
+	}
+	.textColumn {
+		padding: 24px 0px 0px;
+	}
+	.title {
+		font-size: 40px;
+		line-height: 46px;
+	}
+	.caption {
+		color: var(--common-text-color);
+		margin-top: 8px;
+		margin-bottom: 16px;
+		word-wrap: break-word;
+		font-size: 16px;
+		line-height: 24px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	.imgShadow {
+		width: 100%;
+	}
+	.bg {
+		display: flex;
+		align-items: center;
+		padding: 30px;
+	}
+	
+	
+}
+/** News box - Start */

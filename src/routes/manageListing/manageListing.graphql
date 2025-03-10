@@ -1,0 +1,39 @@
+query ManageListings($searchKey: String){
+    ManageListings(searchKey: $searchKey) {
+        results{
+            id
+            title
+            city
+            updatedAt
+            lastUpdatedAt
+            coverPhoto
+            isPublished
+            listApprovalStatus
+            isReady
+            listPhotos{
+                id
+                name
+            }
+            settingsData {
+                listsettings {
+                    id
+                    itemName
+                }
+            }
+            listingSteps {
+                id
+                step1
+                step2
+                step3
+                step4
+            }
+            user {
+                id
+                userBanStatus
+            }
+        }
+        userListingCount
+        status
+        searchKey
+    }
+  }

@@ -1,0 +1,10 @@
+.listContainer {
+  list-style-type: none;
+}
+.sideNavitem{
+  display: block;
+  padding: 8px 0;
+  font-size: 16px;
+  color: #767676;
+  text-decoration: none !important;
+}

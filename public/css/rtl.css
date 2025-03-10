@@ -1,0 +1,2866 @@
+@import url('./variables.css');
+
+body.rtl {
+    direction: rtl;
+}
+
+.rtl .seeALlAr {
+    float: left;
+}
+
+.rtl .homeSliderRtl {
+    direction: rtl;
+}
+
+.rtl .searchIconContainerrtl {
+    padding-right: 12px;
+}
+
+.rtl .showMaprtl {
+    float: left !important;
+}
+
+.rtl .searchFilterPopoverRtl {
+    right: 0px;
+    left: auto;
+}
+
+.rtl .NhNameRtl {
+    padding: 0 10px 0 0;
+}
+
+.rtl .directionLtr {
+    direction: ltr;
+}
+
+.rtl .labelTextMapRtl {
+    margin-left: 6px;
+}
+
+.rtl .selectNew {
+    background-position: 2% 12px !important;
+    padding: 10px 10px 10px 10px;
+}
+
+.rtl .contactHostSelect {
+    background-position: 2% 8px !important;
+    padding: 10px 10px 10px 10px;
+}
+
+.rtl .contactHostlistTextRTL {
+    padding-right: 18px;
+}
+
+.rtl .contactHostlistTextRTL li::before {
+    left: auto;
+    right: -25px;
+}
+
+.rtl .textColumnRtl {
+    padding-left: 80px;
+    padding-right: 0px;
+}
+
+.rtl .imageColumnRtl {
+    float: left;
+}
+
+.rtl .modaltextAignRightRtl {
+    text-align: left;
+}
+
+.rtl .shareIconRtl {
+    padding-left: 0;
+    padding-right: 9px;
+}
+
+.rtl .modal-dialog {
+    text-align: right;
+}
+
+.rtl .iconPositionRtl {
+    margin: -2px 0 0 8px;
+}
+
+.rtl .floatRight {
+    float: right;
+}
+
+.rtl .floatLeft {
+    float: left;
+}
+
+.rtl .heartIcon {
+    left: 15px !important;
+    right: auto !important;
+}
+
+.rtl .textAlignLeftRtl {
+    text-align: left;
+}
+
+.rtl .rc-pagination-item {
+    float: right;
+}
+
+.rtl .rc-pagination-prev {
+    float: right;
+}
+
+.rtl .rc-pagination-next {
+    margin-right: 6px;
+}
+
+.rtl .heartIconRtl {
+    left: 8px;
+    right: auto;
+}
+
+.rtl .shareBtnRtl {
+    margin-right: 0px;
+    margin-left: 25px;
+}
+
+.rtl .socialIconsRtl {
+    margin-left: 15px;
+}
+
+.rtl .currenyMarginRtl {
+    margin-left: 6px;
+    margin-right: 0;
+}
+
+.rtl .feedbackIconRtl {
+    margin-left: 18px;
+    margin-right: 0;
+}
+
+.rtl .listIconRtl {
+    margin-left: 6px;
+    margin-right: 0;
+}
+
+.rtl .saveButtonPositionRtl {
+    left: 10px;
+    right: auto;
+}
+
+.rtl .viewPhotosBtnRtl {
+    left: 20px;
+    right: auto;
+}
+
+.rtl .imgSectionRtl {
+    margin-left: 8px;
+    margin-right: 0;
+}
+
+.rtl .iconRemoveRtl {
+    left: 20px;
+    top: 0;
+    right: auto;
+}
+
+.rtl .verificationBox {
+    padding-right: 0;
+}
+
+.rtl .doneIcon img {
+    margin-left: 6px;
+    margin-right: 0;
+}
+
+.rtl .dashFloatLeft {
+    float: right;
+    margin: 0 0px 0 3px;
+}
+
+.rtl .listLayoutArbic {
+    padding-right: 0px;
+}
+
+.rtl .reservartioARCircle {
+    width: 100%;
+    background: var(--white-color);
+    height: 20px;
+    max-width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid var(--btn-primary-bg);
+    right: 36px;
+    top: 34px;
+    z-index: 5;
+}
+
+.rtl .reservationLine::after {
+    content: '';
+    width: 3px;
+    height: 100%;
+    background: var(--white-color);
+    position: absolute;
+    top: 0;
+    left: 25px;
+    right: auto;
+    z-index: 5;
+    box-shadow: 0px 0px 2px 1px #dedede;
+}
+
+.rtl .reservationAfterSection::before {
+    display: inline-block;
+    border: 10px solid transparent;
+    border-left: 0;
+    border-right-color: var(--white-color);
+    right: auto !important;
+    left: 100% !important;
+    border-width: 0 24px 24px 0;
+    border-color: transparent #fff transparent transparent;
+    transform: rotate(270deg);
+}
+
+.rtl .reservationAfterSection::after {
+    right: -38px;
+    top: 0;
+    left: auto;
+    width: 38px;
+    border-top-right-radius: 22px;
+    border-bottom-left-radius: 22px;
+    transform: rotate(82deg);
+}
+
+.rtl .sideMenuBorderPadding a {
+    padding: 10px 25px 10px 20px;
+}
+
+.rtl .reviewsId {
+    margin-left: 2px;
+    margin-right: 0;
+    float: right;
+}
+
+.rtl .paddingRightAR {
+    padding: 0px 35px 0px 0px;
+}
+
+.rtl .viewMessageCheckOutSection {
+    float: left;
+    text-align: right;
+}
+
+.rtl .textAlignRightRtl {
+    text-align: right;
+}
+
+.rtl .profileAvatarSectionLeftAr {
+    margin: 0px 0px 0 6px;
+}
+
+.rtl .viewMessageBubble::before {
+    content: ' ';
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    bottom: auto;
+    border: 10px solid transparent;
+    border-left: 0;
+    border-right-color: #fff;
+    top: 0px;
+    right: initial;
+    left: 100%;
+    border-width: 0 24px 24px 0;
+    border-color: transparent #fff transparent transparent;
+    transform: rotate(270deg);
+}
+
+.rtl .viewMessageBubble::after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -20px;
+    right: auto;
+    top: 0px;
+    bottom: auto;
+    border-width: 0 22px 22px 0;
+    border-color: transparent #fff transparent transparent;
+    transform: rotate(82deg);
+}
+
+.rtl .radiusColorTwo::after {
+    content: '';
+    position: absolute;
+    right: -37px;
+    top: 0;
+    left: auto;
+    width: 38px;
+    height: 40px;
+    background: var(--background-common-color);
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    z-index: 3;
+}
+
+.rtl .profileAvatarRight {
+    margin: 0px 6px 0px 0px;
+}
+
+.rtl .sendMessageRadius::after {
+    width: 38px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.rtl .ViewBubbleRight::before {
+    display: inline-block;
+    border: 10px solid transparent;
+    border-left: 0;
+    border-right-color: var(--white-color);
+    left: auto;
+    right: 100%;
+    border-width: 0 24px 24px 0;
+
+}
+
+.rtl .ViewBubbleRight::after {
+    top: 0px;
+    left: -20px;
+    right: auto;
+    border-width: 0 24px 24px 0;
+
+}
+
+.rtl .blockRadioBtnRTL {
+    margin-right: 0px !important;
+    margin-left: 12px !important;
+}
+
+.rtl .paymentSelectAR {
+    padding: 8px 10px 8px 40px !important;
+    background-position: 2% 50%;
+}
+
+.rtl .pullRightBooking {
+    float: right;
+}
+
+.rtl .selectPaymentDropdown {
+    padding: 8px 10px 8px 40px !important;
+    background-position: 2% 7px;
+}
+
+.rtl .cardNumberRtl {
+    padding: 16px 0px 0 0;
+    text-align: right !important;
+}
+
+.rtl .cardNumberRtlTwo {
+    padding: 10px 0px 0 0;
+}
+
+.rtl .Loader__message span,
+.rtl .buttonLoaderRTL span,
+.rtl .buttonLoaderRTL .Loader__message span {
+    direction: ltr !important;
+}
+
+.rtl .arButtonLoader span {
+    direction: ltr !important;
+}
+
+.rtl .arCreateWish,
+.rtl .arCreateWish:hover,
+.rtl .arCreateWish:focus,
+.rtl .arCreateWish:active {
+    margin-right: 0px !important;
+    margin-left: 36px !important;
+}
+
+.rtl .imgContainerRtl::before {
+    right: 0px;
+    left: auto;
+    transform: rotate(180deg);
+}
+
+.rtl .imageContentRtl {
+    right: 15px;
+    left: auto;
+    bottom: 35px;
+}
+
+.rtl .linkContainerRtl {
+    text-align: right;
+    float: right;
+    padding-right: 25px;
+}
+
+.rtl .headerSearch .geosuggest__suggests {
+    right: -45px !important;
+    text-align: right;
+}
+
+.rtl .roomTypeRtl {
+    float: right;
+}
+
+.rtl .redux-toastr .top-right {
+    left: 0;
+    right: auto;
+}
+
+.rtl .alertDangerRtl {
+    text-align: right;
+    padding-right: 50px;
+}
+
+.rtl .dangerIconRtl {
+    right: 18px;
+}
+
+.rtl .whyBtnRtl {
+    margin-right: 20px;
+}
+
+.rtl .rightsidecontentRtl {
+    padding-right: 8% !important;
+    padding-left: 0;
+}
+
+.rtl .leftsidecontentRtl {
+    padding-left: 8%;
+    padding-right: 0;
+}
+
+.rtl .paginationRtl {
+    direction: ltr;
+    display: inline-block;
+}
+
+.rtl .navRtl {
+    float: right;
+    margin: 0px 0px 0px 25px;
+}
+
+.rtl .birthFormRtl {
+    padding-left: 28px;
+    background-position: 2% 8px;
+}
+
+.rtl .specialpriceRtl {
+    margin-left: 0;
+    margin-right: 0px;
+}
+
+.rtl .paddingLeftRtl {
+    padding: 0 24px 0 0;
+}
+
+.rtl .listStyleRtl {
+    padding-right: 0;
+}
+
+.rtl .searchRTL {
+    float: left;
+}
+
+.rtl .loginModal .close {
+    float: right !important;
+}
+
+.rtl .backgroundOneRTL {
+    background-position: 2% 50%;
+    padding: 10px 10px 10px 10px;
+}
+
+.rtl .buttonPositionRTL {
+    right: 33px;
+    left: auto;
+}
+
+.rtl .moreFilterModal .close {
+    left: auto;
+    right: 25px;
+}
+
+.rtl .viewGuestCount {
+    padding: 10px 10px 10px 10px;
+    background-position: 2% 50%;
+}
+
+.rtl .reviewSectionRTL {
+    float: right;
+    padding-left: 5px;
+    padding-right: 0;
+}
+
+.rtl .gm-control-active.gm-fullscreen-control {
+    left: 0px;
+    right: auto !important;
+}
+
+.rtl .gmnoprint.gm-bundled-control {
+    left: 0px;
+    right: auto;
+}
+
+.rtl .stpeOneMap .gmnoprint.gm-bundled-control {
+    left: 0px;
+    right: 40px;
+}
+
+.rtl .verifyInfo .panel-body {
+    padding: 13px;
+}
+
+.rtl .publishArrow select {
+    background-position: calc(0% - -15px);
+    padding: 8px 8px 8px 30px;
+}
+
+.rtl .responsiveMargin {
+    margin-right: 10%;
+}
+
+.rtl .seeAllBtnIcon {
+    transform: rotate(180deg);
+    margin-right: 2px;
+}
+
+.rtl .feedbackContent {
+    text-align: right;
+    padding-right: 15px;
+}
+
+.rtl .searchMapSection .gm-bundled-control {
+    left: 15px !important;
+    right: auto !important;
+}
+
+.rtl .errorMessageFieldRTL {
+    text-align: right;
+}
+
+.rtl .csvExportRTL {
+    float: left;
+}
+
+.rtl .commonControlSelectPayoutRTL {
+    padding: 10px 10px 10px 32px !important;
+    background-position: 4% 50% !important;
+    height: 40px;
+}
+
+.rtl .listLayoutRTL {
+    padding-right: 0;
+}
+
+.rtl .selectPayoutRTL {
+    margin-right: 0;
+}
+
+.rtl .rtlPayoutEmail {
+    text-align: right;
+    display: inline-block;
+}
+
+.rtl .panel-footer {
+    text-align: left;
+}
+
+.rtl .selectFormControlRTL {
+    padding: 8px 15px 10px 32px !important;
+    background-position: 2% 7px !important;
+}
+
+.rtl .textAlignLeftRtlEdit {
+    text-align: left;
+}
+
+.rtl .feedbackBorderRightRtl {
+    border-right: 1px solid var(--border-secondary-color) !important;
+}
+
+.rtl .payoutTable {
+    -webkit-overflow-scrolling-x: touch;
+    white-space: nowrap;
+    padding-left: 5px;
+}
+
+.rtl .sideArrowRTL {
+    transform: rotate(-180deg);
+    padding-left: 5px;
+    padding-right: 0;
+}
+
+.rtl .closeColorAdminRTL {
+    text-align: left;
+    padding: 2px 2px 2px 12px;
+}
+
+.rtl .hamburger {
+    left: auto;
+    right: 25px;
+}
+
+.rtl .logoutIconRTL {
+    float: left;
+    margin: 23px 0px 0 15px;
+}
+
+.rtl .adminstyle .form-control {
+    background-position: 5px 50%;
+    padding: 10px 15px 10px 35px;
+}
+
+.rtl .adminUpdate {
+    margin-right: 15px;
+    margin-left: 0px;
+}
+
+.rtl .directionLtrTextRight {
+    direction: ltr;
+    text-align: right;
+    display: inline-block;
+}
+
+.rtl .listStyleRTL {
+    padding-right: 0;
+}
+
+.rtl .homeSwiper .swiper-button-prev {
+    top: 35%;
+    background-image: url('../SiteIcons/rtlNextArrow.svg');
+    background-repeat: no-repeat;
+    left: auto;
+    right: 0;
+    width: 46px;
+    height: 46px;
+    background-size: 41px;
+    filter: drop-shadow(0px 3px 6px #0000001C);
+
+}
+
+.rtl .homeSwiper .swiper-button-next {
+    top: 35%;
+    background-image: url('../SiteIcons/rtlPrevArrow.svg');
+    background-repeat: no-repeat;
+    right: auto;
+    left: 0;
+    width: 46px;
+    height: 46px;
+    background-size: 41px;
+    filter: drop-shadow(0px 3px 6px #0000001C);
+}
+
+.rtl .rtlWishListInput {
+    padding: 0 17px;
+}
+
+.rtl .placeHolderNameRTL {
+    text-align: right;
+}
+
+.rtl .StripeElement {
+    text-align: right;
+}
+
+.rtl .StripeElement input::-webkit-input-placeholder {
+    text-align: right;
+}
+
+.rtl .StripeElement input:-moz-placeholder {
+    text-align: right;
+}
+
+.rtl .StripeElement input::-moz-placeholder {
+    text-align: right;
+}
+
+.rtl .StripeElement input:-ms-input-placeholder {
+    text-align: right;
+}
+
+.rtl .listTypeImportCalendar {
+    padding: 0;
+}
+
+.rtl .carousel-control.right {
+    background-image: inherit !important;
+}
+
+.rtl .carousel-control.left {
+    background-image: inherit !important;
+}
+
+.rtl .listHeaderAR .navbar-brand {
+    padding-top: 5px;
+}
+
+.rtl .responsiveMarginRTL {
+    margin-right: 10%;
+}
+
+.rtl .adminstyle .rc-pagination-next {
+    float: right;
+}
+
+.rtl .rc-pagination-jump-prev {
+    float: right;
+}
+
+.rtl .floatLeftPayment {
+    float: left !important;
+}
+
+.rtl .cardNumberRtl::after {
+    left: 0;
+    right: auto;
+}
+
+.rtl .cardNumberRtlTwo::after {
+    left: -2px;
+    right: auto;
+}
+
+.rtl .cardNumberRtlTwo {
+    background-position: 2%;
+}
+
+.rtl .geosuggest__suggests {
+    text-align: right;
+}
+
+.rtl .dv-star-rating-star {
+    float: left !important;
+}
+
+.rtl .curderPointerRTL {
+    margin-left: 10px;
+}
+
+.rtl .backgroundTwoRTL {
+    background-position: 3% 50%;
+    padding: 10px 10px 10px 10px;
+}
+
+.rtl .contactTextInputRTL {
+    background-position: 4% 20%;
+}
+
+.rtl .displayInlineFlex {
+    display: inline-flex;
+}
+
+.rtl .threadSubjectUnreadRTL span::before {
+    left: auto;
+    right: -10px;
+}
+
+.rtl .paddingR20RTL {
+    padding-left: 20px;
+    padding-right: 0;
+}
+
+.rtl .countRTL {
+    margin-right: 0px;
+    margin-left: 0;
+    top: -10px
+}
+
+.rtl .notificationRTL {
+    transform: translate3d(0px, -10px, 0);
+}
+
+.rtl .histryCircleRTL {
+    right: 2px !important;
+    left: auto !important;
+}
+
+.rtl .layout5Css .layout5AllPadding {
+    padding: 8px 15px 0px 15px;
+}
+
+.rtl .layout5Css .layout5AllPadding:first-child {
+    padding: 8px 30px 0px 40px;
+}
+
+.rtl .layout5Css .layout5DateWidth::after {
+    right: auto;
+    left: 30px;
+}
+
+.rtl .centerLinkRTL {
+    margin-left: 50px;
+    margin-right: 0;
+}
+
+.rtl .dotRTL::after {
+    left: -26px;
+    right: auto;
+}
+
+.rtl .layout5Css .layOut5SearchBtn span:first-child {
+    margin-left: 3px;
+    margin-right: 0;
+}
+
+.rtl .fixedBgHeader .scrollOn {
+    text-align: right;
+}
+
+.rtl .arrowPrevRTL {
+    left: -12px !important;
+    right: auto !important;
+    top: 45% !important;
+}
+
+.rtl .arrowNextRTL {
+    right: -12px !important;
+    left: auto !important;
+    top: 45% !important;
+}
+
+.rtl .hostNameCssRTL {
+    padding-right: 25px;
+    padding-left: 0;
+}
+
+.rtl .locationCss {
+    padding-right: 15px;
+}
+
+.rtl .locationCss::before {
+    right: 5px;
+    left: auto;
+}
+
+.rtl .buttonContainerRTL {
+    padding-left: 0px;
+    padding-right: 10;
+}
+
+.rtl .guestTextRTL {
+    right: 30px;
+    left: auto;
+}
+
+.rtl .listingIconRTL {
+    padding-left: 0px;
+    padding-right: 11px;
+}
+
+.rtl .reviewTextRTL {
+    padding-left: 0;
+    padding-right: 5px;
+}
+
+.rtl .iconCssRTL {
+    margin-left: 6px;
+    margin-right: 0;
+}
+
+.rtl .iconRotateRTL {
+    transform: rotate(180deg);
+    margin-left: 6px;
+    margin-right: 0px;
+}
+
+.rtl .editIconPayRTL {
+    transform: rotate(180deg);
+    margin-left: 0px;
+    top: 3px;
+    margin-right: 3px;
+}
+
+.rtl .connectCssRTL {
+    transform: rotate(180deg);
+    margin-left: 0px;
+    top: -2px;
+    margin-right: 3px;
+}
+
+.rtl .editIconCssRTL {
+    transform: rotate(180deg);
+    margin-left: 0px;
+    top: 1px;
+    margin-right: 3px;
+}
+
+.rtl .radioTextSectionRTL {
+    padding-right: 5px;
+}
+
+.rtl .paymentCalendarHeight .DayPicker__horizontal {
+    position: relative;
+    left: 26px !important;
+}
+
+.rtl .createLinkCssRTL {
+    margin-right: 0px;
+    margin-left: 14px;
+}
+
+.rtl .createLinkCssRTL img {
+    margin-right: 0px;
+    margin-left: 14px;
+}
+
+.rtl .checkBoxSectionWishRTL {
+    width: 23%;
+    text-align: left;
+}
+
+.rtl .layout5Css .DateRangePickerInput_arrow_svg {
+    left: 5px;
+    top: 0px;
+}
+
+.rtl .hostTitlePaddingRTL {
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+.rtl .rightArrowItineraryRTL {
+    margin-left: 0;
+    margin-right: 4px;
+    transform: rotate(180deg);
+}
+
+.rtl .fromRadiusRTL:after {
+    right: 4px;
+    left: auto;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.rtl .toRadiusRTL:after {
+    left: 4px;
+    top: -1px;
+    right: auto;
+    width: 46px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.rtl .topMessageBarRTL::before {
+    left: -23px !important;
+    right: auto !important;
+}
+
+.rtl .topRadiusColorRTL::after {
+    right: auto;
+    left: 55px;
+    top: 20px;
+}
+
+.rtl .viewBubbleLeftRTL {
+    border-radius: 8px 0 8px 8px;
+}
+
+.rtl .viewBubbleRightRTL {
+    border-radius: 0 8px 8px 8px;
+}
+
+.rtl .viewBubbleRightRTL:before {
+    border-right-color: var(--border-color);
+}
+
+.rtl .profileAvatarLinkRTL {
+    right: 0 !important;
+}
+
+.rtl .profileAvatarSectionLeftAr {
+    left: 4px;
+}
+
+.rtl .statusTextRTL {
+    padding-right: 0;
+    padding-left: 8px;
+}
+
+.rtl .dateTextRTL {
+    padding-left: 0;
+    padding-right: 8px;
+}
+
+.rtl .textAreaBoxRTL {
+    border-radius: 0 8px 8px 8px;
+}
+
+.rtl .verifiBtnRTL {
+    padding: 0 4px 0 0px;
+}
+
+.rtl .waveHandImageRTL {
+    margin-left: 11px;
+    margin-right: 0px;
+}
+
+.rtl .menuIconsRTL {
+    padding-left: 8px;
+    padding-right: 0px;
+}
+
+.rtl .inboxAvatar {
+    padding-right: 0;
+    padding-left: 20px;
+}
+
+.rtl .profileEditRTL {
+    margin: 0px 0px 3px 3px;
+}
+
+.rtl .dashRightBg::before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    bottom: auto;
+    border: 13px solid transparent;
+    border-left: 0;
+    border-right-color: var(--white-color);
+    top: 0;
+    right: initial;
+    left: 100%;
+    border-width: 0px 24px 24px 0px;
+    transform: rotate(270deg);
+    border-color: transparent var(--white-color) transparent transparent;
+}
+
+.rtl .dashRightBg::after {
+    content: '';
+    position: absolute;
+    right: -38px !important;
+    top: 0;
+    left: auto !important;
+    width: 38px;
+    height: 40px;
+    background: #f8f8f8;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    /* transform: rotate(82deg); */
+    z-index: 3;
+}
+
+.rtl .dashRightBg {
+    border-top-right-radius: 0;
+    border-top-left-radius: 8px;
+}
+
+.rtl .feedbackBorderLeftRtl {
+    border-right: inherit;
+}
+
+.rtl .themeIconRTL {
+    margin: 0 8px;
+}
+
+.rtl .textRightRTL {
+    text-align: right;
+}
+
+.rtl .textLeftRTL {
+    text-align: left;
+}
+
+.rtl .dashboardReviewRTL {
+    transform: rotate(180deg);
+}
+
+.rtl .dashboardReviewStarRTL {
+    margin: 0px 0px 0px 8px;
+}
+
+.rtl .searchHeaderPaddingRTL {
+    padding: 12px 8px 12px 10px;
+}
+
+.rtl .addPlusIcon {
+    margin: 0px 0px 2px 6px;
+}
+
+.rtl .menuActive .sideNav::before {
+    right: 10px;
+    left: auto;
+
+}
+
+.rtl .paidImgRTL {
+    margin: 0px 0px 5px 6px;
+}
+
+.rtl .filterBtnRTL {
+    margin-right: 15px;
+    margin-left: 0;
+}
+
+.rtl .modalcancelBtnRTL {
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+.rtl .filterIconRTL {
+    margin: 0 0 0 7px;
+}
+
+.rtl .transactionTextRTL {
+    margin-right: 0px;
+    margin-left: 18px;
+}
+
+.rtl .payoutToolRTL {
+    margin: 0px 4px 0px 0px;
+}
+
+.rtl .locationBgIconRTL {
+    background-position: 96% 51% !important;
+    padding-right: 45px !important;
+    padding-left: 20px !important;
+}
+
+.rtl .reservationModalFilter select {
+    background-position: 3% 9px;
+}
+
+.rtl .noPaddingTransaction {
+    padding-right: 0;
+}
+
+.rtl .noPaddingTransaction li a {
+    margin-left: 25px;
+    margin-right: 0px;
+}
+
+.rtl .transactionModalFilter select {
+    background-position: 3% 14px;
+}
+
+.rtl .pwdImageRTL {
+    position: absolute;
+    right: auto;
+    left: 20px;
+}
+
+.rtl .searchHeaderForm .geosuggest__input {
+    padding: 8px 10px 8px 15px !important;
+}
+
+.rtl .reviewCancelRTL {
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+.rtl .tabsRTL>li {
+    margin-left: 27px;
+    margin-right: 0;
+}
+
+.rtl .searchReviewInputRTL {
+    background-position: 96% 50%;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.rtl .reviewEditProfileRTL {
+    float: left;
+    margin-left: 0 !important;
+}
+
+.rtl .replyArrowRTL {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.rtl .reviewDeatilsGridRTL:after {
+    right: -38px;
+    left: auto;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.rtl .reviewDeatilsGridRTL:before {
+    right: auto;
+    left: 100%;
+    transform: rotate(-91deg);
+}
+
+.rtl .reviewDeatilsGridRTL {
+    border-top-right-radius: 0px;
+    border-top-left-radius: 8px;
+}
+
+.rtl .headerDotRTL::after {
+    left: -26px;
+    right: auto;
+}
+
+.rtl .headerDotRTL {
+    margin-left: 50px;
+    margin-right: 0;
+}
+
+.rtl .centerLinkRTL {
+    margin-left: 50px;
+    margin-right: 0;
+}
+
+.rtl .moreFilterIncrementBtn .incrementDecrementTextRTL {
+    border-left: 0;
+}
+
+.rtl .moreFilterIncrementBtn .svgImg {
+    margin-right: 0;
+    margin-left: 0px;
+}
+
+.rtl .moreSectionRtl {
+    margin-left: 0;
+    margin-right: 0px;
+}
+
+.rtl .adminModal .modal-title {
+    text-align: right;
+}
+
+.rtl .completedCssRTL {
+    right: auto;
+    left: -5px;
+}
+
+.rtl .incrementBtnRTL {
+    border-left: 0;
+}
+
+.rtl .searchHeaderScroll .geosuggest__input {
+    background-position: 95% 52%;
+    padding-right: 35px;
+}
+
+.rtl .transactionSelectRTL {
+    background-position: 4% 50% !important;
+    padding: 10px 15px 10px 35px;
+}
+
+.rtl .wishlistCancelRTL {
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+.rtl .calClearTextRTL {
+    text-align: left;
+}
+
+.rtl .shareTextRTL {
+    padding-left: 0;
+    padding-right: 12px;
+}
+
+.rtl .locationCssRTL {
+    padding-right: 15px;
+    padding-left: 0;
+}
+
+.rtl .countGapRTL {
+    padding-right: 5px;
+    padding-left: 0;
+}
+
+.rtl .locationCssRTL::before {
+    left: auto;
+    right: 5px;
+}
+
+.rtl .detailsArrowRTL {
+    transform: rotate(180deg);
+    position: relative;
+    top: 3px;
+}
+
+.rtl .searchFilter .CalendarMonth {
+    padding: 5px 11px !important;
+}
+
+.rtl .viewListingDate .DateInput {
+    border-radius: 6px !important;
+}
+
+.rtl .BookingModalNew .modal-header .close {
+    right: 25px;
+    left: auto;
+}
+
+.rtl .bookItPanelRtl .DateRangePicker_picker__directionRight {
+    top: 76px !important;
+}
+
+.rtl .bookItPanelRtl .DateInput_fang {
+    right: 22px;
+    left: auto;
+    z-index: 6;
+}
+
+.rtl .layout5SearchformLocationTwo .homeDate .DateRangePicker_picker {
+    top: 60px !important;
+}
+
+.rtl .ql-editor li:not(.ql-direction-rtl)::before {
+    margin-left: auto;
+}
+
+.rtl .footerBtnFlexRTL {
+    flex-direction: row-reverse;
+    display: flex;
+}
+
+.rtl .rtlCancelLinkBtl {
+    margin-left: 41px;
+    margin-right: 0px;
+}
+
+.rtl .socialIconsFooterRTL {
+    padding-left: 0;
+    padding-right: 5px;
+}
+
+.rtl .commonHeader .dropdown-menu>li>a {
+    text-align: right;
+}
+
+.rtl .commonHeader .dropdown-menu>li:last-child>form>button {
+    text-align: right;
+}
+
+.rtl .messageStatus {
+    text-align: left;
+}
+
+.rtl .hoverMenuRTL .navitemRTL:hover::before {
+    left: auto;
+    right: 12px;
+}
+
+.rtl .listStyledRTL {
+    padding-right: 0;
+}
+
+.rtl .headerNewDesign .homeNotifictionRTL {
+    top: -3px;
+    left: 5px;
+    right: auto;
+}
+
+.rtl .notificationHeaderRTL {
+    left: 10px;
+    right: auto;
+}
+
+.rtl .layout5Css .geosuggest__suggests {
+    width: calc(100% + 28px);
+}
+
+.rtl .refreshImageRTL {
+    left: 0;
+    right: auto;
+}
+
+.rtl .inlineBlockRTL {
+    display: inline-block;
+}
+
+.rtl .hostCustomTextarea textarea {
+    padding: 6px 12px !important;
+}
+
+.rtl .becomeHostFaqBox>span {
+    padding-right: 0;
+    padding-left: 6px;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .rtl .layout5Css .layOut5SearchBtn {
+        margin: 0px auto 0px 0px;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .rtl .reservartioARCircle {
+        width: 100%;
+        background: var(--white-color);
+        height: 20px;
+        max-width: 20px;
+        position: absolute;
+        border-radius: 50%;
+        border: 3px solid var(--btn-primary-bg);
+        right: 28px;
+        top: 34px;
+        z-index: 5;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .rtl .reservartioARCircle {
+        width: 100%;
+        background: var(--white-color);
+        height: 20px;
+        max-width: 20px;
+        position: relative;
+        border-radius: 50%;
+        border: 3px solid var(--btn-primary-bg);
+        right: -37px;
+        top: 54px;
+        z-index: 5;
+    }
+
+    .rtl .layout5Css .layout5AllPadding:first-child {
+        padding-right: 15px;
+        padding-top: 15px;
+    }
+
+    .rtl .inputPaddingRTL {
+        padding: 8px 0 8px 0px !important;
+    }
+
+    .rtl .input-group-addon:first-child {
+        border-left: 1px solid #ccc !important;
+        border-right: 1px solid #ccc !important;
+        border-radius: 4px 4px 0 0 !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .rtl .responsiveAvatarSectionAR {
+        text-align: right;
+        margin-bottom: 8px;
+    }
+
+    .rtl .responsiveAvatarImgAR {
+        display: inline-block;
+        width: 20%;
+        float: left;
+        text-align: center;
+    }
+
+    .rtl .noPaddingTransaction li a {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .rtl .transactionList .list-inline>li {
+        padding: 0px;
+    }
+
+    .rtl .textAreaBoxRTL {
+        border-radius: 8px;
+    }
+
+    .rtl .homeTypeSpaceRightRTL {
+        padding-right: 0;
+        padding-left: 0 !important;
+    }
+
+    .rtl .noMobileLeftPaddingRTL {
+        padding-left: 0 !important;
+    }
+
+    .zipCodeMobilePaddingRTL {
+        padding-left: 15px;
+        padding-right: 0 !important;
+    }
+
+    .rtl .reviewSectionRTL {
+        float: right;
+        padding-right: 0;
+    }
+
+    .rtl .layoutOneSearch .homeSearchForm .geosuggest__input {
+        padding: 8px 8px 8px 85px !important;
+    }
+
+    .rtl .rtlCancelLinkBtl {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .rtl .layout5Css .layOut5SearchBtnBottom {
+        margin: 0;
+    }
+
+    .rtl .alignRightMobileRTL {
+        text-align: left;
+    }
+
+    .rtl .textAlignCenterMobileRTL {
+        text-align: right;
+    }
+}
+
+.rtl .noPaddingRightRTL {
+    padding-right: 0 !important;
+}
+
+.rtl .noLeftPaddingRTL {
+    padding-left: 0 !important;
+}
+
+.rtl .avatarWrapperAR {
+    margin-right: 0px;
+    margin-left: 3px;
+}
+
+.rtl .spaceRight2AR {
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+.rtl .payOutSpace {
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.rtl .formSelectAR {
+    padding: 10px 10px 10px 32px !important;
+    background-position: 2% 7px !important;
+}
+
+.rtl .exittingCircle {
+    right: 13px;
+    left: auto;
+}
+
+.rtl .exitingBorderLine::after {
+    left: 25px;
+    right: auto;
+}
+
+.rtl .availableRTl {
+    margin-left: 5px;
+}
+
+.rtl .firstBtnRTL {
+    margin-left: 10px !important;
+}
+
+.rtl .ql-snow .ql-picker-label {
+    padding-right: 20px;
+}
+
+.rtl .languageIconRTL {
+    margin-left: 3px;
+}
+
+.rtl .languageIconRTLAdmin {
+    margin-left: 6px;
+}
+
+.rtl .adminstyle table select {
+    padding: 5px 10px 5px 32px;
+    background-position: 11% 11px;
+}
+
+.rtl .positionFixedSwitch {
+    left: 5px;
+    right: auto;
+}
+
+.rtl .react-switch {
+    direction: ltr;
+}
+
+.rtl .menuModal .navbar-nav {
+    float: inherit;
+}
+
+.rtl .menuModal .navbar-nav>li:last-child {
+    margin-right: 53px;
+}
+
+.rtl .menuModal .navbar-nav>li {
+    margin-right: 10px;
+}
+
+.rtl .menuModal .nav-tabs>li:last-child {
+    margin-right: 53px;
+}
+
+.rtl .menuModal .nav-tabs>li {
+    margin-right: 10px;
+}
+
+.rtl .searchHeaderForm select {
+    padding: 9px 18px 9px 25px;
+}
+
+.rtl .listCommonJumboSelectRTL {
+    padding: 17px 20px 17px 47px !important;
+    background-position: calc(0% + 8px) 50% !important;
+}
+
+@media screen and (max-width: 1199px) {
+    .rtl .exittingCircle {
+        right: 14px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .rtl .exittingCircle {
+        right: -37px;
+    }
+}
+
+.rtl .prviewLinkAR {
+    margin-left: 20px;
+    margin-right: 0px;
+}
+
+@media screen and (max-width: 767px) {
+    .rtl .prviewLinkAR {
+        margin-left: 0px;
+        margin-right: 20px;
+    }
+
+    .rtl .menuModal .navbar-nav>li:last-child {
+        margin-right: 0px;
+    }
+
+    .rtl .menuModal .navbar-nav>li {
+        margin-right: 0px;
+    }
+}
+
+.rtl .startViewAR {
+    float: right;
+}
+
+.rtl .pullRightHeaderAR {
+    float: right !important;
+}
+
+.rtl .pullLeftHeaderAR {
+    float: left !important;
+}
+
+.rtl .listHeaderAR .navbar-nav>li>a {
+    border-right: 1px solid var(--border-secondary-color) !important;
+    border-left: 0 !important;
+}
+
+.rtl .pagecontentAR {
+    margin-left: 0;
+    margin-right: 270px;
+}
+
+.rtl .listContentAR {
+    padding-left: 0px;
+    padding-right: 20px;
+}
+
+.rtl .adminFooterAR {
+    margin-left: 0px;
+    margin-right: 270px;
+}
+
+.rtl .listStyleRtl {
+    padding-right: 0;
+}
+
+.rtl .faqImageRTL {
+    margin-left: 0;
+    margin-right: 3px;
+}
+
+.rtl .tabReservation .nav-tabs>li {
+    margin-right: 2px;
+    margin-left: 30px;
+}
+
+.rtl .tripDropDown .dropdown-menu {
+    right: auto;
+    left: 0;
+    float: left;
+    text-align: right;
+}
+
+.rtl .commonHeader .dropdown-menu {
+    left: 20px !important;
+    right: auto !important;
+}
+
+.rtl .relativeSectionRTL::after {
+    left: auto;
+    right: 5px;
+}
+
+@media screen and (max-width: 767px) {
+    .rtl .adminFooterAR {
+        margin-right: 0px;
+    }
+
+    .rtl .pagecontentAR {
+        margin-right: 0px;
+    }
+
+    .rtl .tabReservation .nav-tabs>li {
+        float: none;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+.rtl .exportLinkImgCommon {
+    margin-left: 0px;
+    margin-right: 12px
+}
+
+.rtl .listHeaderAR .swiper-wrapper {
+    left: auto;
+    right: 10px;
+}
+
+.rtl .progressStepRTL {
+    padding-right: 12px;
+    padding-left: 0px;
+}
+
+.rtl .incrementDecrementTextRTL {
+    border-left: 1px solid var(--border-secondary-color);
+}
+
+.rtl .listHeaderAR .tabBar3Slider .swiper-wrapper {
+    right: 0;
+}
+
+.rtl .textLeftAr {
+    text-align: left;
+}
+
+.rtl .homeTypeSwiper .swiper-button-prev {
+    background-image: url('../SiteIcons/popular-right.png');
+    left: auto;
+    right: 2px;
+}
+
+.rtl .homeTypeSwiper .swiper-button-next {
+    background-image: url('../SiteIcons/popular-left.png');
+    right: auto;
+    left: 2px;
+}
+
+.rtl .dateArrowRTL {
+    transform: rotate(182deg);
+    margin: 3px 12px 0px 0px;
+}
+
+.rtl .closeDateIconRTL {
+    transform: rotate(180deg);
+}
+
+.rtl .homeTypeImageRTL::after {
+    left: 0px;
+    right: -9px;
+}
+
+.rtl .adminDelete {
+    margin-left: 0px;
+    margin-right: 15px;
+}
+
+.rtl .ql-editor:not(.frontend) {
+    text-align: right !important;
+}
+
+.rtl .inputPaddingAR,
+.rtl .inputPaddingAR:hover,
+.rtl .inputPaddingAR:focus {
+    background-position: 2% 10px;
+    padding: 7px 15px 7px 25px;
+
+}
+
+.rtl .homeDateAR .DateInput:first-child .DateInput__display-text,
+.homeDateAR .DateInput:first-child .DateInput_input {
+    padding-right: 0px !important;
+}
+
+.rtl .searchBtnContainerAr {
+    left: 10px;
+    right: auto;
+}
+
+.rtl .homeLocationSearchFormAR .geosuggest__input {
+    padding: 8px 15px 8px 110px !important;
+}
+
+.rtl .GridCollapseAr .GridColAr:nth-child(4) {
+    left: 0;
+    right: auto;
+}
+
+.rtl .GridCollapseAr .GridColAr:nth-child(5) {
+    left: 0;
+    right: auto;
+}
+
+.rtl .GridCollapseAr .GridColAr {
+    width: 25%;
+    padding: 5px;
+}
+
+.rtl .GridCollapseAr .GridColAr:nth-child(3) {
+    position: absolute;
+    width: 50%;
+    top: 0;
+    left: 25%;
+}
+
+.rtl .coverulAr li:before {
+    margin-left: 12px;
+    margin-right: -40px;
+    left: auto;
+}
+
+.rtl .floatLeftAR {
+    float: left !important;
+}
+
+.rtl .cookiBtn {
+    float: left;
+}
+
+.rtl .guestReuireCheckRtl {
+    margin: 0px 0px 5px 10px;
+}
+
+.rtl .rtlBookText {
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.rtl .calBtnRtl {
+    padding-left: 10px;
+    padding-right: 0px;
+}
+
+.rtl .saveRightRtl {
+    float: right !important;
+}
+
+.rtl .rc-pagination-jump-next {
+    float: right;
+}
+
+.rtl .faqRtl {
+    margin-left: 5px;
+    margin-right: 0px;
+}
+
+.rtl .DateRangePicker_picker__directionRight {
+    right: 0;
+    top: 56px !important;
+    z-index: 2;
+}
+
+.rtl .BecomeCalendar .DayPicker-Footer {
+    right: auto;
+    left: 0;
+}
+
+.rtl .BecomeCalendar .DayPicker-NavBar {
+    left: 10px;
+    right: 0;
+}
+
+@-moz-document url-prefix() {
+    .rtl .BecomeCalendar .DayPicker-NavBar {
+        left: -99px;
+        right: 0;
+    }
+}
+
+.rtl .BecomeCalendar .DayPicker-Caption {
+    left: 55px;
+    right: 0px;
+}
+
+.rtl .faqImageRtl {
+    margin-left: 5px;
+}
+
+.rtl .requestBookBtn {
+    margin-right: 10px;
+}
+
+.rtl .avatarWidthPaymentRTL {
+    padding-left: 15px;
+    padding-right: 0;
+}
+
+.rtl .trashIconNewRTL {
+    right: unset;
+    left: -14px;
+}
+
+.rtl .rightTopBannerRTL {
+    padding: 0 !important;
+}
+
+.rtl .searchSelectRTL {
+    margin-right: 0;
+}
+
+.rtl .homeLocationSearchForm .geosuggest__suggests {
+    right: -13px !important;
+    left: auto !important;
+}
+
+.rtl .innerLinkRTL {
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 0;
+}
+
+.rtl .iconCssRTL {
+    margin-left: 8px;
+}
+
+.rtl .commonIconRTL {
+    top: 0px;
+    transform: rotate(180deg);
+}
+
+.rtl .tableCellRTL::after {
+    right: auto;
+    left: 10px;
+}
+
+.rtl .noBroderRightRTL {
+    margin-right: 22px;
+    margin-left: 0;
+}
+
+.rtl .dividerTopRTL::after {
+    left: 0px;
+    right: auto;
+}
+
+.rtl .expandContainerRTL {
+    right: 25px;
+    left: auto;
+}
+
+.rtl .imageRotate {
+    transform: rotate(180deg)
+}
+
+.rtl .searchIconCommonRTL {
+    margin-left: 3px;
+    margin-right: 0px;
+}
+
+.rtl .searchIconCommonTwoRTL {
+    margin-left: 3px;
+    margin-right: 0px;
+}
+
+.rtl .whyHostSlider .swiper-slide {
+    margin-right: 25px !important;
+}
+
+.rtl .reviewNameRTL {
+    padding-right: 18px;
+    padding-left: 0px;
+}
+
+.rtl .hostArrowRTL {
+    transform: rotate(180deg);
+}
+
+
+.rtl .learnIconRTL {
+    margin-left: 0;
+    margin-right: 8px;
+}
+
+.rtl .quoteArrowRTL {
+    padding-left: 0;
+    padding-right: 5px;
+}
+
+.rtl .loginModal .modal-header .close {
+    right: 25px;
+    left: auto;
+}
+
+.rtl .homeSearchForm .DateInput_input {
+    padding: 4px 8px 4px 8px !important;
+}
+
+.rtl .reservationModalFilter .modal-header .close {
+    right: 25px;
+    left: auto;
+}
+
+.rtl .dMmhpV {
+    text-align: right;
+}
+
+.rtl .amenitiesTab .nav-tabs>li>a {
+    margin-right: 30px;
+}
+
+.rtl .importCalendar .modal-header .close {
+    left: 25px;
+    right: auto;
+}
+
+.rtl .countryInputPhone .react-tel-input .selected-flag .arrow {
+    background-position: 3px -7px;
+}
+
+.rtl .countryInputPhone .react-tel-input input[type=tel] {
+    padding-right: 70px !important;
+    padding-left: 0px !important;
+}
+
+.rtl .rtlrelativeSection::after {
+    left: 0;
+    right: 7px;
+}
+
+.rtl .rtlphoneNumberCloseIcon {
+    margin: 18px 21px 18px 0px;
+}
+
+.rtl .rtlminMaxCss {
+    right: 15px;
+    left: auto;
+}
+
+.rtl .rtlconfirmNumberSection {
+    border-radius: 0px 4px 4px 0px;
+}
+
+.rtl .rtlconfirmTextSection {
+    border-radius: 4px 0px 0px 4px
+}
+
+.rtlUserSelect {
+    background-position: 5% 6px !important;
+}
+
+.rtl .searchInputControlAR {
+    background-position: 97% 50% !important;
+    padding: 10px 35px 10px 10px !important;
+}
+
+.rtl .rtlUserSelect {
+    background-position: 2% 5px !important;
+}
+
+.rtl .adminRoleSelectAR {
+    background-position: 5px 50%;
+    padding: 10px 15px 10px 35px;
+}
+
+.rtl .bulletPointRTL::before {
+    right: -15px;
+    left: 0;
+}
+
+.rtl .descriptionPolicyRTL {
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.rtl .editProfileArrowRTL {
+    margin-left: 0;
+    margin-right: 5px;
+    transform: rotate(180deg);
+    position: relative;
+    top: 2px;
+}
+
+.rtl .homeTypeIconLeftRTL {
+    margin-left: 0;
+    margin-right: 3px;
+}
+
+.rtl .sendMessageRadiusRTL::after {
+    left: 70px;
+}
+
+.rtl .toMessage .ViewBubbleRight::after {
+    display: none;
+}
+
+.rtl .toMessage .radiusColorTwo::after {
+    left: 12px;
+    right: auto;
+}
+
+.rtl .starCssRTL {
+    margin-right: 0;
+    margin-left: 2px;
+}
+
+.rtl .react-switch-bg div:last-child {
+    left: 0px;
+    right: unset !important;
+}
+
+.rtl .searchShowMapBtn .react-switch-handle {
+    left: 0;
+}
+
+.rtl .react-switch-bg div:first-child {
+    right: 3px;
+    top: 3px;
+}
+
+.rtl .searchHeaderPlaceSuggest .geosuggest__input {
+    padding: 10px 36px 10px 10px;
+    background-position: calc(100% - 10px) !important;
+}
+
+.rtl .rulesIconCssRTL {
+    margin-right: 0;
+    margin-left: 8px;
+    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+}
+
+.rtl .verticalsearchform .DateRangePickerInput_clearDates {
+    left: 0;
+    right: auto;
+}
+
+.rtl .photoTickIcon {
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+.rtl .detailSearchForm .DateRangePickerInput__showClearDates {
+    padding-right: 0px;
+}
+
+.rtl .layout5DateWidth .DateInput_input {
+    padding: 4px 8px 8px 0px !important;
+}
+
+.rtl .saveCalenderDate .DateRangePicker_picker {
+    top: 48px !important;
+}
+
+.rtl .landingContentRTL {
+    margin-bottom: 150px;
+}
+
+.rtl .layout5Searchform .homeSerachDate .DateInput_fang {
+    top: 50px !important;
+    z-index: 7;
+}
+
+.rtl .layout5Searchform .DateRangePicker_picker__directionRight,
+.rtl .homeDateAR .DateRangePicker_picker__directionRight {
+    top: 62px !important;
+}
+
+.rtl .homeHeader.fixedBgHeader .layout5DateWidth .homeSerachDate .DateInput_fang,
+.rtl .homeDateAR.headerSearchDate .DateInput_fang {
+    top: 50px !important;
+}
+
+.rtl .homeHeader.fixedBgHeader .layout5DateWidth .DateRangePicker_picker__directionRight {
+    top: 60px !important;
+}
+
+.rtl .writeIconRTL {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.rtl .reviewIconRTL {
+    margin-left: 5px;
+}
+
+.rtl .paymentGuestFilter .incrementDecrementTextRTL {
+    border-left: inherit;
+}
+
+.rtl .rightAvatarRTL {
+    left: auto;
+    right: -20px;
+}
+
+.rtl .iconStyleRTL {
+    padding-right: 0;
+    padding-left: 5px;
+}
+
+.rtl .checkBoxImageRTL {
+    padding-right: 15px;
+    padding-left: 0;
+}
+
+.rtl .transactionPanel .list-inline>li {
+    margin: 0px 0px 0 72px;
+}
+
+.rtl .cancellPanelRTL {
+    padding: 0;
+}
+
+.rtl .infoAlignRTL {
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+.rtl .paymentSelectAR+span {
+    float: right;
+}
+
+.rtl .paymentGuestFilter .close {
+    left: auto;
+    right: 0;
+    float: none !important;
+}
+
+.rtl .reportUserFlagRTL {
+    padding-right: 0;
+    padding-left: 5px;
+}
+
+.rtl .tripArrowSecRTL {
+    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+}
+
+.rtl .dateReviewCssRTL {
+    padding-right: 11px;
+    padding-left: 0;
+    margin-right: 0 !important;
+}
+
+.rtl .dateReviewCssRTL::after {
+    right: 2px;
+    left: auto;
+}
+
+.rtl .homeKindPositionSkeletonRTL {
+    right: 10px;
+    left: auto;
+}
+
+.rtl .homeKindOneSkeletonWidthRTL {
+    width: 300px !important;
+}
+
+.rtl .newsSkeletonPositionRTL {
+    left: auto;
+    right: 40px;
+}
+
+.rtl .containerLoaderRTL {
+    padding: 0 15px;
+}
+
+.rtl .textLoaderSave .savingDotsLoader {
+    left: -41px;
+    right: auto;
+}
+
+
+.rtl .tableCellRemoveBorder {
+    border-right: inherit;
+}
+
+.rtl .sharesocialModal .modal-header .close {
+    right: 25px;
+    left: auto;
+}
+
+.rtl .priceBoxRTL {
+    direction: ltr;
+    text-align: right;
+}
+
+.rtl .showPriceRTL {
+    text-align: right;
+}
+
+.rtl .ViewProfile .arrowPrevRTL {
+    left: -7px !important;
+}
+
+.rtl .ViewProfile .arrowNextRTL {
+    right: 1px !important;
+}
+
+.rtl .listNextPositionRTL {
+    margin: 0px auto 0px 0;
+}
+
+.rtl .ql-snow .ql-editor blockquote,
+.rtl .ql-editor blockquote {
+    border-left: 0;
+    padding-right: 16px;
+    border-right: 4px solid var(--border-color) !important;
+}
+
+.rtl .searchHeaderForm .geosuggest__suggests {
+    right: 3px !important;
+    text-align: right;
+    top: 81% !important;
+}
+
+.rtl .searchHeaderForm .inputPaddingAR,
+.rtl .searchHeaderForm .inputPaddingAR:hover,
+.rtl .searchHeaderForm .inputPaddingAR:focus {
+    padding: 9px 18px 9px 25px
+}
+
+.rtl .searchHeaderForm .DateRangePicker_picker__directionRight {
+    top: 63px !important;
+}
+
+.rtl .searchHeaderForm .homeDateAR.headerSearchDate .DateInput_fang {
+    top: 53px !important;
+    z-index: 7;
+}
+
+.rtl .reservationModalFilter .DateInput_fang {
+    top: 45px !important;
+    z-index: 7;
+}
+
+.rtl .ViewProfile .homeSwiper .swiper-button-next {
+    right: auto;
+    background-size: 40px;
+    left: 0px;
+    top: 34%;
+    transform: inherit;
+}
+
+.rtl .ViewProfile .homeSwiper .swiper-button-prev {
+    background-size: 40px;
+    right: 0;
+    left: auto;
+    transform: inherit;
+    top: 34%;
+}
+
+.rtl.darkMode .darkAvater {
+    background-position: calc(0% + 8px) 50%;
+}
+
+.rtl.darkMode .darkCall {
+    background-position: calc(0% + 8px) 50%;
+}
+
+.rtl.darkMode .darkEmail {
+    background-position: calc(0% + 8px) 50%;
+}
+
+.rtl.darkMode .darkContact {
+    background-position: calc(0% + 8px) 20%;
+}
+
+.rtl .googleIconRTL {
+    padding: 7px 7px 7px 22px
+}
+
+.rtl .dropzoneImgSpace {
+    padding-left: 5px;
+    padding-right: 0;
+}
+
+.rtl .profileDropZone {
+    left: 74px;
+    right: auto;
+}
+
+.rtl .contactHostModal .modal-header .close {
+    right: 25px;
+    left: auto;
+}
+
+.rtl .questionIconRTL {
+    display: inline-block;
+    transform: rotateY(180deg);
+}
+
+.rtl .ShowPricecurvedboxRTL {
+    padding: 12px 24px 12px 12px;
+}
+
+.rtl .redoContainerRTL {
+    left: auto;
+    right: 33px;
+}
+
+.rtl .filterTextNoBG::after {
+    left: -5px;
+    right: auto;
+}
+
+.rtl .popUpSection {
+    transform-origin: right bottom;
+    right: 0px;
+    left: auto;
+}
+
+.rtl .listItempopUpSection .listItempopUp:nth-child(4n) .popUpSection {
+    transform-origin: left bottom;
+    left: 0px;
+    right: auto;
+}
+
+.rtl .commonHeader.navbar-default .navbar-nav>li>a,
+.rtl .commonHeader.navbar-default .navbar-nav>li>form>button {
+    text-align: right;
+}
+
+/* become a host tab button start  */
+
+.rtl .becomeHostInnerBoxRtl .rts___tab,
+.rtl .becomeHostInnerBox .rts___tab:hover,
+.rtl .becomeHostInnerBox .rts___tab:focus {
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.rtl .becomeHostInnerBoxRtl .rts___tab:last-child,
+.rtl .becomeHostInnerBox .rts___tab:last-child:focus,
+.rtl .becomeHostInnerBox .rts___tab:last-child:hover {
+    margin-left: 8px;
+    margin-right: 0;
+}
+
+.rtl .bannerDeleteRtl {
+    right: unset;
+    left: 4px;
+}
+
+.rtl .commonDropZoneLoaderIcon span {
+    direction: ltr !important;
+}
+
+.rtl .commonPasswordControlInput {
+    padding: 10px 15px 10px 40px !important;
+}
+
+.rtl .commonPasswordIcon {
+    right: unset !important;
+    left: 15px !important;
+}
+
+.rtl .commonControlSelectRtl {
+    padding: 10px 15px 10px 35px !important;
+    background-position: calc(0% + 5px) 50% !important;
+}
+
+.rtl .contactUsControlInputRtl {
+    background-position: calc(0% + 8px) 50%;
+}
+
+.rtl .contactUsControlInputRtl2 {
+    background-position: calc(0% + 8px) 20%;
+}
+
+/* become a host tab button end  */
+
+@media screen and (max-width: 1199px) {
+    .rtl .listItempopUpSection .listItempopUp:nth-child(2n) .popUpSection {
+        transform-origin: left bottom;
+        left: 0px;
+        right: auto;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .rtl .searchMapContainerShowRTL {
+        padding: 24px 24px 24px 24px;
+    }
+
+    .rtl .navbar>.container .navbar-brand,
+    .rtl .navbar>.container-fluid .navbar-brand {
+        margin-right: 0px;
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 2000px) and (min-width: 1600px) {
+    .rtl .locationBgIconRTL {
+        background-position: 97% 51% !important;
+    }
+
+    .rtl .locationBgIconRTL {
+        padding-right: 56px !important;
+    }
+}
+
+@media (max-width: 1599px) and (min-width: 1399px) {
+    .rtl .locationBgIconRTL {
+        background-position: 97% 51% !important;
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+    .rtl .textColumnRtl {
+        padding-left: 10px;
+        padding-right: 0px;
+    }
+
+    .rtl .ViewProfile .arrowNextRTL {
+        top: 21% !important;
+    }
+
+    .rtl .ViewProfile .arrowPrevRTL {
+        top: 21% !important;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .rtl .sliderContentAR {
+        padding-left: 15px;
+        padding-right: 0px;
+    }
+
+    .rtl .homeTypeIconRtl {
+        padding-left: 10px;
+        padding-right: 0;
+    }
+
+    .rtl .commonListingBg .panel-body {
+        padding: 15px;
+    }
+
+    .rtl .rc-pagination-item {
+        margin-bottom: 5px;
+    }
+
+    .rtl .rc-pagination-next {
+        float: right;
+    }
+
+    .rtl .responsiveTextAlignRtl {
+        text-align: right;
+    }
+
+    .rtl .homeSlickSlider {
+        direction: ltr;
+    }
+
+    .rtl .searchFilterCloseIconRtl {
+        text-align: right;
+    }
+
+    .rtl .guestClearRtl {
+        text-align: left;
+    }
+
+    .rtl .firstBtnRTL {
+        margin-bottom: 10px !important;
+    }
+
+    .rtl .form-control {
+        padding: 10px 10px 10px 10px;
+    }
+
+    .rtl .cardNumberRtlTwo {
+        padding: 10px 0px 0 22px;
+    }
+
+    .rtl .textAlignLeftRtlEdit {
+        text-align: right;
+    }
+
+    .rtl .searchFilter .CalendarMonth {
+        padding: 0 10px !important;
+    }
+
+    .rtl .DayPickerNavigation_leftButton__horizontalDefault {
+        left: 17px !important;
+    }
+
+    .rtl .NewResponsiveTable table td {
+        text-align: right;
+    }
+
+    .rtl .NewResponsiveTable a {
+        text-align: right;
+    }
+
+    .rtl .shareIconRtl {
+        float: none;
+    }
+
+    .rtl .DateRangePicker_picker {
+        background-color: transparent;
+    }
+
+    .rtl .responsiveMarginRTL {
+        margin-right: 0%;
+    }
+
+    .rtl .whyBtnRtl {
+        margin-right: 0;
+    }
+
+    .rtl .mainheddingRTLMobile h1 {
+        text-align: right;
+    }
+
+    .rtl .rightsidecontentRtl {
+        padding-right: 0% !important;
+    }
+
+    .rtl .histryCircleRTL {
+        right: -36px !important;
+    }
+
+    .rtl .rtlconfirmNumberSection {
+        border-radius: 4px 4px 0px 0px;
+    }
+
+    .rtl .rtlconfirmTextSection {
+        border-radius: 0px 0px 4px 4px;
+    }
+
+    .rtl .listHeaderAR .swiper-wrapper {
+        left: auto;
+        right: 100px;
+    }
+
+    .rtl .menuModal .rtl .nav-tabs>li {
+        float: none;
+    }
+
+    .rtl .menuModal .nav-tabs>li:last-child {
+        margin-right: 0;
+    }
+
+    .rtl .feedbackBorderRightRtl {
+        border-right: inherit !important;
+    }
+
+    .rtl .homeSwiper .swiper-button-prev {
+        top: 38%;
+    }
+
+    .rtl .homeSwiper .swiper-button-next {
+        top: 38%;
+        left: 0px;
+    }
+
+    .rtl .footerIconMobileViewRTL {
+        padding: 0px;
+    }
+
+    .rtl .buttonPositionRTL {
+        left: auto;
+        right: 10px;
+        padding: 6px;
+        bottom: 18px;
+    }
+
+    .rtl .adminDelete {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .rtl .adminUpdate {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+}
+
+
+@media screen and (max-width: 1170px) {
+    .rtl .seeAllBtnAR {
+        position: absolute;
+        left: 0;
+        right: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .rtl .searchHeaderAR {
+        float: right !important;
+    }
+
+    .rtl .messageSendIconRTL::before {
+        right: -3px;
+        left: 0;
+    }
+
+    .rtl .topRadiusColorRTL::after {
+        border-right: 1px solid var(--border-color);
+        border-left: 0 !important;
+    }
+
+    .rtl .billingPaddingRTL {
+        padding-left: 60px;
+        padding-right: auto;
+    }
+
+    .rtl .layoutOneSearch .homeSearchForm .geosuggest__input {
+        padding: 8px 8px 8px 120px !important;
+    }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+    .rtl .menuModal .navbar-nav>li {
+        float: right !important;
+    }
+
+    .rtl .commonHeader.navbar-default .navbar-nav>li {
+        padding: 0px 0px 0px 20px;
+    }
+
+    .rtl .homeSwiper .swiper-button-next,
+    .rtl .homeSwiper .swiper-button-prev {
+        top: 31%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .rtl .floatLeftAR {
+        float: none !important;
+    }
+
+    .rtl .navbar-header {
+        float: none !important;
+    }
+
+    .rtl .navbar-nav>li {
+        float: none !important;
+    }
+
+    .rtl .navbar-default .navbar-nav {
+        overflow-y: inherit;
+    }
+
+    .rtl .navbar-right:last-child {
+        margin-left: 0;
+        margin-right: auto;
+    }
+
+    .rtl .navbar-default .navbar-nav>li {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .rtl .breakPointTab {
+        display: none !important;
+    }
+
+    .rtl .navbar-brand {
+        float: right;
+    }
+
+    .rtl .brandBorderRtl {
+        float: right;
+        border-right: inherit;
+    }
+
+    .rtl .exitToggleRtl {
+        float: left !important;
+        padding: 0px 0 0px 0px;
+    }
+
+    .rtl .bookItPanelRtl {
+        text-align: right;
+    }
+
+    .rtl .availabilityMobile .DayPicker__horizontal {
+        right: -28px;
+    }
+
+    .rtl .rentAllAdminHeader .navbar-header {
+        float: right !important;
+    }
+
+    .rtl .rentAllAdminHeader .navbar-nav>li {
+        float: right !important;
+    }
+
+    .rtl .listHeaderAR .navbar-toggle {
+        float: right;
+    }
+
+    .rtl .closeColorRTL {
+        left: 22px;
+        right: auto;
+    }
+
+    .rtl .commonHeader.navbar-default .navbar-nav>li>a {
+        text-align: right;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .rtl .searchFixedHeader {
+        padding: 0 15px;
+    }
+}
+
+@media screen and (min-width:768px) {
+
+    .rtl .navbar>.container .navbar-brand,
+    .rtl .navbar>.container-fluid .navbar-brand {
+        margin-right: 0 !important;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:1279px) {
+    .rtl .topRadiusColorRTL::after {
+        left: 70px;
+    }
+}
+
+@media screen and (max-width:991px) and (min-width:768px) {
+    .rtl .sideMenuBorderPadding {
+        margin: 0px 0px 0px 15px;
+    }
+
+    .rtl .iosImgRTL {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .rtl .printBtnRTL {
+        margin-right: 0;
+        margin-left: 11px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .rtl .NewAdminResponsiveTable table td {
+        text-align: right;
+    }
+
+    .rtl .NewAdminResponsiveTable button {
+        text-align: right;
+    }
+
+    .rtl .NewAdminResponsiveTable a {
+        text-align: right;
+    }
+}
+
+@media screen and (min-width:320px) {
+    .rtl .profileDropZone {
+        left: 70px;
+    }
+}

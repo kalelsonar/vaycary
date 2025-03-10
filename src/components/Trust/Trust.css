@@ -1,0 +1,139 @@
+@import '../../components/variables.css';
+@import '../../components/helpers.css';
+/*************************verification Styles start******************************************/
+.panelHeader {
+border: 1px solid var(--border-color);
+border-radius: 8px;
+padding: 22px 25px;
+margin-bottom: 30px;
+}
+.listLayout {
+	margin-bottom: 0;
+	padding-left: 0;
+	list-style: none;
+}
+.description {
+	font-size: 14px;
+	color: var(--common-text-Secondry-color);
+}
+a {
+	color: var(--btn-secondary-bg);
+	text-decoration: none;
+}
+a:hover {
+	color: var(--btn-secondary-bg);
+	cursor: pointer;
+}
+.button {
+  white-space: normal;
+  text-align: center;
+  border: 1px solid;
+  text-decoration: none !important;
+  border-radius: 25px;
+}
+.btnverified {
+	border-color: #07B71D;
+	background-color: #07B71D;
+	color: #fff;
+	padding: 9px 20px;
+	border-radius: 22px;
+}
+.btnverified:hover,
+.btnverified:focus,
+.btnverified:active,
+.btnverified:active:hover,
+.btnverified:active:focus {
+	border-color: #07B71D;
+	background-color: #07B71D;
+	color: #fff;
+}
+.background {
+	padding: 28px 0 25px;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 25px;
+    margin: 0 !important;
+}
+.background:last-child {
+    border-bottom: 1px solid transparent;
+}
+.displayFlex {
+display: grid;
+grid-template-columns: 13% 70% 124px;
+align-items: center;
+justify-content: center;
+}
+.centerFlex {
+	display: inline-flex;
+	justify-content: center;
+}
+.iconImageone {
+	height: 50px;
+}
+.inlineFlex {
+	display: inline-flex;
+	justify-content: center;
+
+}
+.textCenter{
+	text-align: right;
+}
+.flexEdit{
+	display: flex;
+	justify-content: space-between;
+}
+.editIconCss{
+position: relative;
+top: -2px;
+margin-left: 2px;
+}
+.listingTitleText{
+	margin: 0;
+}
+.verifiTitle{
+	margin-bottom: 6px;
+}
+.imgBorder{
+	border: 1px solid var(--border-color);
+	border-radius: 50%;
+	padding: 20px;
+    width: 74px;
+    height: 74px;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.verifiBtn{
+	background: transparent !important;
+    border: inherit !important;
+    padding: 0 0 0 4px;
+    color: #fff !important;
+    opacity: 9 !important;
+}
+.noMargin{
+	margin: 0;
+}
+.button{
+	background-color: transparent !important;
+	border: inherit !important;
+	color: var(--btn-secondary-bg) !important;
+}
+.connectCss{
+	margin-left: 6px;
+}
+.responsiveFlex{
+	text-align: right;
+}
+@media screen and (max-width:767px) {
+	.responsiveCenter {
+		text-align: center;
+	}
+	.responsiveFlex {
+		display: inline-flex;
+		justify-content: center;
+		margin-bottom: 8px;
+	}
+	.displayFlex {
+		grid-template-columns: 100%;
+		}
+}
+/*************************verification Styles end******************************************/

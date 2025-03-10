@@ -1,0 +1,63 @@
+@import '../../components/variables.css';
+.panelHeader{
+  border-radius: 0;
+  width: 100%;
+  display: block;
+  font-size: 16px;
+  border-bottom: 1px solid var(--border-secondary-color);
+  background: #f5f5f5;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.listFlex{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 30px 0;
+}
+.formControlInput{
+  width:382px;
+  height: 45px;
+  border: 1px solid var(--border-color);
+  border-radius: 23px;
+}
+.locationBgIcon{
+	background: url('../../../public/SiteIcons/listSeaechIcon.svg');
+	background-repeat: no-repeat;
+	background-position: 4% 51%;
+	padding-left: 35px;
+  background-size: 15px;
+}
+.linkCss{
+  padding: 12px 20px !important;
+  border-radius: 23px !important;
+}
+.plusIcon{
+  margin-right: 6px;
+}
+.noMargin{
+  margin: 0;
+}
+@media screen and (max-width: 767px) {
+  .formControlInput{
+    width:100%;
+    margin-bottom: 15px;
+  }
+  .listFlex{
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    row-gap: 15px;
+  }
+  .mobileSearchWidth {
+    width: 100%;
+  }
+  .linkCss{
+    display: block;
+    text-align: center;
+  }
+  .locationBgIcon{
+    padding-left: 45px;
+    margin-bottom: 0px;
+  }
+}

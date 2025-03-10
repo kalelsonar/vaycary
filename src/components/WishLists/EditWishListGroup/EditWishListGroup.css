@@ -1,0 +1,155 @@
+@import '../../helpers.css';
+@import '../../variables.css';
+.button {
+	font-size: 18px !important;
+	line-height: 1.42857143;
+	border: 1px solid;
+	text-decoration: none !important;
+	display: inline-block;
+	text-align: center;
+}
+
+.deleteBtnMargin {
+	margin-right: 0px !important;
+}
+
+.landingTitle {
+	font-size: 32px;
+	margin: 42px 0px 22px 0px;
+	word-break: break-word;
+}
+
+.landingContentTitle {
+	font-size: 24px;
+	margin: 0px 0px 18px 0px;
+}
+
+.landingContent {
+	margin-bottom: 100px;
+}
+
+.pullRight {
+	float: right;
+}
+
+.noPadding {
+	padding: 0px;
+}
+
+.landingContentTitle {
+	font-size: 24px;
+	margin: 0px 0px 18px 0px;
+}
+
+.marginTop {
+	margin-top: 40px !important;
+}
+
+.listingSection {
+	display: inline-block;
+	width: 25%;
+	padding: 0px 8px;
+	margin-bottom: 12px;
+}
+
+.resposiveBtn {
+	color: var(--btn-secondary-bg) !important;
+	background-color: transparent !important;
+	border: inherit !important;
+	padding: 0px !important;
+	box-shadow: inherit !important;
+}
+
+.iconCss {
+	margin-right: 4px;
+	position: relative;
+	top: -2px;
+}
+
+.errorCss {
+	font-size: 18px;
+	margin-bottom: 22px;
+}
+
+.displayInlineBlock {
+	display: inline-block;
+}
+
+.textRight {
+	text-align: right;
+}
+
+.wishFlex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.textDecoration {
+	text-decoration: underline;
+}
+
+.btnFlex {
+	display: flex;
+	column-gap: 15px;
+}
+
+.goToALLText {
+	font-size: 18px !important;
+	text-decoration: underline !important;
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+	.listingSection {
+		display: inline-block;
+		width: 33.33%;
+		padding: 0px 8px;
+		margin-bottom: 12px;
+	}
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+	.displayInlineBlock {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.pullRghtNone {
+		float: none;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.listingSection {
+		display: inline-block;
+		width: 100%;
+		padding: 0px 0px 12px 0px;
+		margin-bottom: 0px;
+	}
+
+	.resposiveBtn {
+		width: 100%;
+		text-align: center;
+	}
+
+	.responsiveDeleteBtn {
+		margin-right: 0;
+		margin-top: 12px;
+	}
+
+	.wishFlex {
+		flex-wrap: wrap;
+		row-gap: 10px;
+	}
+
+	.btnFlex {
+		text-align: left;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.modalCaptionLinkLarge {
+		padding-left: 8px;
+	}
+}

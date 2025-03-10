@@ -1,0 +1,66 @@
+@import '../../../variables.css';
+@import '../../../utils.css';
+@import '../../../helpers.css';
+
+.modalContainer {
+	background-color: rgba(0, 0, 0, 0.75);
+	border-radius: 4px;
+}
+
+.logInModalBody {
+	padding: 20px 15px 0;
+}
+
+.modalHeading {
+	font-size: 16px;
+	padding: 15px;
+}
+
+.panelHeader {
+	border-radius: 0;
+	width: 100%;
+	display: block;
+	font-size: 16px;
+	border-bottom: 1px solid var(--border-secondary-color);
+	margin: 0px;
+}
+
+.panelBody {
+	margin: 0;
+	padding: 20px;
+	position: relative;
+}
+
+.formControlInput {
+	display: block;
+	padding: 8px 10px !important;
+	width: 100%;
+}
+
+.formGroup {
+	margin-bottom: 6px;
+}
+
+/*************************Panel Styles End******************************************/
+a {
+	color: var(--btn-secondary-bg);
+	text-decoration: none;
+}
+
+a:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.introTextWithCopyLink {
+	font-size: 14px;
+	margin-bottom: 20px;
+	display: flex;
+	row-gap: 10px;
+	column-gap: 20px;
+	flex-wrap: wrap;
+}
+
+.pointer {
+	cursor: pointer;
+}

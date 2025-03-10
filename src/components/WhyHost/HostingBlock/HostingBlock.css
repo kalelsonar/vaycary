@@ -1,0 +1,118 @@
+@import '../../../components/variables.css';
+
+/** RentAll - Begin **/
+.container{
+	width: 100%;
+	max-width: var( --max-container-width);
+	padding: 0;
+}
+.seperator {
+	background-color: var(--common-text-color);
+	width: 64px;
+	display: block;
+	height: 1.5px;
+	margin: 0 auto;
+	margin-bottom: 27px;
+}
+.boxseperator {
+	height: 2.5px;
+	border: 1px solid var(--common-text-color);
+	background-color: transparent;
+}
+.hostingsection {
+	margin-bottom: 100px;
+}
+.mainhedding h3 {
+	font-size: 46px;
+    line-height: 60px;
+    text-align: center;
+    font-weight: bold;
+    margin: 100px 0 60px;
+}
+.steps .circle {
+	background-color: var(--btn-secondary-bg);
+	display: flex;
+	border-radius: 29px;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.steps .circle span {
+	display: block;
+	margin: auto;
+	color: #fff;
+	font-weight: bold;
+	font-size: 17px;
+}
+.steps a {
+	font-size: 17px;
+}
+h4.common {
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 17px;
+}
+p.common {
+	font-size: 16px;
+	line-height: 24px;
+	color: #707070;
+}
+.steps{
+	border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 32px;
+}
+.bannerImageBg{
+	width: 100%;
+	max-width: 60px;
+	height: 60px;
+	border-radius: 3px;
+}
+@media screen and (max-width: 991px) {
+	h4.common {
+		font-size: 23px;
+		font-weight: 600;
+	}
+	.whyblock {
+		margin-bottom: 35px;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	.mainhedding h1 {
+		font-size: 36px;
+		line-height: 51px;
+		margin-bottom: 13px;
+	}
+	.steps {
+		margin-top: 44px;
+	}
+	.hostingsection {
+		margin-bottom: 85px;
+	}
+	.container{
+		padding: 0 15px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.mainhedding h1 {
+		font-size: 24px;
+		line-height: 30px;
+		margin: 30px 0;
+		text-align: left;
+	}
+	.steps {
+		margin-top: 24px;
+	}
+	h4.common {
+		font-size: 20px;
+	}
+	.hostingsection {
+		margin-bottom: 45px;
+	}
+	p.common {
+		font-size: 14px;
+		line-height: 1.7;
+		font-weight: 400;
+	}
+}

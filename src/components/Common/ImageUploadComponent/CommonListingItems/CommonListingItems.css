@@ -1,0 +1,155 @@
+@import '../../../helpers.css';
+@import '../../../variables.css';
+
+/** Common **/
+.textEllipsis {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/** Common **/
+/** Home slider Item - Start **/
+.imgContainer {
+	position: relative;
+	width: 100%;
+	background: #F6F6F6;
+	border-radius: 15px;
+}
+
+.parent {
+	background: #d8d8d8 none repeat scroll 0 0;
+	padding-top: 66.6667%;
+	position: relative;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.children {
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%;
+}
+
+.content {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+.imageContent {
+	height: 100%;
+	width: 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+}
+
+.infoContainer {
+	position: relative;
+}
+
+.linkContainer,
+.linkContainer:hover {
+	display: block;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.infoText {
+	margin: 0px;
+	word-wrap: break-word;
+	line-height: 18px;
+	letter-spacing: 0.2px;
+	padding-top: 6px;
+	padding-bottom: 0px;
+	display: inline;
+}
+
+.infoReview {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.infoTitle {
+	font-size: 18px;
+	font-weight: 500;
+    margin-top: 3px;
+    color: var(--common-text-color);
+}
+
+.infoDesc {
+	word-wrap: break-word;
+	font-size: 14px;
+	color: #767676;
+	margin-top: 3px;
+}
+
+.textStrong {
+	font-weight: bold;
+}
+
+.reviewStar {
+	display: inline;
+	position: relative;
+	float: left;
+}
+
+.reviewText {
+	padding: 0 0 0 5px;
+}
+
+.instantIcon {
+	color: #ffb400;
+	height: 16px;
+	width: 16px;
+}
+
+.infoSpace {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.pricingText{
+	color: var(--common-text-color);
+    font-weight: 600;
+	font-size: 22px;
+}
+
+.nightText {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+@media (max-width:1023px) and (min-width:768px) {
+	.infoTitle {
+		font-size: 16px;
+		margin-top: 0px;
+	}
+
+	.pricingText {
+		font-size: 18px;
+	}
+
+	.nightText {
+		font-size: 14px;
+	}
+}
+
+.imageContent {
+	height: 100%;
+	width: 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	border-radius: 15px;
+	background-color: #d8d8d8;
+}
+
+/** Home slider Item - Start **/

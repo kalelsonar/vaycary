@@ -1,0 +1,48 @@
+@import '../../../variables.css';
+@import '../../../helpers.css';
+@import '../../../../components/common.css';
+.root {
+  padding: 25px;
+}
+.logInModalContainer {
+  width: 645px;
+}
+.logInModalBody {
+  padding: 0px;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.title{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.iconCss{
+  display: inline-block;
+  position: relative;
+  top: -1px;
+}
+.errorMessage{
+  color: red;
+  text-align: center;
+}
+.applyPaymenyBtn, .applyPaymenyBtn:hover, .applyPaymenyBtn:active, .applyPaymenyBtn:focus{
+  padding: 9px 34px !important;
+  background-color: var(--btn-secondary-bg) !important;
+  color: #ffffff !important;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.guestModalFlex{
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+@media (max-width: 767px){
+  .logInModalContainer {
+    width: 100%;
+    margin: 0 0 0 3px;
+  }
+}

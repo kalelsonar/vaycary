@@ -1,0 +1,26 @@
+@import '../../../components/common.css';
+@import '../../helpers.css';
+@import '../../siteadmin/admin-common.css';
+@import '../../siteadmin/admin-form.css';
+
+.errorMessage {
+	color: var(--errormessage-color);
+	display: block;
+	margin-bottom: 10px;
+}
+
+.commonLableText {
+	font-size: 16px;
+	font-weight: 400;
+	margin: 6px 0px;
+	line-height: 1.43;
+}
+
+.commonNoteText {
+	font-size: 14px;
+	color: #767676;
+	margin: 6px 0px;
+	line-height: 1.43;
+	font-weight: normal;
+	vertical-align: middle;
+}

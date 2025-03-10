@@ -1,0 +1,16 @@
+query getBlogDetails($currentPage: Int) {
+  getBlogDetails(currentPage: $currentPage) {
+    count
+    results {
+      id
+      metaTitle
+      metaDescription
+      pageUrl
+      pageTitle
+      content
+      footerCategory
+      isEnable
+      createdAt
+    }
+  }
+}

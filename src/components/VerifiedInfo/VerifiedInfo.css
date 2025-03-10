@@ -1,0 +1,68 @@
+@import '../variables.css';
+@import '../helpers.css';
+
+.circleIcon {
+	font-size: 24px;
+	line-height: 1;
+	font-weight: normal;
+	font-style: normal;
+	color: #767676;
+	display: block;
+}
+
+.listStyle {
+	padding-left: 0;
+	list-style: none;
+	font-size: 14px;
+	line-height: 1.43;
+	margin: 0px;
+}
+
+.titleText {
+	font-size: 16px;
+	margin: 0px 0px 12px;
+	line-height: 20px;
+	font-weight: 600;
+}
+
+.displayGrid {
+	display: grid;
+	grid-template-columns: 20px auto;
+	align-items: center;
+	grid-gap: 10px;
+	padding-bottom: 10px;
+	color: var(--common-text-Secondry-color);
+}
+
+.noPaddingBottom {
+	padding-bottom: 0px;
+}
+
+.marginIfonText {
+	margin: 10px 0px 7px 0px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.moreVerifi {
+	display: inline-block;
+	color: var(--btn-secondary-bg);
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.moreVerifi:hover,
+.moreVerifi:focus,
+.moreVerifi:active {
+	color: var(--btn-secondary-bg);
+}
+
+.moreVerifiArrow {
+	margin-left: 4px;
+	position: relative;
+	top: -1px;
+}
+
+.textCenter {
+	text-align: center;
+}

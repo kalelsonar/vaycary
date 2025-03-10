@@ -1,0 +1,6 @@
+{
+  "name": "SiteConfigForm",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./SiteConfigForm.js"
+}

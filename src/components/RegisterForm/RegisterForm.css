@@ -1,0 +1,11 @@
+@import '../../components/common.css';
+.birthFlex{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-gap: 10px;
+}
+@media (max-width: 767px) {
+    .birthFlex{
+        grid-template-columns: 100%;
+    }
+}

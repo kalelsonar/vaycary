@@ -1,0 +1,123 @@
+query cancellationData($reservationId: Int!, $userType: String!) {
+  cancelReservationData(reservationId: $reservationId, userType: $userType) {
+    id
+    listId
+    hostId
+    guestId
+    checkIn
+    checkOut
+    guests
+    basePrice
+    cleaningPrice
+    hostServiceFee
+    guestServiceFee
+    taxPrice
+    total
+    currency
+    listTitle
+    confirmationCode
+    reservationState
+    discount
+    cancellationPolicy
+    taxRate
+    hostServiceFeeType
+    hostServiceFeeValue
+    isSpecialPriceAverage
+    bookingSpecialPricing {
+      id
+      listId
+      blockedDates
+      isSpecialPrice
+    }
+    cancellation {
+      id
+      policyName
+      policyContent
+      priorDays
+      accommodationPriorCheckIn
+      accommodationBeforeCheckIn
+      accommodationDuringCheckIn
+      guestFeePriorCheckIn
+      guestFeeBeforeCheckIn
+      guestFeeDuringCheckIn
+      hostFeePriorCheckIn
+      hostFeeBeforeCheckIn
+      hostFeeDuringCheckIn
+      isEnable
+      nonRefundableNightsPriorCheckIn
+      nonRefundableNightsBeforeCheckIn
+      nonRefundableNightsDuringCheckIn
+    }
+    listData {
+      id
+      title
+      country
+      street
+      city
+      state
+      zipcode
+      reviewsCount
+      beds
+      reviewsStarRating
+      coverPhoto
+      settingsData {
+        id
+        settingsId
+        listsettings {
+          id
+          itemName
+          isEnable
+          settingsType {
+            typeName
+          }
+        }
+      }
+      listingData {
+        cancellation {
+          id
+          policyName
+          policyContent
+          priorDays
+          accommodationPriorCheckIn
+          accommodationBeforeCheckIn
+          accommodationDuringCheckIn
+          guestFeePriorCheckIn
+          guestFeeBeforeCheckIn
+          guestFeeDuringCheckIn
+          hostFeePriorCheckIn
+          hostFeeBeforeCheckIn
+          hostFeeDuringCheckIn
+          isEnable
+        }
+      }
+      listPhotos {
+        id
+        listId
+        name
+        type
+      }
+    }
+    messageData {
+      id
+    }
+    messageThreadId {
+      id
+    }
+    hostData {
+      profileId
+      firstName
+      picture
+      userData {
+        id
+      }
+    }
+    guestData {
+      profileId
+      firstName
+      picture
+      userData {
+        id
+      }
+    }
+  }
+}

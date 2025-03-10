@@ -1,0 +1,74 @@
+@import '../../../../components/common.css';
+@import '../../../../components/variables.css';
+
+.btnSecondary {
+	border-color: var(--btn-secondary-bg) !important;
+	background-color: var(--btn-secondary-bg) !important;
+	color: #ffffff !important;
+}
+.btnSecondary:hover,  .btnSecondary:focus, .btnSecondary:active {
+	border-color: var(--btn-secondary-hover-bg) !important;
+	background-color: var(--btn-secondary-hover-bg) !important;
+	color: var(--btn-secondary-color) !important;
+}
+.clearMobileBtn{
+	color: var(--btn-secondary-bg) !important;
+	text-decoration: underline;
+	background: transparent !important;
+}
+.selectDateBtn, .selectDateBtn:focus, .selectDateBtn:hover, .selectDateBtn:active{
+	background-color: var(--contacthost-background-color) !important;
+	border: none !important;
+	border-radius: 23px !important;
+	padding: 14px 0 !important;
+	width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    gap: 6px;
+	box-shadow: none !important;
+	color: var(--common-text-color) !important;
+}
+.arrowCss{
+	margin-left: 12px;
+}
+.dFlex{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.title{
+	font-size: 18px;
+	font-weight: 500;
+	position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+	z-index: -1;
+}
+
+.bottomFixed{
+	position: fixed ;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    left: 0;
+    padding: 24px;
+	background-color: var(--background-color);
+	border-top: 1px solid var(--border-color);
+	border-radius: 0 0 14px 14px;
+	align-items: center;
+}
+.applyBtn, .applyBtn:hover, .applyBtn:active, .applyBtn:focus{
+	padding: 9px 30px !important;
+	font-weight: 500;
+}
+
+@media screen and (max-width: 767px) {
+	.datePanel{
+		margin-top: 70px;
+	}
+}

@@ -1,0 +1,51 @@
+ mutation updateCancelPolicy (
+            $id: Int
+            $policyName: String
+            $policyContent: String
+            $priorDays: Int
+            $accommodationPriorCheckIn: Float
+            $accommodationBeforeCheckIn: Float
+            $accommodationDuringCheckIn: Float
+            $guestFeePriorCheckIn: Float
+            $guestFeeBeforeCheckIn: Float
+            $guestFeeDuringCheckIn: Float
+            $hostFeePriorCheckIn: Float
+            $hostFeeBeforeCheckIn: Float
+            $hostFeeDuringCheckIn: Float
+            $nonRefundableNightsPriorCheckIn: Int
+            $nonRefundableNightsBeforeCheckIn: Int
+            $nonRefundableNightsDuringCheckIn: Int
+            $subTitle: String
+            $subContent: String
+            $content1: String
+            $content2: String
+            $content3: String
+
+        ){
+        updateCancelPolicy(
+            id: $id
+            policyName: $policyName
+            policyContent: $policyContent
+            priorDays: $priorDays
+            accommodationPriorCheckIn: $accommodationPriorCheckIn
+            accommodationBeforeCheckIn: $accommodationBeforeCheckIn
+            accommodationDuringCheckIn: $accommodationDuringCheckIn
+            guestFeePriorCheckIn: $guestFeePriorCheckIn
+            guestFeeBeforeCheckIn: $guestFeeBeforeCheckIn
+            guestFeeDuringCheckIn: $guestFeeDuringCheckIn
+            hostFeePriorCheckIn: $hostFeePriorCheckIn
+            hostFeeBeforeCheckIn: $hostFeeBeforeCheckIn
+            hostFeeDuringCheckIn: $hostFeeDuringCheckIn
+            nonRefundableNightsPriorCheckIn: $nonRefundableNightsPriorCheckIn
+            nonRefundableNightsBeforeCheckIn: $nonRefundableNightsBeforeCheckIn
+            nonRefundableNightsDuringCheckIn: $nonRefundableNightsDuringCheckIn
+            subTitle: $subTitle
+            subContent: $subContent
+            content1: $content1
+            content2: $content2
+            content3: $content3
+        ){
+                status
+                errorMessage
+            }
+        }

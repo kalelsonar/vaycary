@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72">
+  <defs>
+    <filter id="caucasian-man-s-portrait-isolated-gradient-studio-background-neon-light" x="0" y="0" width="72" height="72" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_38658" data-name="Group 38658" transform="translate(-745 -201)">
+    <g transform="matrix(1, 0, 0, 1, 745, 201)" filter="url(#caucasian-man-s-portrait-isolated-gradient-studio-background-neon-light)">
+      <g id="caucasian-man-s-portrait-isolated-gradient-studio-background-neon-light-2" data-name="caucasian-man-s-portrait-isolated-gradient-studio-background-neon-light" transform="translate(12 9)" fill="#966FD6" stroke="#fff" stroke-width="3">
+        <circle cx="24" cy="24" r="24" stroke="none"/>
+        <circle cx="24" cy="24" r="25.5" fill="none"/>
+      </g>
+    </g>
+    <path id="send_1_" data-name="send (1)" d="M25.919,0,0,14.58l8.283,3.068L21.06,5.67,11.342,18.78l.008,0-.01,0v7.139L15.985,20.5l5.885,2.18Z" transform="translate(765.74 220.74)" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+@import '../../../../../components/common.css';
+.alignRight{
+    position: relative;
+}
+
+.displayFlex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px;
+}
+
+.noMarginBottom {
+    margin-bottom: 0px;
+}

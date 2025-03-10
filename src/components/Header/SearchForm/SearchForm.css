@@ -1,0 +1,196 @@
+@import '../../variables.css';
+
+/** Common - Start **/
+.btnBlock {
+	width: 100%;
+	position: relative;
+	white-space: normal;
+	display: block;
+}
+.formControlInput {
+	padding: 10px 35px 10px 10px;
+	height: 40px;
+	border-radius: 2px;
+	font-size: 14px;
+	border: 1px solid var(--border-secondary-color);
+	background-color: transparent;
+	color: var(--common-text-Secondry-color);
+}
+.formControlSelect {
+	height: 40px;
+	border-radius: 2px;
+	margin-bottom: 8px;
+	font-size: 14px;
+	border: 1px solid var(--border-color);
+	background-color: transparent;
+	color: var(--common-text-color);
+	line-height: 24px;
+	display: block;
+	overflow: hidden;
+	appearance: none;
+}
+/** Common - End **/
+/** Search Form - Start **/
+.searchFormInputs {
+	float: none;
+	padding-left: 0;
+	padding-right: 0;
+	position: relative;
+	table-layout: auto;
+	width: 100%;
+}
+.table {
+	width: 100%;
+	display: table;
+}
+.tableRow {
+	display: table-row;
+	width: 100%;
+}
+.tableCell {
+	display: table-cell;
+	float: none;
+	padding: 0px 16px 0px;
+	vertical-align: middle;
+}
+.tableCell:not(first-child) {
+	border-right: 1px solid var(--border-secondary-color);
+}
+.noBroderRight {
+	margin-left: 22px;
+}
+.guestPadding {
+	padding: 10px 0px 9px !important;
+}
+.label {
+	font-size: 16px;
+	letter-spacing: -0.5px;
+	padding-bottom: 0;
+	padding-top: 0;
+	margin: 0px;
+	white-space: nowrap;
+	font-weight: 600;
+}
+.input{
+	border: 0px;
+	margin: 0px;
+	border-radius: 0px;
+	box-shadow: none;
+	font-size: 16px;
+	letter-spacing: -0.5px;
+	padding: 8px 0px;
+	outline: 0 !important;
+}
+.inputPadding {
+	padding: 9px 15px;
+}
+.searchButton {
+	line-height: 16px;
+	padding: 7px 10px 9px!important;
+    border-radius: 20px;
+}
+.selectPadding {
+	padding: 0px 15px;
+}
+.grid{
+    display: flex;
+    padding: 12px 8px 12px 26px;
+    align-items: center;
+	box-shadow: 0px 4px 22px #3C2F2F0F;
+	border: 1px solid var(--border-color);
+	border-radius: 35px;
+	margin-left: 0;
+	margin-right: 0;
+	height: 51px;
+	justify-content: space-between;
+}
+.DateRangePickerInput_arrow_svg {
+    vertical-align: middle;
+    fill: var(--common-text-color);
+    height: 24px;
+    width: 24px;
+    position: relative;
+    left: -15px;
+    top: -2px;
+}
+
+.location{
+	width:29%;
+}
+.divider{
+	position: relative;
+}
+.divider::after{
+	content: '';
+	width: 1px;
+	height: 20px;
+	background: var(--border-color);
+	position: absolute;
+	top: 12px;
+	right: -3px;
+}
+.dividerTop::after{
+	top:19px;
+}
+.loadfield{
+	font-size: 14px;
+	color: var(--common-text-color);
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 161px !important;
+	height: 44px;
+}
+.dividerLoading{
+	position: relative;
+}
+.dividerLoading::after{
+	content: '';
+	top: 12px;
+	width: 1px;
+	height: 20px;
+	max-height: 20px;
+	background: var(--border-color);
+	position: absolute;
+	right: -3px;
+}
+@media screen and (max-width: 767px) {
+	.location,
+	.dates,
+	.guests {
+		width: 100%;
+	}
+	.tableCell {
+		border-right: 0px;
+		display: block;
+	}
+	.tableCell:not(first-child) {
+		border-bottom: 1px solid var(--border-secondary-color);
+		border-right: 0;
+	}
+	.noBroderRight {
+		border-bottom: none !important;
+	}
+}
+@media screen and (max-width: 640px) {
+	.inputPadding,
+	.inputPadding:hover,
+	.inputPadding:focus {
+		padding: 8px 8px 8px 0px;
+	}
+	.mobilePadding {
+		padding: 15px 16px 8px !important;
+	}
+	.selectPadding {
+		padding: 0px;
+	}
+	.searchFormInputs {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+.geoSuggestContainer {
+	width: 100% !important;
+	margin: 0px !important;
+}
+/** Search Form - End **/

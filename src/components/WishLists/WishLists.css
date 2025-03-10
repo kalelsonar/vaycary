@@ -1,0 +1,90 @@
+@import '../helpers.css';
+@import '../variables.css';
+.button {
+  font-size: 18px !important;
+}
+.landingTitle {
+	font-size: 26px;
+	margin: 0;
+	font-weight: 600;
+	display: inline-block;
+}
+.landingContentTitle {
+	font-size: 24px;
+	margin: 0px 0px 18px 0px;
+}
+.landingContent {
+	margin-top: 60px;
+	margin-bottom: 100px;
+}
+.noPadding {
+	padding: 0px;
+}
+.pullRight {
+	float: right;
+}
+.noMargin {
+	margin: 0px;
+}
+.noPadding {
+	padding: 0px;
+}
+/** SyncCalendar Start **/
+
+.marginTop {
+	margin-top: 40px !important;
+}
+.flexWish{
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	margin-bottom: 33px;
+}
+.countingCss{
+	font-size: 26px;
+	margin-left: 3px;
+	font-weight: 600;
+}
+.smPosition {
+	font-size: 16px !important;
+}
+.noListSubHeading{
+	color: var(--common-text-Secondry-color);
+	font-size: 18px;
+	max-width: 540px;
+    margin: 20px auto 0;
+  }
+  .textCenter{
+	text-align: center;
+  }
+  .addNewBtn{
+	padding: 13px 15px;
+	margin-top: 30px;
+	display: inline-block;
+  }
+  .wishGrid{
+	display: grid;
+	grid-template: repeat(3, 1fr) / repeat(4, 1fr);
+    grid-gap: 33px;
+  }
+	
+@media screen and (max-width: 767px) {
+	.smPosition {
+		float: none;
+	}
+	.smTop4 {
+		margin-top: 24px;
+	}
+	.imgWidth{
+		width: 100%;
+	}
+	.flexWish {
+		flex-wrap: wrap;
+		row-gap: 10px;
+	}
+	.wishGrid{
+		grid-template-columns: 100%;
+        grid-gap: 20px;
+	  }
+}
+/** SyncCalendar End **/

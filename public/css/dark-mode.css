@@ -1,0 +1,1049 @@
+@import url('./variables.css');
+
+body.lightMode {
+    background-color: var(--white-color);
+}
+
+body.darkMode {
+    background-color: var(--darkmode-primary-color);
+    color: var(--darkmode-text-color) !important;
+}
+
+.darkMode ::selection {
+    background: var(--darkmode-selection-color);
+}
+
+.darkMode .textWhite {
+    color: var(--darkmode-text-color) !important;
+}
+
+.darkMode .bgBlack {
+    background-color: var(--darkmode-primary-color) !important;
+}
+
+.darkMode svg use {
+    filter: invert(96%) sepia(100%) saturate(0%) hue-rotate(86deg) brightness(103%) contrast(106%);
+}
+
+.darkMode .commonHeader .dropdown-menu {
+    background-color: var(--darkmode-primary-color);
+}
+
+.darkMode .commonHeader .dropdown-menu>li>a {
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .commonHeader .dropdown-menu>li>form>button {
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .darkModeInnerMenu.navbar-default {
+    background-color: var(--darkmode-primary-color) !important;
+}
+
+.darkMode .whyHostHeader.navbar-default {
+    background-color: transparent !important;
+}
+
+.darkMode .headerSearch .geosuggest__input,
+.darkMode .headerSearch .geosuggest__input:focus,
+.darkMode .headerSearch .geosuggest__input:hover {
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .DateInput_input {
+    color: var(--darkmode-text-color) !important;
+}
+
+.darkMode .form-control {
+    color: var(--darkmode-text-color);
+    background-color: var(--darkmode-primary-color);
+}
+
+.darkMode .textWhite a {
+    color: var(--darkmode-text-color) !important;
+}
+
+.darkMode .modal-content {
+    background-color: var(--darkmode-primary-color);
+}
+
+.darkMode .bgBlackHover:hover,
+.darkMode .bgBlackHover:focus,
+.darkMode .bgBlackHover:active {
+    background-color: var(--darkmode-primary-color) !important;
+}
+
+.darkMode .rc-pagination-item {
+    background-color: var(--darkmode-primary-color);
+}
+
+.darkMode .rc-pagination-item a {
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .modal-header {
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .modal-header .close {
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .searchMapSection .gm-bundled-control div:nth-child(1) {
+    background: var(--darkmode-primary-color) !important
+}
+
+.darkMode .gm-control-active img {
+    filter: invert(96%) sepia(100%) saturate(0%) hue-rotate(86deg) brightness(103%) contrast(106%);
+}
+
+.darkMode .menuModal .nav-tabs>li.active>a,
+.darkMode .menuModal .nav-tabs>li.active>a:focus,
+.darkMode .menuModal .nav-tabs>li.active>a:hover {
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .svgImg img {
+    filter: invert(96%) sepia(100%) saturate(0%) hue-rotate(86deg) brightness(103%) contrast(106%);
+}
+
+.darkMode .calendarContainerDark {
+    margin-left: 0;
+}
+
+.darkMode .bgTransparent,
+.darkMode .bgTransparent:hover,
+.darkMode .bgTransparent:focus {
+    background: transparent !important;
+}
+
+.darkMode .DateInput {
+    background: transparent;
+}
+
+.darkMode .DateRangePickerInput {
+    background-color: transparent;
+}
+
+.darkMode .DayPicker__horizontal {
+    background: var(--darkmode-primary-color);
+    border-radius: 0;
+}
+
+.darkMode .CalendarMonth {
+    background: var(--darkmode-primary-color);
+}
+
+.darkMode .CalendarMonth_caption {
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .DayPicker_weekHeader {
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .CalendarMonthGrid {
+    background: transparent;
+}
+
+.darkMode .DateInput_fangShape {
+    fill: var(--darkmode-primary-color);
+}
+
+.darkMode .vidSearchForm .geosuggest__input {
+    background-color: var(--darkmode-primary-color);
+    color: var(--darkmode-text-color) !important
+}
+
+.darkMode .borderDark {
+    border-color: var(--darkmode-text-color);
+}
+
+.darkMode .menuActive .sideNav,
+.darkMode .sideNav:focus {
+    color: var(--darkmode-text-color);
+    background: transparent;
+}
+
+.darkMode .sideNav {
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .iconBtnDark,
+.darkMode .iconBtnDark:focus,
+.darkMode .iconBtnDark:hover,
+.darkMode .iconBtnDark:active {
+    color: var(--darkmode-text-color);
+    background: transparent !important;
+}
+
+.darkMode .ListHeader.navbar-default .navbar-nav>li>a {
+    background: transparent;
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .BecomeCalendar .DayPicker-Caption {
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .DayPicker-NavButton--prev {
+    filter: invert(96%) sepia(100%) saturate(0%) hue-rotate(86deg) brightness(103%) contrast(106%);
+}
+
+.darkMode .DayPicker-NavButton--next {
+    filter: invert(96%) sepia(100%) saturate(0%) hue-rotate(86deg) brightness(103%) contrast(106%);
+}
+
+.darkMode .DayPicker-Day {
+    background-color: var(--darkmode-primary-color);
+}
+
+.darkMode .DayPicker {
+    background-color: transparent !important;
+}
+
+.darkMode .DayPicker-Day--outside {
+    background-color: transparent !important;
+}
+
+.darkMode .BecomeCalendar .DayPicker-WeekdaysRow .DayPicker-Weekday {
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .saveCalenderDate .DateRangePicker_picker {
+    background-color: transparent;
+}
+
+.darkMode .StripeElement {
+    background: transparent;
+}
+
+.darkMode .InputElement {
+    color: var(--darkmode-text-color) !important;
+}
+
+.darkMode .centerLink2 a {
+    color: var(--darkmode-text-color) !important;
+}
+
+.darkMode .dot2::before {
+    background-color: var(--darkmode-text-color) !important;
+}
+
+.darkMode .dot2::after {
+    background-color: var(--darkmode-text-color) !important;
+}
+
+.darkMode .darkBgHeder {
+    background-color: var(--darkmode-primary-color) !important;
+}
+
+.darkMode .layout5Css .layout5Searchform {
+    background-color: var(--darkmode-primary-color);
+    border: 1px solid #555;
+}
+
+.darkMode .fixedBgHeader {
+    background-color: var(--darkmode-primary-color) !important;
+}
+
+.darkMode select {
+    background-image: url('../SiteIcons/chevron-down-dark.svg') !important;
+}
+
+.darkMode .adminstyle .reactable-column-header {
+    background-color: var(--darkmode-primary-color);
+}
+
+.darkMode .NewResponsiveTableAdmin table th {
+    background-color: var(--darkmode-primary-color) !important;
+    color: var(--darkmode-text-color) !important;
+}
+
+.darkMode .NewAdminResponsiveTable table tr {
+    background-color: var(--darkmode-primary-color);
+    color: var(--darkmode-text-color) !important;
+}
+
+.darkMode .adminstyle .table>tbody>tr>td {
+    color: var(--darkmode-text-color) !important;
+}
+
+.darkMode .adminstyle table tbody tr:hover {
+    color: var(--common-text-color) !important;
+    background-color: transparent;
+}
+
+.darkMode .adminPhotoUplod .dropzone {
+    background-color: var(--darkmode-primary-color);
+}
+
+.darkMode .addpopular-autocomplete .geosuggest__input {
+    background-color: transparent;
+    line-height: 24px;
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .ql-snow .ql-stroke {
+    stroke: var(--darkmode-text-color);
+}
+
+.darkMode .ql-container {
+    background-color: var(--darkmode-primary-color) !important;
+}
+
+.darkMode .ql-editor p {
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .ql-snow .ql-picker {
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .ql-snow .ql-fill {
+    fill: var(--darkmode-text-color);
+}
+
+.darkMode .ql-editor.ql-blank::before {
+    color: rgb(255 254 254 / 60%);
+}
+
+.darkMode .DateRangePicker_picker {
+    background-color: var(--darkmode-primary-color);
+}
+
+.darkMode .activeDark a {
+    border-color: var(--darkmode-text-color);
+}
+
+.darkMode .listingTab .nav-tabs>li>a {
+    color: var(--darkmode-text-color);
+    background: transparent;
+}
+
+.darkMode .listingTab .nav-tabs>li.active>a,
+.darkMode .listingTab .nav-tabs>li.active>a:focus,
+.darkMode .listingTab .nav-tabs>li.active>a:hover {
+    border: inherit;
+    border-bottom: 1px solid var(--btn-secondary-bg);
+    color: var(--btn-secondary-bg);
+}
+
+.darkMode .commonListingBg .panel-body {
+    background: transparent !important;
+}
+
+.darkMode .payoutTable .table>tbody>tr>td {
+    color: var(--darkmode-text-color);
+    background: var(--darkmode-primary-color);
+}
+
+.darkMode .searchMapSection .gm-control-active {
+    background: var(--darkmode-primary-color) !important;
+}
+
+.darkMode .DateRangePickerInput_arrow_svg {
+    fill: var(--darkmode-text-color);
+}
+
+.darkMode .darkModeInfoContentBg {
+    background-color: var(--darkmode-primary-color);
+}
+
+.darkMode .darkModeTextWhite {
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .radiusColorTwo::after,
+.darkMode .darkModeRadiusColor::after {
+    background: var(--darkmode-secondary-color);
+}
+
+.darkMode .messageTextArea::before {
+    border-color: var(--darkmode-primary-color) transparent transparent;
+}
+
+.darkMode .darkModeTextBlack {
+    color: var(--darkmode-primary-color);
+}
+
+.darkMode .DayPicker-Day--disabled {
+    background: repeating-linear-gradient(-45deg, rgb(0 0 0), rgb(15 11 11) 3px, rgb(63 63 63) 3px, rgb(235, 235, 235) 4px) !important;
+}
+
+.darkMode .coverulDark li {
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .publishArrow select {
+    background-image: url(../SiteIcons/listSelectArrow.svg) !important;
+}
+
+.darkMode .dashboard {
+    background: var(--darkmode-primary-color);
+}
+
+.darkMode .darkModeFooterBanner {
+    /* filter: invert(8%) sepia(5%) saturate(2167%) hue-rotate(334deg) brightness(92%) contrast(88%); */
+    webkit-filter: brightness(36%) contrast(115%) grayscale(26%) saturate(9%);
+    filter: brightness(36%) contrast(115%) grayscale(26%) saturate(9%);
+}
+
+.darkMode .footerBannerImg {
+    background-image: url(../SiteImages/darkFooterBg.svg);
+    background-repeat: no-repeat;
+}
+
+.darkMode .darkModeFooterLink,
+.darkMode .darkModeFooterLink:hover,
+.darkMode .darkModeFooterLink:active,
+.darkMode .darkModeFooterLink:focus {
+    color: var(--darkmode-text-color) !important;
+}
+
+/* Media queries */
+
+.darkMode .dashRightBg {
+    background: var(--darkmode-secondary-color);
+}
+
+.darkMode .dashRightBg::before {
+    border-color: transparent var(--darkmode-secondary-color) transparent transparent;
+}
+
+.darkMode .dashRightBg::after {
+    background: var(--darkmode-primary-color);
+}
+
+.darkMode .dashRightBgTwo::before {
+    border-color: transparent var(--darkmode-primary-color) transparent transparent;
+}
+
+.darkMode .listIntroBgDark {
+    background-image: url('../SiteImages/becomeHostBgDark.svg') !important;
+}
+
+.darkMode .closeButtonPositionDark {
+    background: var(--darkmode-primary-color);
+}
+
+.darkMode .geosuggest__suggests {
+    background: var(--darkmode-primary-color);
+}
+
+.darkMode .geosuggest__item {
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .payoutTable .table>thead>tr>th {
+    background: var(--darkmode-primary-color);
+}
+
+.darkMode .headerNewDesign .navbar-default .navbar-nav>li a {
+    color: var(--darkmode-text-color) !important;
+}
+
+.darkMode .darkModeCloseColor {
+    color: var(--darkmode-text-color)
+}
+
+.darkMode .tripDropDown button::before {
+    filter: invert(96%) sepia(100%) saturate(0%) hue-rotate(86deg) brightness(103%) contrast(106%);
+}
+
+.darkMode .modal-header .close {
+    filter: invert(96%) sepia(100%) saturate(0%) hue-rotate(86deg) brightness(103%) contrast(106%);
+}
+
+.darkMode .menuModal .navbar-nav>li>a {
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .headerNewDesign .navbar-default .navbar-nav>li>a {
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .commonHeader.navbar-default .navbar-nav>li>a,
+.darkMode .commonHeader.navbar-default .navbar-nav>li>a:focus,
+.darkMode .commonHeader.navbar-default .navbar-nav>li>a:hover,
+.darkMode .commonHeader.navbar-default .navbar-nav>li>a:active {
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .loginModal .modal-title {
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .rentAllAdminHeader .dropdown-menu,
+.darkMode .rentAllAdminHeader .dropdown-menu>li>a:hover,
+.darkMode .rentAllAdminHeader .dropdown-menu>li>a:focus {
+    background: var(--darkmode-primary-color);
+}
+
+.darkMode .rentAllAdminHeader .dropdown-menu>li>a {
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .darkModeMobileHeader .hamburger .icon-bar {
+    background: var(--darkmode-text-color);
+}
+
+.darkMode .rentAllAdminHeader {
+    background: var(--darkmode-primary-color);
+}
+
+.darkMode .rentAllAdminHeader.navbar-default .navbar-nav>li>a,
+.darkMode .rentAllAdminHeader.navbar-default .navbar-nav>li>form>button {
+    background: transparent;
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .darkModeMobileHeader {
+    background: var(--darkmode-primary-color);
+}
+
+.darkMode .st0 {
+    fill: var(--darkmode-text-color) !important;
+}
+
+.darkMode .logoutIconDarkMode {
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(235deg) brightness(100%) contrast(103%);
+}
+
+.darkMode .linetextDarkmode::after {
+    background-color: var(--darkmode-text-color);
+}
+
+.darkMode .linetextDarkmode::before {
+    background-color: var(--darkmode-text-color);
+}
+
+.darkMode .tripDropDown .dropdown-menu {
+    background: var(--darkmode-primary-color);
+}
+
+.darkMode .tripDropDown a {
+    color: var(--darkmode-text-color) !important;
+}
+
+.darkMode .tltipDarkMode {
+    background: var(--darkmode-primary-color);
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .tltipDarkMode::after {
+    background-color: var(--darkmode-primary-color);
+}
+
+.darkMode .searchBtnDark,
+.darkMode .searchBtnDark:hover,
+.darkMode .searchBtnDark:focus,
+.darkMode .searchBtnDark:active {
+    color: var(--darkmode-text-color) !important;
+}
+
+.darkMode .dotDark {
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .darkActive {
+    background: transparent !important;
+}
+
+.darkMode .amenitiesTab .nav-tabs>li.active>a,
+.darkMode .amenitiesTab .nav-tabs>li.active>a:focus,
+.darkMode .amenitiesTab .nav-tabs>li.active>a:hover {
+    color: var(--darkmode-text-color);
+    background: transparent;
+}
+
+.darkMode .listBannerImageBgDark {
+    display: none;
+}
+
+.darkMode .amenitiesCheckBox .icheckbox_square-green.checked {
+    background-color: var(--darkmode-primary-color) !important;
+}
+
+.darkMode .icheckbox_square-green {
+    background-color: transparent !important;
+}
+
+.darkMode .uploadSizeCss {
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .photoListDropDown .dropdown-menu {
+    background: var(--darkmode-primary-color);
+}
+
+.darkMode .photoListDropDown a,
+.darkMode .photoListDropDown .dropdown-menu>li>a:hover {
+    color: var(--darkmode-text-color) !important;
+}
+
+.darkMode .filepicker .dz-message {
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .saveCalendarDark svg {
+    fill: var(--darkmode-text-color) !important;
+}
+
+.darkMode .bgBlackTwo {
+    background: var(--darkmode-secondary-color) !important;
+}
+
+.darkMode .tripDropDown button {
+    color: var(--darkmode-text-color) !important;
+}
+
+.darkMode .dashboardLayout .dashboardBottomLayout {
+    border-bottom: 0;
+}
+
+.darkMode .homeSearchForm .geosuggest__input {
+    color: var(--darkmode-text-color) !important;
+}
+
+.darkMode .CalendarDay__blocked_out_of_range,
+.darkMode .CalendarDay__blocked_out_of_range:active,
+.darkMode .CalendarDay__blocked_out_of_range:hover {
+    color: var(--common-text-Secondry-color) !important;
+    background: var(--darkmode-primary-color);
+}
+
+.darkMode .CalendarDay__default {
+    background: var(--darkmode-primary-color);
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .CalendarDay__default:hover {
+    background: var(--calendarDay-select-color);
+    color: var(--white-color);
+}
+
+.darkMode .CalendarDay__default {
+    color: var(--white-color);
+}
+
+.darkMode .rc-pagination-total-text {
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .rc-pagination-prev a,
+.darkMode .rc-pagination-next a {
+    color: #ccc;
+}
+
+.darkMode .rc-pagination-disabled a {
+    color: #666;
+}
+
+.darkMode .panelRightMessageDark {
+    background: var(--darkmode-primary-color);
+}
+
+.darkMode .panelRightMessageDark::before {
+    border-color: var(--darkmode-primary-color) transparent transparent;
+}
+
+.darkMode .panelRightMessageDark::after {
+    background: var(--darkmode-secondary-color);
+}
+
+.darkMode .dotTextDark {
+    background: var(--darkmode-text-color);
+}
+
+.darkMode .react-tel-input input[type=tel] {
+    background: var(--darkmode-secondary-color);
+    color: var(--darkmode-text-color) !important;
+}
+
+.darkMode .countryInputPhone .react-tel-input .selected-flag .arrow {
+    filter: invert(96%) sepia(100%) saturate(0%) hue-rotate(86deg) brightness(103%) contrast(106%);
+}
+
+.darkMode .countryInputPhone .react-tel-input .flag-dropdown {
+    background-color: var(--darkmode-secondary-color);
+}
+
+.darkMode .react-tel-input .country-list {
+    background-color: var(--darkmode-secondary-color);
+}
+
+.darkMode .countryInputPhone .react-tel-input .country-list .country-name {
+    color: var(--darkmode-text-color) !important;
+}
+
+.darkMode .Loader__background {
+    background-color: transparent !important;
+}
+
+.darkMode .loadingOverlayDark {
+    background-color: transparent !important;
+}
+
+.darkMode .hijnLS {
+    box-shadow: inherit;
+    background: var(--darkmode-primary-color);
+    border: 1px solid var(--border-secondary-color);
+    border-top: 0
+}
+
+.darkMode .beLwEX {
+    background: var(--darkmode-primary-color);
+}
+
+.darkMode .beLwEX:hover {
+    background: var(--darkmode-secondary-color);
+}
+
+.darkMode .fiaijo:hover {
+    background: var(--darkmode-secondary-color);
+
+}
+
+.darkMode ::marker {
+    color: var(--darkmode-primary-color);
+}
+
+.darkMode .lightModeImg {
+    display: none;
+}
+
+.darkMode .darkModeImg {
+    display: block;
+}
+
+.darkMode .listIntroBgImage {
+    background-image: url('../SiteImages/darkIntroBg.svg') !important;
+}
+
+.darkMode .searchFormContainerDark {
+    background-color: var(--darkmode-secondary-color);
+}
+
+.darkMode .searchFilterCloseIconDark {
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .headerNewDesign .commonHeader.navbar-default .navbar-nav>li>form>button {
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .commonHeader.navbar-default .navbar-nav>li>form>button {
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .searchHeaderPlaceSuggest .geosuggest__input {
+    background: var(--darkmode-secondary-color);
+    background-image: url(../SiteIcons/listLocatiionPin.svg);
+    background-repeat: no-repeat;
+    background-position: 10px 50%;
+}
+
+.darkMode .geosuggest__input {
+    color: var(--darkmode-text-color) !important;
+}
+
+.darkMode .viewPhotosBtnDark {
+    border-color: var(--border-color);
+}
+
+.darkMode .contactHostlistTextRTL ::marker {
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .ElementsApp .InputElement {
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .adminstyle table select {
+    background-color: var(--darkmode-secondary-color);
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .input-group-addon {
+    background-color: var(--darkmode-secondary-color);
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .newsBoxBorderRadius .newsBoxBorder {
+    background: var(--darkmode-secondary-color);
+    border-radius: 12px;
+}
+
+.darkMode .homeKindTripBorderRadius .kindTripBorder {
+    background: var(--darkmode-secondary-color);
+    border-radius: 12px;
+}
+
+.darkMode .fullAddressSection #geosuggest__list .geosuggest__item {
+    background: var(--darkmode-secondary-color) !important;
+}
+
+.darkMode .fullAddressSection #geosuggest__list .geosuggest__item:hover {
+    background: var(--darkmode-secondary-color) !important;
+    color: var(--darkmode-text-color) !important;
+}
+
+.darkMode .linkResetDarkHover:hover {
+    background: var(--darkmode-secondary-color);
+}
+
+.darkMode .darkGreen {
+    background: var(--btn-secondary-bg);
+}
+
+.darkMode .darkAvater {
+    background: url('../SiteIcons/avatarDark.png') no-repeat;
+    background-position: 98% 50%;
+}
+
+.darkMode .darkCall {
+    background: url('../SiteIcons/callDark.png') no-repeat;
+    background-position: 98% 50%;
+}
+
+.darkMode .darkEmail {
+    background: url('../SiteIcons/mailDarkMode.png') no-repeat;
+    background-position: 98% 50%;
+}
+
+.darkMode .darkContact {
+    background: url('../SiteIcons/editDark.png') no-repeat;
+    background-position: 98% 20%;
+}
+
+.darkMode .customRatioButton input[type=checkbox],
+.darkMode .customRatioButton input[type=radio] {
+    margin: -4px 0 0;
+    line-height: normal;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    outline: none !important;
+    background: url('../SiteIcons/stepRadioBtnOffDark.svg') no-repeat;
+    position: relative;
+    vertical-align: middle;
+}
+
+.darkMode .darkInputColor input {
+    color: var(--darkmode-text-color) !important;
+}
+
+.darkMode .viewListingMap .gm-bundled-control div:nth-child(1) {
+    background: var(--darkmode-primary-color) !important;
+}
+
+.darkMode .viewListingMap .gm-control-active {
+    background: var(--darkmode-primary-color) !important;
+}
+
+.darkMode .amenitiesTab .nav-tabs>li>a {
+    font-size: 18px;
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .menuModal .nav-tabs>li>a {
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .adminScrollBar ::-webkit-scrollbar-thumb {
+    background: var(--darkmode-text-color) !important;
+    width: 3px;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+
+.darkMode .adminScrollBar ::-webkit-scrollbar-thumb:hover {
+    background: var(--darkmode-text-color) !important;
+}
+
+.darkMode .darkModeFilterNone,
+.darkMode .dzInputContainer .dz-preview.dz-processing.dz-image-preview .dz-image img {
+    filter: none !important;
+}
+
+.darkMode .stpeOneMap .gm-control-active img {
+    filter: unset !important;
+}
+
+.darkMode .searchHeaderForm input::-webkit-input-placeholder {
+    color: var(--darkmode-text-color) !important;
+}
+
+.darkMode .searchHeaderForm input:-moz-placeholder {
+    color: var(--darkmode-text-color) !important;
+}
+
+.darkMode .ql-snow .ql-editor h1,
+.darkMode .ql-snow .ql-editor h2 {
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .ql-snow .ql-picker-options {
+    background-color: var(--darkmode-secondary-color);
+}
+
+.darkMode .tabBtnDarkMode {
+    color: var(--darkmode-text-color) !important;
+    border: 1px solid var(--common-text-color);
+}
+
+.darkMode .tabBtnActiveDark {
+    border: 1px solid var(--border-color);
+    color: var(--darkmode-text-color) !important;
+}
+
+.darkMode .refundTextColorRTL {
+    text-decoration-thickness: 1px;
+    text-decoration-color: var(--darkmode-text-color);
+}
+
+.darkMode .toggleButtonColor,
+.darkMode .toggleButtonColor:hover,
+.darkMode .toggleButtonColor:focus,
+.darkMode .toggleButtonColor:active {
+    color: var(--darkmode-text-color) !important;
+}
+
+.darkMode .imageWhiteColor {
+    filter: invert(96%) sepia(100%) saturate(0%) hue-rotate(86deg) brightness(103%) contrast(106%);
+}
+
+.darkMode .darkModeActiveBorder::before {
+    background-color: var(--darkmode-text-color);
+}
+
+.darkMode .popUpSection {
+    background: var(--darkmode-primary-color)
+}
+
+.darkMode .closeIcon {
+    filter: invert(100%) sepia(1%) saturate(602%) hue-rotate(187deg) brightness(114%) contrast(100%);
+}
+
+.darkMode .dotStyleDarkMode {
+    background-color: var(--darkmode-text-color);
+}
+
+.darkMode .locationCssDarkMode::before {
+    background-color: var(--darkmode-text-color) !important;
+}
+
+.darkMode .dateReviewCssDarkMode::after {
+    background-color: var(--darkmode-text-color) !important;
+}
+
+.darkMode .darkModeGuestClearBtn,
+.darkMode .darkModeGuestClearBtn:hover,
+.darkMode .darkModeGuestClearBtn:active,
+.darkMode .darkModeGuestClearBtn:focus {
+    color: var(--darkmode-text-color) !important;
+    background-color: transparent !important;
+}
+
+.darkMode .listingDarkModeBg {
+    background-color: var(--darkmode-secondary-color) !important;
+}
+
+.darkMode .homeTypeImageDarkMode::after {
+    background-color: var(--white-color);
+}
+
+.darkMode .priceRangeLineDarkMode {
+    background-color: var(--border-color);
+}
+
+.darkMode .darkModeActiveBorderHover:hover::after {
+    background-color: var(--darkmode-text-color);
+}
+
+.darkMode .darkModeActiveBorderHover:hover .darkModeTypeName {
+    color: var(--btn-secondary-bg);
+}
+
+.darkMode .darkModeReviewText::before {
+    background-color: var(--darkmode-text-color);
+}
+
+.darkMode .darkModeActiveColor {
+    opacity: 1;
+}
+
+.darkMode .typeNameColorDarkMode {
+    color: var(--btn-secondary-bg) !important;
+}
+
+.darkMode .typeNamedarkMode {
+    color: var(--darkmode-text-color);
+}
+
+.darkMode .imageUploadTooltipContainer {
+    background-color: var(--common-darkModeTooltip-color) !important;
+    border: 1px solid var(--common-darkModeTooltip-color) !important;
+    color: var(--common-text-color) !important;
+}
+
+.darkMode .imageUploadTooltipContainer.popover.top>.arrow::after {
+    border-top-color: var(--common-darkModeTooltip-color) !important;
+}
+
+.darkMode .imageUploadTooltipContainer.popover.top>.arrow::before {
+    border-top-color: var(--common-darkModeTooltip-color) !important;
+}
+
+.darkMode .darkModeAmenitiesCheckBoxWrapper {
+    background-color: var(--darkmode-primary-color) !important;
+}
+
+.darkMode .darkModeAmenitiesCheckBoxWrapper.darkModeAmenitiesChecked {
+    background-color: var(--darkmode-primary-color) !important;
+}
+
+.darkMode .darkModeProfileImageBg {
+    background-color: var(--darkMode-dropzone-bg-color);
+    border: 1px dashed var(--border-color);
+}
+
+@media screen and (max-width: 1199px) {
+    .darkMode .mobileMenuDark {
+        background: var(--darkmode-primary-color);
+    }
+
+    .darkMode .whyHostHeader.navbar-default {
+        background-color: var(--darkmode-primary-color) !important;
+    }
+
+    .darkMode .darkModeActiveBorderHover:hover .darkModeTypeName {
+        color: var(--hometype-name-color);
+    }
+
+    .darkMode .typeNameColorDarkMode {
+        color: var(--darkmode-text-color) !important;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .darkMode .headerNewDesign .homeMobileMenu {
+        background-color: var(--darkmode-primary-color);
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    .darkMode .headerNewDesign .navbar-default .navbar-nav,
+    .darkMode .headerNewDesign .navbar-default .navbar-nav>li {
+        background: var(--darkmode-primary-color);
+    }
+
+    .darkMode .footerBannerImg {
+        background-color: var(--darkmode-secondary-color) !important;
+
+    }
+}

@@ -1,0 +1,18 @@
+query ListingBlockedDates ($listId:String!, $preview:Boolean) {
+  UserListing (listId:$listId, preview:$preview) {
+  	id
+    blockedDates {
+      blockedDates
+      calendarStatus      
+      isSpecialPrice
+      dayStatus
+    }
+    listBlockedPrice {
+      calendarId
+      calendarStatus
+      blockedDates
+      isSpecialPrice 
+      dayStatus     
+    } 
+  }
+}

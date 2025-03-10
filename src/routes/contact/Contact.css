@@ -1,0 +1,19 @@
+@import '../../components/variables.css';
+.root {
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  height: auto;
+}
+.container {
+  margin: 0 auto;
+  padding: 0 0 40px;
+  max-width: var( --max-container-width);
+}
+@media screen and (max-width:1200px) {
+  .container{
+    padding: 40px 0 40px;
+  }
+}

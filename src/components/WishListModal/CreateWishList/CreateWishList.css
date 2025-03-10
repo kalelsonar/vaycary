@@ -1,0 +1,85 @@
+@import '../../../components/variables.css';
+@import '../../../components/common.css';
+@import '../../../components/helpers.css';
+
+.root {
+	padding: 0px 15px 15px;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0px;
+	min-height: 50vh;
+	overflow: hidden;
+}
+
+/** RentAll - Begin **/
+.logInModalContainer {
+	max-width: 420px;
+}
+
+.logInModalBody {
+	padding: 0px;
+}
+
+.formGroup {
+	margin-bottom: 0px;
+}
+
+.marginLeft {
+	margin-left: 12px;
+}
+
+.labelText {
+	word-wrap: break-word;
+	font-weight: normal;
+	padding: 0px 0px 10px;
+	margin: 0px;
+	font-size: 19px;
+}
+
+.btnText {
+	text-decoration: none !important;
+}
+
+.btnSection {
+	display: block;
+}
+
+.formContainer {
+	padding: 25px 0px 0;
+}
+
+.createLinkCss {
+	color: var(--btn-secondary-bg) !important;
+	font-size: 16px;
+	cursor: pointer;
+	text-decoration: none !important;
+}
+
+.createLinkCss img {
+	margin-right: 14px;
+}
+
+.btnLink,
+.btnLink:focus,
+.btnLink:active {
+	color: var(--btn-secondary-bg) !important;
+	margin-right: 36px !important;
+	background: transparent !important;
+	box-shadow: inherit !important;
+}
+
+.btnLink:hover {
+	color: var(--btn-secondary-bg) !important;
+}
+
+.paddingBottom {
+	padding-bottom: 15px;
+}
+
+@media screen and (max-width: 640px) {
+	.logInModalContainer {
+		margin: 0px auto;
+	}
+}

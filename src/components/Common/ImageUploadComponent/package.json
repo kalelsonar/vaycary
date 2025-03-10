@@ -1,0 +1,6 @@
+{
+  "name": "image-upload-component",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ImageUploadComponent.js"
+}

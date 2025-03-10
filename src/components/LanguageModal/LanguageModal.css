@@ -1,0 +1,7 @@
+@import '../variables.css';
+@import '../common.css';
+@media screen and (max-width: 420px) {
+	.mainSection {
+		width: 43%;
+	}
+}

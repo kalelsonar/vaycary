@@ -1,0 +1,17 @@
+query getCancelPolicies {
+  getCancelPolicies {
+    status
+    errorMessage
+    results{
+      id
+      policyName
+      policyContent
+      subTitle
+      subContent
+      content1
+      content2
+      content3
+      priorDays
+    }
+  }
+}

@@ -1,0 +1,29 @@
+query getCancelPolicy ($id: Int!) {
+  getCancelPolicy (id: $id) {
+    status
+    errorMessage
+    result{
+      id
+      policyName
+      policyContent
+      priorDays
+      accommodationPriorCheckIn
+      accommodationBeforeCheckIn
+      accommodationDuringCheckIn
+      guestFeePriorCheckIn
+      guestFeeBeforeCheckIn
+      guestFeeDuringCheckIn
+      hostFeePriorCheckIn
+      hostFeeBeforeCheckIn
+      hostFeeDuringCheckIn
+      nonRefundableNightsPriorCheckIn
+      nonRefundableNightsBeforeCheckIn
+      nonRefundableNightsDuringCheckIn
+      subTitle
+      subContent
+      content1
+      content2
+      content3
+    }
+  }
+}

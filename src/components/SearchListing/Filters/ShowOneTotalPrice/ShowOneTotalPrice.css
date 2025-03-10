@@ -1,0 +1,29 @@
+@import '../../../variables.css';
+
+.labelText {
+    display: inline-block;
+    font-weight: 500;
+    margin: 0px;
+    font-size: 14px;
+}
+
+.mapFlex {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    justify-content: center;
+}
+
+.ShowPricecurvedbox {
+    width: 100%;
+    max-width: 457px;
+    margin: 0 auto;
+    border: 1px solid var(--border-color);
+    border-radius: 27px;
+    padding: 12px 12px 12px 24px;
+    gap: 3px;
+}
+
+.totalDescriptiontext {
+    color: var(--common-text-Secondry-color);
+}

@@ -1,0 +1,400 @@
+@import './variables.css';
+
+.btnPrimary {
+  display: inline-block;
+  border-color: var(--btn-primary-bg) !important;
+  background-color: var(--btn-primary-bg) !important;
+  color: var(--btn-primary-color) !important;
+  padding: 7px 21px;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 4px;
+  box-shadow: none !important;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+.btnPrimary:hover,
+.btnPrimary:focus,
+.btnPrimary:active,
+.btnPrimary:active:hover,
+.btnPrimary:active:focus {
+  border-color: var(--btn-primary-hover-bg) !important;
+  background-color: var(--btn-primary-hover-bg) !important;
+  color: var(--btn-primary-color);
+  box-shadow: none !important;
+}
+
+.btnPrimaryBorder {
+  border-color: var(--btn-primaryBorder-color);
+  color: var(--btn-primaryBorder-color) !important;
+  background-color: var(--btn-primaryBorder-bg);
+  padding: 7px 21px;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 4px;
+  box-shadow: none !important;
+  text-decoration: none !important;
+  border: 1px solid !important;
+  cursor: pointer;
+}
+
+.btnPrimaryBorder:hover,
+.btnPrimaryBorder:focus,
+.btnPrimaryBorder:active,
+.btnPrimaryBorder:active:hover,
+.btnPrimaryBorder:active:focus {
+  border-color: var(--btn-primaryBorder-color);
+  color: var(--btn-primaryBorder-color);
+  background-color: var(--btn-primaryBorder-bg);
+  box-shadow: none !important;
+}
+
+.btnSecondary {
+  display: inline-block;
+  border: 1px solid var(--btn-secondary-bg) !important;
+  background-color: #fff !important;
+  color: var(--btn-secondary-bg) !important;
+  padding: 7px 21px;
+  font-weight: 500;
+  font-size: 16px;
+  box-shadow: none !important;
+}
+
+.btnSecondary:hover,
+.btnSecondary:focus,
+.btnSecondary:active,
+.btnSecondary:active:hover,
+.btnSecondary:active:focus {
+  border-color: var(--btn-secondary-bg) !important;
+  background-color: var(--btn-secondary-bg) !important;
+  color: #fff !important;
+  box-shadow: none !important;
+}
+
+.btnSecondaryFull {
+  border: 1px solid var(--btn-secondary-bg) !important;
+  background-color: var(--btn-secondary-bg) !important;
+  color: #fff !important;
+  padding: 7px 21px;
+  font-weight: 500;
+  font-size: 16px;
+  box-shadow: none !important;
+}
+
+.btnPrimaryLink {
+  border: 1px solid var(--btn-primaryBorder-color) !important;
+}
+
+.nofocus:active:focus {
+  background: #fff !important;
+  color: var(--btn-primaryBorder-color) !important;
+}
+
+.btnLarge {
+  padding: 9px 21px !important;
+}
+
+.btnSmall {
+  padding: 5px 0px;
+}
+
+.btnBig {
+  padding: 13px 21px !important;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.noTextDecration {
+  text-decoration: none !important;
+}
+
+.textAlignRight {
+  text-align: right;
+}
+
+.textAlignCenter {
+  text-align: center;
+}
+
+.commonControlInput {
+  padding: 10px 15px 10px 15px;
+  height: 58px;
+  border-radius: 4px;
+  font-size: 16px;
+  border: 1px solid var(--border-color) !important;
+  background-color: #fff;
+  line-height: 24px;
+  color: var(--common-text-color);
+  font-weight: normal;
+  box-shadow: none;
+}
+
+.commonControlSelect {
+  padding: 10px 35px 10px 15px;
+  height: 58px;
+  border-radius: 4px;
+  font-size: 14px;
+  border: 1px solid var(--border-color) !important;
+  background-color: #fff;
+  color: var(--common-text-color);
+  line-height: 19px;
+  font-weight: normal;
+  display: block;
+  overflow: hidden;
+  appearance: none;
+  box-shadow: none !important;
+  background-position: calc(100% - 5px) 50%;
+  background-size: 30px 30px !important;
+}
+
+.noTextDecoration {
+  text-decoration: none !important;
+}
+
+.fontWeightNormal {
+  font-weight: normal;
+}
+
+.fontWeightMedium {
+  font-weight: 500;
+}
+
+.fontWeightSemiBold {
+  font-weight: 600;
+}
+
+.fontWeightBold {
+  font-weight: 700;
+}
+
+/*-----------------------Profilephoto Upload Common Styles Start----------------------------- */
+.picContainerMain {
+  padding: 30px;
+  box-shadow: 0px 0px 15px 0px #eeebeb;
+  border-radius: 4px;
+  position: relative;
+}
+
+.profilePic {
+  border-radius: 100px;
+}
+
+.trashIcon {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  width: 22px;
+  height: 22px;
+  background: #000;
+  padding-top: 3px;
+  border: 0;
+  border-radius: 2px;
+  opacity: .9;
+  color: #fff;
+  cursor: pointer;
+}
+
+.trashIconNew {
+  position: absolute;
+  top: -14px;
+  right: -14px;
+}
+
+.profileImageBg {
+  padding-top: 60%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 4px;
+  background-color: #F9FBFF;
+  background-position: center;
+  border: 1px dashed #707070;
+}
+
+.curderPointer {
+  cursor: pointer;
+}
+
+.listingTitleText {
+  margin: 0px 0px 18px 0px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.trustBtnLarge {
+  padding: 9px 15px;
+}
+
+/*-----------------------Profilephoto Upload Common Styles End----------------------------- */
+.noMargin {
+  margin: 0px;
+}
+
+.spaceTop1 {
+  margin-top: 6px;
+}
+
+.spaceTop2 {
+  margin-top: 12px;
+}
+
+.spaceTop3 {
+  margin-top: 18px;
+}
+
+.spaceTop5 {
+  margin-top: 30px;
+}
+
+.spaceTop4 {
+  margin-top: 24px;
+}
+
+.space1 {
+  margin-bottom: 6px;
+}
+
+.space2 {
+  margin-bottom: 12px;
+}
+
+.space3 {
+  margin-bottom: 18px;
+}
+
+.space4 {
+  margin-bottom: 24px;
+}
+
+.space5 {
+  margin-bottom: 30px;
+}
+
+/*----------------------Password Show Icon Section ------------------------------*/
+.pwdImage {
+  position: absolute;
+  right: 20px;
+  top: 54px;
+  cursor: pointer;
+}
+
+.pwdSection {
+  position: relative;
+}
+
+.loginPwdSection {
+  top: 50px;
+}
+
+.commonLabelText {
+  font-size: 16px;
+  color: var(--common-text-color);
+  margin: 0px 0px 12px;
+  font-weight: 500;
+}
+
+.loginLabel {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.errorMessage {
+  margin-bottom: 5px;
+  display: block;
+  color: #ff0000;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.whiteBgImageUploadSec {
+  background: #ffffff;
+  border-radius: 0;
+}
+
+/*----------------------Phone-Input Field Start------------------------------*/
+.editPhoneInputSection {
+  display: flex;
+  flex-basis: 100%;
+  column-gap: 20px;
+}
+
+.phoneInputWidth {
+  width: 100%;
+}
+
+.phoneInputBtnPadding {
+  padding: 16px 21px;
+}
+
+/*----------------------Phone-Input Field Start------------------------------*/
+.noPadding {
+  padding: 0px;
+}
+
+.flexEnd {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flexCenter {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.displayFlex {
+  display: flex;
+}
+
+.alignCenter {
+  align-items: center;
+}
+
+.flexWrap {
+  flex-wrap: wrap;
+}
+
+.justifyContentCenter {
+  justify-content: center;
+}
+
+.justifyContentFlexEnd {
+  justify-content: flex-end;
+}
+
+.justifyContentSpaceBetween {
+  justify-content: space-between;
+}
+
+.positionRelative {
+  position: relative;
+}
+
+.alignFlexStart {
+  align-items: flex-start;
+}
+
+.siteTextColor,
+.siteTextColor:hover,
+.siteTextColor:focus,
+.siteTextColor:active {
+  color: var(--common-text-color);
+}
+
+.defaultImg {
+  background-size: 30%;
+}
+
+.requiedBorder {
+  height: 94px !important;
+}
+
+@media screen and (max-width:767px) {
+  .editPhoneInputSection {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+}

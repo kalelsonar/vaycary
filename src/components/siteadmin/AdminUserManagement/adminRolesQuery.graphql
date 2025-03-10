@@ -1,0 +1,11 @@
+query ($currentPage: Int) {
+  getAllAdminRoles(currentPage: $currentPage) {
+    count
+    status
+    errorMessage
+    results {
+      id
+      name
+    }
+  }
+}

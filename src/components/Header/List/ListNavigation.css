@@ -1,0 +1,36 @@
+@import '../../variables.css';
+.root {
+  margin: 0;
+}
+.exitText{
+  color: var(--btn-secondary-bg) !important;
+}
+.headerPosition{
+  width: 100%;
+  position: absolute;
+  top: 12px;
+  left: 0;
+  right: 0;
+  line-height: normal;
+}
+@supports (-webkit-touch-callout: none) {
+  .headerPosition{
+    top: 10px;
+  }
+}
+@media screen and (max-width: 1200px){
+  @supports (-webkit-touch-callout: none) {
+    .headerPosition{
+      top: 13px;
+      padding: 0 12px;
+    }
+  }
+}
+
+
+@media screen and (max-width: 767px){
+  .hideSm{
+    display: none !important;
+  }
+
+}

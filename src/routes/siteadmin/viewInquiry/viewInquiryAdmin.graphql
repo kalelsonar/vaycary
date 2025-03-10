@@ -1,0 +1,41 @@
+query viewInquiryAdmin ($id:Int!){
+  viewInquiryAdmin (id:$id){
+    inquiries{
+    	id
+      threadId
+      startDate
+      endDate
+      data
+      threadsData{
+        id
+        listId
+        listData{
+          title
+          id
+        }
+        guestProfile{
+          userId
+          displayName
+          phoneNumber
+          profileId
+          countryCode
+        }
+        hostProfile{
+          userId
+          displayName
+          phoneNumber
+          profileId
+          countryCode
+        }
+        guestUserData{
+          id
+          email
+        }
+        hostUserData{
+          id
+          email
+        }
+      }
+    }
+  }
+}

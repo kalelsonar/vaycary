@@ -1,0 +1,17 @@
+@import '../../../components/variables.css';
+.root{
+    margin: 60px 20px 0;
+    text-align: center;
+}
+.container{
+  margin: 64px 40px 96px;
+}
+.noHeading{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.noSubHeading{
+    font-size: 18px;
+    margin: 10px 0 0;
+    color: #707070;
+}

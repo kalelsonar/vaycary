@@ -1,0 +1,37 @@
+.iconContainer {
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	z-index: 2;
+}
+.buttonContainer {
+    text-align: center;
+	cursor: pointer;
+	display: flex;
+    column-gap: 9px;
+}
+.wishListIcon {
+	line-height: 1;
+	cursor: pointer;
+	width: 100%;
+	max-width: 35px;
+}
+.buttonContainer .wishListIcon {
+	max-width: 20px !important;
+}
+.buttonText {
+	padding-left: 1px;
+}
+.vtrBottom {
+	vertical-align: middle;
+}
+.vtrMiddle {
+	vertical-align: middle;
+}
+.viewListIcon{
+	max-width: 20px !important;
+    height: 20px;
+}
+.iconAlignCenter{
+	align-items: center;
+}

@@ -1,0 +1,8 @@
+@import '../../../components/variables.css';
+@import '../admin-common.css';
+
+.disabledLink {
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.6;
+}

@@ -1,0 +1,100 @@
+@import '../../components/variables.css';
+
+.root {
+    padding-left: 0px;
+    padding-right: 0px;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1274px;
+}
+
+.pageContainer {
+    padding-top: 70px;
+}
+
+.popularBg {
+    background: #F8F7FD;
+    padding: 80px 0;
+    margin-top: 100px;
+}
+
+.displayGrid {
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-gap: 17px;
+    margin: 0px 6px;
+}
+
+.feedBackBg {
+    background-color: #FCFCF0;
+    padding: 64px 0px;
+}
+
+.popularGridWidth {
+    width: 100%;
+    max-width: 1172px;
+    margin: 70px auto 0 auto;
+    background-color: #FFFFFF;
+    padding: 41px 58px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 18px #00000014;
+    position: relative;
+    z-index: 2;
+}
+
+.displayGridTwo {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.layout2Bottom {
+    padding-bottom: 80px;
+}
+
+@media screen and (max-width: 1199px) {
+    .popularGridWidthPadding {
+        padding: 0px 15px;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    .containerTitle {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .layout2Bottom {
+        padding: 0 15px 80px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .marginLeft {
+        margin: 0 0 24px 34px;
+    }
+
+    .displayGrid {
+        grid-template-columns: 100%;
+    }
+
+    .displayGridTwo {
+        grid-template-columns: 100%;
+    }
+
+    .popularGridWidth {
+        padding: 50px 20px 20px;
+    }
+
+    .containerTitle {
+        margin: 0 0 40px;
+    }
+
+    .displayGridTwo {
+        grid-row-gap: 25px;
+    }
+}

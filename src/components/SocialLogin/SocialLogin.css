@@ -1,0 +1,18 @@
+@import url('../variables.css');
+
+.displayFlexIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--common-text-color) !important;    
+    font-weight: 500;
+}
+.bgColor{
+    background-color: #F8F7FD;
+    border-radius: 24px;
+    padding: 7px 22px 7px 7px;
+    min-width: 123px;
+    max-width: 123px;
+    margin: 0 auto;
+}

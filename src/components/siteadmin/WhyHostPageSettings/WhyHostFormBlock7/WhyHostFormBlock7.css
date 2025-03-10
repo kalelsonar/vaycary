@@ -1,0 +1,18 @@
+@import '../../../variables.css';
+@import '../../admin-common.css';
+@import '../../admin-form.css';
+@import '../../../helpers.css';
+.btnWidth {
+    width: 100%;
+}
+.displayFlex {
+    display: flex;
+    column-gap: 15px;
+    justify-content: space-between;
+}
+@media screen and (max-width: 991px) {
+    .displayFlex {
+        row-gap: 15px;
+        flex-wrap: wrap;
+    }
+}

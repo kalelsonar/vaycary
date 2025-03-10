@@ -1,0 +1,15 @@
+@import '../../components/variables.css';
+.container {
+  max-width: var(--max-container-width);
+  margin: 40px auto 0  auto;
+}
+.landingContainer {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+@media screen and (max-width:767px) {
+.overFlowHiddenMobile{
+  overflow-x: hidden;
+}
+}

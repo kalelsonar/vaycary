@@ -1,0 +1,256 @@
+@import '../../components/variables.css';
+@import '../../components/helpers.css';
+
+.landingContainer {
+	max-width: var(--max-container-width);
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.landingTitle {
+	font-size: 26px;
+	margin: 30px 0 16px;
+}
+
+p {
+	font-size: 14px
+}
+
+.subText {
+	font-size: 16px;
+	color: var(--common-text-Secondry-color);
+	padding-left: 20px;
+}
+
+.subText li {
+	margin-bottom: 28px;
+}
+
+.textGray {
+	font-size: 16px;
+	color: var(--common-text-Secondry-color);
+	margin: 0;
+}
+
+.panelHeader {
+	border-radius: 8px;
+	width: 100%;
+	font-size: 16px;
+	padding: 0 34px 34px;
+	border: 1px solid var(--border-color);
+	margin-top: 40px;
+}
+
+.tabItem {
+	display: block;
+	padding: 28px 0px;
+	position: relative;
+	text-align: center;
+	font-size: 20px;
+	color: var(--common-text-color);
+	cursor: pointer;
+	border-bottom: 2px solid transparent;
+	font-weight: 600;
+}
+
+.tabItem:hover {
+	text-decoration: none;
+	color: var(--common-text-color);
+}
+
+.active .tabItem {
+	color: var(--btn-secondary-bg) !important;
+	border-color: var(--btn-secondary-bg);
+	text-decoration: none;
+}
+
+.noMargin {
+	margin: 0px;
+}
+
+.lineGraph {
+	margin-top: 100px;
+	padding-bottom: 50px;
+	position: relative;
+}
+
+.graphContainer {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.timeLine {
+	text-align: center;
+	height: 24px;
+}
+
+.timeLinePoint {
+	position: absolute;
+	right: -30px;
+	top: 0;
+}
+
+.refund {
+	background-color: #3fb34f;
+}
+
+.semiRefund {
+	background-color: #ffb400;
+}
+
+.nonRefund {
+	background-color: var(--btn-primary-bg);
+}
+
+.toolTop {
+	position: relative;
+	opacity: 1;
+	padding: 6px 10px;
+	left: -50%;
+	top: -60px;
+	background-color: #ffffff;
+	z-index: 0;
+}
+
+.toolMarker {
+	height: 12px;
+	width: 12px;
+	border-radius: 50%;
+	position: absolute;
+	top: 6px;
+	left: -6px;
+	background: #fff;
+}
+
+.toolLable {
+	position: relative;
+	left: -50%;
+	top: 3px;
+	text-align: center;
+}
+
+.toolText {
+	margin-top: 30px;
+}
+
+.FlexibleTop {
+	margin: 102px 0 0;
+}
+
+.strictPadding {
+	padding-bottom: 25px;
+}
+
+.textCss {
+	color: var(--common-text-Secondry-color);
+	font-size: 16px;
+	margin-bottom: 13px;
+}
+
+.boxOne {
+	background-color: #F3FFF0;
+	border-radius: 8px;
+	padding: 30px;
+	margin-top: 28px;
+}
+
+.commonHeading {
+	font-size: 18px;
+	margin: 0 0 18px;
+	font-weight: 600;
+}
+
+.boxTwo {
+	background-color: #FFF8EF;
+	border-radius: 8px;
+	padding: 30px;
+	margin-top: 20px;
+}
+
+.boxThree {
+	background-color: #FDF3F4;
+	border-radius: 8px;
+	padding: 30px;
+	margin-top: 20px;
+}
+
+.boxFour {
+	background-color: var(--background-common-color);
+	border-radius: 8px;
+	padding: 30px 30px 2px;
+}
+
+.lineBorder {
+	border-top: 1px solid var(--border-color);
+	margin: 30px 0;
+}
+
+.lineBreak {
+	white-space: pre-line;
+}
+
+.bulletPoint {
+	position: relative;
+	list-style-type: none;
+}
+
+.bulletPoint::before {
+	content: '';
+	font-size: 10px;
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	background: var(--common-text-Secondry-color);
+	border-radius: 50%;
+	left: -15px;
+	top: 6px;
+}
+.topPadding{
+	padding-top: 34px;
+}
+.borderBottomTab{
+	border-bottom: 1px solid var(--border-color);
+}
+@media screen and (max-width:1200px) {
+	.landingContainer {
+		padding: 80px 20px 0;
+	}
+}
+
+@media screen and (min-width:1201px){
+	.landingContainer {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+	.panelHeader {
+		padding-bottom: 195px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.hidesm {
+		display: none;
+	}
+
+	.panelHeader {
+		padding-bottom: 0;
+	}
+
+	.strictPadding {
+		padding-bottom: 0;
+	}
+
+	.panelHeader {
+		padding: 0 20px 34px;
+	}
+	.topPadding{
+		padding-top: 24px;
+	}
+	.tabItem {
+		padding: 20px 0px;
+	}
+}
+

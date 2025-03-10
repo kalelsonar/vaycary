@@ -1,0 +1,16 @@
+@import '../../variables.css';
+@import '../../helpers.css';
+.textCenter{
+  text-align: center;
+}
+.addNewBtn{
+  padding: 13px 15px;
+  margin-top: 30px;
+  display: inline-block;
+}
+.noListSubHeading{
+  color: var(--common-text-Secondry-color);
+  margin: 20px auto;
+  max-width: 412px;
+
+}

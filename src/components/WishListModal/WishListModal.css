@@ -1,0 +1,149 @@
+@import '../../components/variables.css';
+@import '../../components/common.css';
+ .root {
+	padding-top: 0;
+}
+.container {
+	margin: 0 auto;
+	padding: 0px;
+	min-height: 50vh;
+	overflow: hidden;
+}
+/** RentAll - Begin **/
+
+.logInModalContainer {
+	max-width: 468px;
+    border-radius: 0px !important;
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+    display: block;
+}
+.logInModalBody {
+	padding: 15px 20px 10px;
+}
+.wishListTitle {
+	font-size: 18px;
+	text-align: center;
+}
+.formGroup {
+	margin-bottom: 6px;
+}
+.formSection {
+	overflow: hidden;
+}
+.noPadding {
+	padding: 0px;
+}
+.textAlignRight {
+	text-align: right;
+}
+.textAlignLeft {
+	text-align: left;
+}
+.footerContainer {
+	right: 0px;
+	left: 0px;
+	bottom: 0px;
+	overflow-y: hidden;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.linkContainer {
+	width: 100%;
+	background: #33303070;
+	border: 0px;
+	cursor: pointer;
+	text-align: left;
+	text-align: left;
+	position: relative;
+	float: left;
+	display: block;
+	padding-bottom: 36px;
+}
+.displayTable {
+	display: table;
+	width: 100%;
+}
+.displayTableRow {
+	display: table-row;
+	width: 100%;
+}
+.displayTableCell {
+	display: table-cell;
+}
+.vtrMiddle {
+	vertical-align: middle;
+}
+.vtrTop {
+	vertical-align: top;
+}
+.contentWidth {
+	width: 50%;
+}
+
+.sectionBlock {
+	width: 100%;
+}
+.image {
+	max-width: 450px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+	overflow: hidden;
+	background-color: #dedede;
+}
+.listDetail {
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 100% !important;
+	max-width: 439px !important;
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+.wishlistModal{
+	-webkit-transform: translate(0,-50%) !important;
+    -o-transform: translate(0,-50%) !important;
+    transform: translate(0,-50%) !important;
+    top: 30%;
+    margin: 0 auto;
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+	.sectionBlock {		
+		width: 100%
+	}
+	.root {
+		padding: 20px 0px 10px 0px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.linkContainer {
+		width: 100%;
+		background: #fff;
+  }
+  .sectionBlock {
+		max-width: 900px;
+		width: 100%
+	}
+	.carImage {
+		display: none;
+	}
+	.responsiveView {
+		display: none;
+	}
+	.imgContainer::before {
+		display: none;
+	}
+	.wishlistModal{
+		top: 50%;
+	}
+	.logInModalContainer {
+		margin: 0px auto;
+		width: 100%;
+		max-width: 100% !important;
+		display: block;
+	}
+}

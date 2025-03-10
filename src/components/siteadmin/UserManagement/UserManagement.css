@@ -1,0 +1,6 @@
+@import '../../../components/variables.css';
+@import '../admin-common.css';
+.userSelect {
+    height: 40px !important;
+    background-position: 98% 6px !important;
+}

@@ -1,0 +1,70 @@
+@import '../../../components/variables.css';
+/** RentAll - Begin **/
+.container{
+	width: 100%;
+	max-width: var( --max-container-width);
+	margin: 0 auto;
+	padding: 0;
+}
+.flex{
+	display: flex;
+	align-items: center;
+	margin-top: 35px;
+}
+.name{
+	font-size: 18px;
+	font-weight: 600;
+	padding-left: 18px;
+}
+.content{
+	font-size: 16px;
+	color: #707070;
+	margin-top: 23px;
+	font-style: italic;
+}
+.imgCss{
+	width:48px;
+	height:48px;
+	border-radius: 50%;
+}
+.outline{
+	border: 1px solid #E8E8E8;
+	border-radius: 6px;
+	padding: 42px 30px;
+}
+.iconCss{
+	width: 51px;
+	height: 39px;
+}
+.mainhedding h1 {
+	font-size: 46px;
+	text-align: center;
+	margin: 0 0 60px;
+	font-weight: 600;
+}
+.displayInline{
+	display: inline-block;
+	cursor: pointer;
+}
+.arrowCenter{
+	text-align: center;
+	margin-top: 38px;
+}
+.displayInline img{
+	width: 50px;
+}
+@media screen and (max-width: 991px) {
+	.mainhedding h1 {
+		font-size: 36px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.mainhedding h1 {
+		font-size: 24px;
+		text-align: left;
+		margin: 0 0 45px;
+	}
+	.container{
+		padding: 0 15px;
+	}	
+}

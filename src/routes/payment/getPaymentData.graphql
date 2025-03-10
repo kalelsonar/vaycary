@@ -1,0 +1,80 @@
+query getPaymentData ($reservationId: Int!){
+  getPaymentData(reservationId: $reservationId){
+    id
+    listId
+    hostId
+    guestId
+    checkIn
+    checkOut
+    guests
+    message
+    guestServiceFee
+    hostServiceFee
+    basePrice
+    cleaningPrice
+    taxPrice
+    discount
+    discountType
+    total
+    currency
+    isSpecialPriceAverage
+    confirmationCode
+    listData {
+      id
+      title
+      street
+      city
+      state
+      country
+      zipcode
+      beds
+      personCapacity
+      reviewsCount 
+      reviewsStarRating
+      listingData {
+        checkInStart
+        checkInEnd
+        cancellation {
+          id
+          policyName
+          policyContent
+        }
+      }
+      coverPhoto
+      listPhotos {
+        id
+        name
+      }
+      settingsData {
+        id
+        settingsId
+        listsettings {
+          id
+          itemName
+          settingsType {
+            typeName
+          }
+        }
+      }
+      houseRules {
+        houseRulesId
+        listsettings{
+          id
+          itemName
+          isEnable
+          settingsType {
+            typeName
+          }
+        }
+      }
+    }
+    messageData {
+      id
+    }
+    hostData {
+      firstName
+      picture
+      profileId
+    }
+  }
+}

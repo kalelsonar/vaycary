@@ -1,0 +1,63 @@
+:root {
+  /*
+   * Typography
+   * ======================================================================== */
+
+  --font-family-base: "Be Vietnam Pro", Arial, Helvetica, sans-serif;
+
+  /*
+   * Layout
+   * ======================================================================== */
+
+  --max-content-width: 1080px;
+  --max-container-width: 1274px;
+
+  /*
+   * Media queries breakpoints
+   * ======================================================================== */
+
+  --screen-xs-min: 480px;
+  /* Extra small screen / phone */
+  --screen-sm-min: 768px;
+  /* Small screen / tablet */
+  --screen-md-min: 992px;
+  /* Medium screen / desktop */
+  --screen-lg-min: 1200px;
+  /* Large screen / wide desktop */
+
+  --border-color: #DDDDDD;
+  --background-color: #ffffff;
+  --btn-color: #282828;
+  --btn-primary-bg: #FF5483;
+  --btn-primary-color: #ffffff;
+  --btn-primary-hover-bg: #FF759B;
+  --btn-primaryBorder-bg: #ffffff;
+  --btn-primaryBorder-color: #FF759B;
+  --btn-primaryBorder-hover-bg: #FF759B;
+  --btn-secondary-bg: #966FD6;
+  --btn-secondary-color: #ffffff;
+  --btn-secondary-hover-bg: #966FD6;
+  --text-color: #A02F18;
+  --common-text-color: #282828;
+  --common-text-Secondry-color: #696969;
+  --background-common-color: #F8F8F8;
+  --background-gray-color: #F9F9F9;
+  --background-gray-secondary-color: #f5f5f5;
+  --border-secondary-color: #dadada;
+  --map-success-color: #bfeeb0;
+  --textarea-border-color: #FDF3F4;
+  --box-shadow-color: rgb(219 219 220) 0px 6px 8px 1px;
+  --errormessage-color: red;
+  --black-color: #000000;
+  --background-secondary-color: #F2F8FF;
+  --menu-background-color: #f3f3f3;
+  --darkmode-primary-color: #171D37;
+  --darkmode-secondary-color: #0E142F;
+  --darkmode-text-color: #C7D8EB;
+  --contacthost-background-color: #F8F7FD;
+  --contacthost-placeholder-color: #757575;
+  --hometype-name-color: #838383;
+  --white-color: #FFFFFF;
+  --calendarDay-select-color: #C09CF9;
+  --calendarDay-selected-color: #966FD6;
+}

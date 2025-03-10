@@ -1,0 +1,82 @@
+@import '../variables.css';
+@import '../helpers.css';
+ .root {
+	color: #333;
+	padding: 0px;
+}
+.container {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1274px;
+	display: block;
+}
+.feedbackContainer {
+	width: 100%;
+	max-width: 1274px;
+	margin: 0 auto;
+}
+.feedbackRow {
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    grid-gap: 40px;
+	background: #F8F7FD;
+    border-radius: 22px;
+	padding: 80px 68px;
+}
+.feedbackBox {
+	padding: 0px 30px 0 0px;
+    border-right: 1px solid #BEB7DD;
+
+}
+.feedbackBox:last-child{
+	border-right: 0;
+}
+.feedbackIcon {
+	font-size: 33px;
+	height: 33px;
+	width: 33px;
+	line-height: 20px;
+	margin-right: 18px;
+}
+.landingLabel {
+	font-size: 20px;
+	font-weight: 700;
+	display: block;
+	margin-bottom: 5px;
+	line-height: 1;
+}
+.landingCaption {
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.43;
+	padding-top: 10px;
+	font-weight: 500;
+	margin: 0;
+}
+
+.feedbackContent{
+	margin-top: 22px;
+}
+.flex{
+	display: grid;
+    grid-template-columns: 52px auto;
+    align-items: center;
+}
+@media (max-width:1023px) and (min-width:768px) {
+	.feedbackRow {
+		padding: 40px 35px;
+	}
+	}
+@media screen and (max-width: 767px) {
+	.feedbackRow {
+		grid-template-columns: 100%;
+		padding:30px;
+	}
+	.feedbackBox {
+		padding: 0;
+		border-right: 0;
+	}
+	.root {
+	margin-bottom: 60px;
+	}
+}

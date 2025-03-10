@@ -1,0 +1,6 @@
+{
+  "name": "HostDetails",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./HostDetails.js"
+}

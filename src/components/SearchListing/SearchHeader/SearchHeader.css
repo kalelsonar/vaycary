@@ -1,0 +1,147 @@
+@import '../../variables.css';
+
+.searchHeaderContainerBox {
+    z-index: 6;
+    position: relative;
+    width: 100%;
+}
+
+.searchHeaderContainer {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    z-index: 4 !important;
+    padding: 0px 33px 0px 33px;
+    right: 0;
+    left: 0;
+    vertical-align: middle;
+    top: 82px;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    background: var(--white-color);
+
+}
+
+.filterButtonContainer {
+    position: relative;
+    padding: 21px 0px;
+}
+
+.filterBtn, .filterBtn:active, .filterBtn:focus {
+    padding: 13px 18px !important;
+    border-radius: 27px !important;
+    background: transparent !important;
+    color: var(--common-text-color) !important;
+    border: 1px solid var(--border-color) !important;
+    box-shadow: none !important;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.filterBtn:hover {
+    background: var(--btn-secondary-bg) !important;
+    color: var(--white-color) !important;
+    border-color: var(--btn-secondary-bg) !important;
+}
+
+.filterBtn:hover img {
+    filter: invert(100%) sepia(41%) saturate(0%) hue-rotate(279deg) brightness(114%) contrast(101%);
+}
+
+.btnSecondary, .btnSecondary:active, .btnSecondary:focus, .btnSecondary:hover {
+    border: 1px solid var(--btn-secondary-bg) !important;
+    background-color: var(--btn-secondary-bg) !important;
+    color: var(--white-color) !important;
+    padding: 15px 18px !important;
+    border-radius: 27px !important;
+    box-shadow: none !important;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.btnSecondary img,
+.btnSecondary:hover img,
+.btnSecondary:active img,
+.btnSecondary:focus img {
+    filter: invert(100%) sepia(41%) saturate(0%) hue-rotate(279deg) brightness(114%) contrast(101%);
+}
+
+.searchHeaderGrid {
+    display: grid;
+    grid-template-columns: 88% auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btnFlex {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1199px) {
+    .hiddenResponsive {
+        display: none;
+    }
+
+    .searchHeaderGrid {
+        grid-template-columns: 78% auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .fullResponsiveContainer {
+        z-index: 80;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .searchHeaderResponsive {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        min-width: 350px;
+    }
+
+    .btnSecondary {
+        border-color: var(--btn-secondary-bg) !important;
+        background-color: var(--btn-secondary-bg) !important;
+        color: var(--white-color) !important;
+    }
+
+    .searchHeaderContainer {
+        top: 83px;
+        padding: 18px 24px 0 24px;
+    }
+
+    .searchHeaderGrid {
+        grid-template-columns: 100%;
+        padding-top: 18px;
+    }
+
+    .modileFilterSection {
+        display: grid;
+        grid-template-columns: auto 51px;
+        gap: 8px;
+    }
+
+    .filterBtn,
+    .filterBtn:active,
+    .filterBtn:hover,
+    .filterBtn:focus {
+        padding: 16px !important;
+        box-shadow: 0px 4px 22px #3C2F2F0F;
+    }
+
+    .searchHeaderContainer::after {
+        content: '';
+        width: 100%;
+        height: 1px;
+        background-color: var(--border-color);
+        position: absolute;
+        top: 87px;
+        left: 0;
+    }
+}

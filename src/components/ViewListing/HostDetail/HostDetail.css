@@ -1,0 +1,53 @@
+@import '../common.css';
+.profileAvatarLink {
+	backface-visibility: hidden;
+	position: relative;
+	display: inline-block;
+	vertical-align: bottom;
+	overflow: hidden;
+	background-color: #bbb;
+	border-radius: 50%;
+	border: 2px solid #fff;
+}
+.profileAvatar {
+	height: 90px;
+	width: 90px;
+}
+.flex{
+	display: flex;
+    align-items: center;
+	column-gap: 15px;
+}
+.titleText{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.infoContent{
+	margin: 15px 0 25px;
+	font-size: 16px;
+}
+.btnPrimary {
+	border-color: var(--btn-secondary-bg) !important;
+	background-color: var(--btn-secondary-bg) !important;
+	color: var(--btn-primary-color) !important;
+	padding: 7px 21px;
+	font-weight: 500;
+	font-size: 16px;
+	border-radius: 4px;
+	box-shadow: none !important;
+	text-decoration: none !important;
+	cursor: pointer;
+  }
+  .btnPrimary:hover, .btnPrimary:focus, .btnPrimary:active,
+  .btnPrimary:active:hover, .btnPrimary:active:focus {
+	border-color: var(--btn-secondary-bg) !important;
+	background-color: var(--btn-secondary-bg) !important;
+	color: var(--btn-primary-color);
+	box-shadow: none !important;
+  }
+@media screen and (max-width: 767px) {
+	.profileAvatar {
+		height: 54px;
+		width: 54px;
+	}
+}

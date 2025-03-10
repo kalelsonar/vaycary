@@ -1,0 +1,188 @@
+@import '../variables.css';
+@import '../helpers.css';
+
+.root {
+	padding: 0px;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0px;
+	max-width: var(--max-container-width);
+}
+
+.footerSectionContainer {
+	max-width: var(--max-content-width);
+	margin: 0 auto;
+	position: relative;
+	padding: 48px 0px;
+	display: block;
+	line-height: 1.43;
+	font-size: 14px;
+}
+
+.shareIcon {
+	color: #767676;
+	display: inline-block;
+	padding-left: 9px;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.shareIcon:hover,
+.shareIcon:hover:focus .shareIcon:hover:focus {
+	color: #767676;
+}
+
+.textLink {
+	color: #575757;
+	font-weight: normal;
+	padding: 0px 0px;
+	margin: 0;
+	line-height: 1.1;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.textLink:hover,
+.textLink:focus,
+.textLink:hover:focus {
+	color: #575757;
+}
+
+.listContainer {
+	padding: 0px;
+	margin-top: 18px;
+	list-style-type: none;
+}
+
+.landingLabel {
+	font-size: 16px;
+	font-weight: 600;
+	display: block;
+	line-height: 18px;
+	margin-bottom: 0;
+}
+
+.footerBgBanner {
+	width: 100%;
+	position: relative;
+	background-position: top center;
+	background-size: cover;
+	padding-top: 12%;
+	background-repeat: no-repeat;
+}
+
+.positionRelative {
+	position: relative;
+}
+
+.displayInlineBlock {
+	display: inline-block;
+}
+
+.copyRightTabNoMargin {
+	border-top: 1px solid #E0E0E0;
+	padding-top: 40px;
+
+} 
+.noPaddingMobile{
+	padding: 0 !important;
+}
+
+.footerLinks {
+	margin-bottom: 11px;
+}
+
+.footerSiteName {
+	color: #575757;
+}
+
+.textCenter {
+	text-align: center;
+}
+
+.socialIcons {
+	display: flex;
+	justify-content: end;
+}
+
+.copyrightSpaceTop {
+	margin-top: 40px;
+}
+
+.copyrightSection {
+	display: flex;
+	align-items: center;
+}
+
+.iosFlex {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 10px;
+	row-gap: 10px;
+}
+@media screen and (max-width: 768px) {
+	.xsHidden {
+		display: none;
+	}
+}
+
+@media (max-width: 1199px) and (min-width: 1024px) {
+	.footerSectionContainer {
+		max-width: 960px;
+	}
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+	.copyRightTabNoMargin {
+		margin: 30px 0px 0px 0px;
+	}
+}
+
+@media (max-width: 1199px) and (min-width: 768px) {
+	.container {
+		max-width: 100%;
+		padding: 0 23px;
+	}
+}
+
+@media (max-width: 767px) {
+	.allPaddingMobile {
+		padding: 0 20px;
+	}
+
+	.copyrightSection {
+		padding: 25px 15px 0;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.responsivePadding {
+		padding: 0px 15px !important;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.responsiveMargin {
+		margin-bottom: 12px !important;
+	}
+
+	.noPaddingMobile {
+		padding: 0px;
+	}
+
+	.footerBgBanner {
+		background-color: #F8F7FD !important;
+		background: inherit;
+		padding-top: 0;
+	}
+
+}
+
+@media screen and (min-width:1200px) {
+	.socialIcons {
+		justify-content: center;
+		padding-left: 5px !important;
+	}
+}

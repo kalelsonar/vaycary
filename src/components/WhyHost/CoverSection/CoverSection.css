@@ -1,0 +1,139 @@
+@import '../../../components/variables.css';
+
+/** RentAll - Begin **/
+.container{
+	width: 100%;
+	max-width: var( --max-container-width);
+	padding: 0;
+}
+.seperator {
+	background-color: var(--common-text-color);
+	width: 64px;
+	display: block;
+	height: 1.5px;
+	margin: 0 auto;
+	margin-bottom: 27px;
+}
+.boxseperator {
+	height: 2.5px;
+	border: 1px solid var(--common-text-color);
+	background-color: transparent;
+}
+.hostingsection {
+	margin-bottom: 160px;
+}
+.mainhedding h1 {
+	font-size: 46px;
+	line-height: 56px;
+	font-weight: bold;
+	margin-bottom: 30px;
+	margin-top: 0;
+}
+p.common {
+	font-size: 16px;
+	color: #707070;
+	margin-bottom: 27px;
+}
+
+.coveredtextarea {
+	padding-right: 96px;
+}
+.coveredsection a {
+	font-size: 16px;
+	font-weight: 400;
+}
+.coveredsection ul li {
+	font-size: 16px;
+	list-style-type: none;
+	color: #707070;
+	margin-bottom: 23px;
+	position: relative;
+}
+.coveredsection ul li:last-child {
+	margin-bottom: 0px;
+}
+.coveredsection ul li:before {
+	content: '';
+	background-image: url('../../../../public/SiteIcons/correctWhyhost.svg');
+	display: inline-block;
+	width: 24px;
+	height: 18px;
+	background-repeat: no-repeat;
+	position: absolute;
+    top: 6px;
+    left: -31px;
+}
+.rightsidecontent {
+	padding-left: 8%;
+	padding-right: 0%;
+}
+.bg{
+	background-color: #F7F7F7;
+	padding: 83px 0;
+}
+.centerimgsection{
+	padding-top: 87%;
+    background-repeat: no-repeat;
+    background-size: cover;
+	border-radius: 6px;
+}
+.paddingLeft{
+	padding-left: 83px;
+}
+@media screen and (max-width: 991px) {
+	h4.common {
+		font-size: 23px;
+		font-weight: 600;
+	}
+	.mainhedding h1 {
+		font-size: 36px;
+		line-height: 51px;
+		margin: 56px 0;
+	}
+	.paddingLeft {
+		padding-left: 20px;
+	}
+	.container{
+		padding: 0 15px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.mainhedding h1 {
+		font-size: 24px;
+		line-height: 30px;
+		margin-bottom: 20px;
+		text-align: left;
+	}
+	h4.common {
+		font-size: 26px;
+	}
+	.coveredtextarea {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.coverul {
+		padding-left: 40px;
+		margin-top: 14px;
+	}
+	.coveredsection ul li {
+		font-size: 14px;
+		line-height: 2;
+		margin-bottom: 10px;
+		position: relative;
+	}
+	.coveredsection ul li:before {
+		margin-left: -4px;
+	}
+	p.common {
+		font-size: 14px;
+		line-height: 1.7;
+		font-weight: 400;
+	}
+	.paddingLeft{
+		padding-left: 25px;
+		padding-top: 30px;
+	}
+	.bg{
+		padding: 45px 0;
+	}
+}

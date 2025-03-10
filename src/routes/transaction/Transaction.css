@@ -1,0 +1,12 @@
+.secondContainer {
+    width: 100%;
+    max-width: 783px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+@media screen and (min-width:1281px) {
+    .transactionGrid {
+        grid-template-columns: 267px 783px;
+    }
+}

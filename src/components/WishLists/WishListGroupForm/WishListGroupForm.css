@@ -1,0 +1,26 @@
+@import '../../variables.css';
+@import '../../utils.css';
+@import '../../common.css';
+@import '../../helpers.css';
+/** RentAll - Begin **/
+.formGroup {
+  margin-bottom: 6px !important;
+}
+.labelText{
+	font-size: 15px;
+  color: #767676;
+  margin: 6px 0px;
+  line-height: 1.43;
+  font-weight: normal;
+}
+.cancelBtn{
+  color: var(--btn-secondary-bg) !important;
+  margin-right: 30px;
+  font-size: 16px;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+.alignRight{
+  text-align: right;
+  margin-top: 19px;
+}

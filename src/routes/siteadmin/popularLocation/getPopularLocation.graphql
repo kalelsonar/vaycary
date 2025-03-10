@@ -1,0 +1,15 @@
+query getPopularLocation($currentPage: Int) {
+  getPopularLocation(currentPage: $currentPage) {
+    count
+    results {
+      id
+      location
+      locationAddress
+      image
+      isEnable
+      createdAt
+      updatedAt
+      status
+    }
+  }
+}

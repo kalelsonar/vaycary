@@ -1,0 +1,22 @@
+@import '../common.css';
+@import '../../../components/variables.css';
+
+.sideMenuBtn{
+    background-color: transparent !important;
+    border: inherit !important;
+    color: var(--btn-primary-bg) !important;
+    text-decoration: underline !important;
+    font-size: 16px;
+    box-shadow: inherit !important;
+}
+.sideMenuBtn:hover, .sideMenuBtn:focus{
+    background-color: transparent !important;
+}
+.pulseIcon{
+    margin: 0 0 0 6px;
+    position: relative;
+    top: -1px;
+}
+.btnPadding {
+    padding: 6px 0px 6px 30px;
+}

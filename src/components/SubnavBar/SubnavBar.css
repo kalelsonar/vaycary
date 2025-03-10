@@ -1,0 +1,55 @@
+@import '../../components/variables.css';
+ .progressContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	padding-right: 0px;
+	padding-left: 0px;
+	background-color: #655D5D;
+	position: relative;
+	overflow: hidden;
+	height: 50px;
+}
+.navList {
+	list-style: none;
+	background-color: #655D5D;
+	max-width: var( --max-content-width);
+	margin: 0 auto;
+	padding: 0px 15px !important;
+}
+.navItem {
+	color: var(--border-color);
+	position: relative;
+	float: left;
+	padding: 15px 0px;
+	background-color: #655D5D;
+	font-size: 15px;
+	margin: 0px 25px;
+}
+
+.navItem:hover {
+	color: var(--border-color);
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.navItem:focus {
+	color: var(--border-color);
+	text-decoration: none;
+	cursor: pointer;
+}
+.active .navItem:before {
+	position: absolute;
+    content: ' ';
+    bottom: 1px;
+    left: 0px;
+    right: 0px;
+    height: 3px;
+    background: var(--btn-primary-bg);
+}
+.marginLeft{
+	margin-left: 0;
+}
+.active .navItem, .active .navItem:hover, .active .navItem:focus{
+	color: #ffffff;
+}

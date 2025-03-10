@@ -1,0 +1,47 @@
+@import '../../components/variables.css';
+@import '../../components/helpers.css';
+
+.listContainer {
+	margin: 0px;
+	list-style-type: none;
+}
+
+.sideNavitem {
+	display: block;
+	padding: 8px 0;
+	font-size: 16px;
+	color: #767676;
+	text-decoration: none;
+}
+
+.sideNavitem:hover,
+.sideNavitem:active,
+.sideNavitem:focus {
+	text-decoration: none;
+	color: var(--btn-primary-bg);
+}
+
+.displayInlineBlock {
+	display: inline-block;
+}
+
+.hoverMenu .navitem:hover::before {
+	content: '';
+	position: absolute;
+	width: 5px;
+	height: 5px;
+	left: 25px;
+	background-color: var(--btn-primary-bg);
+	border-radius: 50%;
+	top: 19px;
+}
+
+.navitem {
+	position: relative;
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+	.hoverMenu .navitem:hover::before {
+		left: 9px;
+	}
+}

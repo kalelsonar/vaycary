@@ -1,0 +1,14 @@
+@import '../common.css';
+.bookItMessage {
+  overflow: hidden;
+  display: block;
+  position: relative;
+  color: #707070;
+  margin: 25px 20px 0;
+  color: #707070;
+  text-align: center;
+}
+.viewCountText {
+  padding: 0px 15px;
+  font-size: 16px;
+}

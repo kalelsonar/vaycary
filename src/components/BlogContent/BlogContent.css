@@ -1,0 +1,22 @@
+@import '../helpers.css';
+@import '../variables.css';
+.subText {
+	margin-top: 45px;
+	font-size: 16px;
+	color: var(var(--common-text-color));
+	text-align: justify;
+	font-weight: 300;
+	font-style: normal;
+}
+.root {
+	width: 100%;
+	max-width: var(--max-content-width);
+	margin: 0 auto;
+	min-height: 50vh;
+}
+/** Banner caption - End **/
+@media screen and (max-width:1200px) {
+	.root {
+		padding-top: 45px;
+  }
+}

@@ -1,0 +1,46 @@
+@import '../variables.css';
+.alertContainer {
+	padding: 10px 15px;
+	position: relative;
+	text-align: left;
+	padding-left: 50px;
+	font-size: 18px;
+	color: #ffffff;
+}
+.alertDanger {
+	background: var(--btn-secondary-bg);
+}
+.dangerIcon {
+	position: absolute;
+	left: 18px;
+	top: 11px;
+	font-size: 20px;
+	transform: none;
+}
+.alertSuccess {
+	background: var(--map-success-color);
+	color: var(--common-text-color);
+}
+.successIcon {
+	color: #8bd275;
+	position: absolute;
+	left: 18px;
+	top: 15px;
+	font-size: 20px;
+	transform: none;
+}
+.positionRelative{
+	position: relative;
+}
+.positionAbsolute{
+	position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+@media screen and (max-width: 991px) {
+.tabViewMap{
+	height: 75vh !important;
+}
+}

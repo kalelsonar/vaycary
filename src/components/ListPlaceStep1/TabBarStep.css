@@ -1,0 +1,115 @@
+@import '../../components/variables.css';
+
+.progressContainer {
+	display: block;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+.linkReset {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* .textTrunck {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	cursor: pointer;
+	font-size: 16px;
+} */
+
+.progressStep {
+	padding-left: 12px;
+	color: var(--common-text-color);
+	line-height: 63px;
+}
+
+.progressStyle {
+	border: 1px solid var(--border-color);
+	border-radius: 36px;
+	padding: 0px 15px;
+	display: grid;
+	align-items: center;
+	grid-template-columns: 40px auto;
+	cursor: pointer;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: var(--btn-secondary-bg);
+
+}
+
+.leanProgress {
+	height: 5px;
+	background-color: var(--btn-secondary-bg);
+	margin-bottom: 6px;
+}
+
+.active,
+.linkReset:hover {
+	color: var(--btn-secondary-bg);
+	background-color: #F0FDFC;
+	border: 1px solid var(--btn-secondary-bg);
+}
+
+.active,
+.linkReset:focus {
+	color: var(--btn-secondary-bg);
+	background-color: #F0FDFC;
+	border: 1px solid var(--btn-secondary-bg);
+}
+
+.iconCss {
+	width: 40px;
+	height: 40px;
+	background-color: #F5F3FF;
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.active .iconCss {
+	background-color: #ffffff;
+}
+
+.linkReset:hover .iconCss,
+.linkReset:focus .iconCss {
+	background-color: #ffffff;
+}
+
+.arrowPrev {
+	position: absolute;
+	top: 2px;
+	left: 12%;
+}
+
+.arrowNext {
+	position: absolute;
+	top: 2px;
+	right: 12%;
+}
+
+.arrowCenter img {
+	width: 64px;
+}
+
+@media screen and (min-width:1301px) and (max-width:1410px) {
+	.arrowPrev {
+		left: 8%;
+	}
+
+	.arrowNext {
+		right: 8%;
+	}
+}
+
+@media (max-width: 1300px) {
+	.arrowCenter {
+		display: none;
+	}
+}

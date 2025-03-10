@@ -1,0 +1,48 @@
+.loadingOverlay {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: 2;
+	background: rgba(255, 255, 255, 0.5);
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+}
+
+.searchResults {
+	position: relative;
+	padding: 24px 16px 33px;
+	margin-bottom: 50px;
+}
+
+.resultsFooter {
+	padding: 20px;
+	position: relative;
+}
+
+.listItem {
+	width: 25%;
+	padding: 0px 17px 33px;
+}
+
+.resultsPagination {
+	margin-bottom: 48px;
+	position: relative;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+	.listItem {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.listItem {
+		width: 100%;
+	}
+
+	.searchResults {
+		padding: 24px 7px 33px;
+	}
+}

@@ -1,0 +1,42 @@
+services:
+  db:
+    container_name: vacray-db
+    image: mysql:8.0.33
+    restart: always
+    environment:
+      MYSQL_DATABASE: "db"
+      # So you don't have to use root, but you can if you like
+      MYSQL_USER: "user"
+      # You can use whatever password you like
+      MYSQL_PASSWORD: "password"
+      # Password for root access
+      MYSQL_ROOT_PASSWORD: "password"
+    ports:
+      # <Port exposed> : <MySQL Port running inside container>
+      - "3306:3306"
+    # expose:
+    #   # Opens port 3306 on the container
+    #   - "3306"
+    # Where our data will be persisted
+    volumes:
+      - my-db:/var/lib/mysql
+
+  mysql-workbench:
+    image: lscr.io/linuxserver/mysql-workbench:latest #set container image
+    container_name: mysql-workbench #set container name
+    depends_on:
+      - db #set as a dependency on db
+    # environment:
+    #   - PUID=1000                                       #specify user puid, and guid
+    #   - PGID=1000
+    #   - TZ=Etc/UTC                                      #set timezone
+    # volumes:
+    #   - ./config:/config                                #where to store the config directory
+    ports:
+      - 7777:3000 #set port for the http workbench gui
+      - 3001:3001 #set port for the https workbench gui
+    # cap_add:
+    #   - IPC_LOCK #needed for keychain functionality
+    # restart: unless-stopped
+volumes:
+  my-db:

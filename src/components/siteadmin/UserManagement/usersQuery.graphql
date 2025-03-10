@@ -1,0 +1,25 @@
+query userManagement($currentPage: Int, $searchList: String, $userType: String){
+  userManagement(currentPage: $currentPage, searchList: $searchList, userType: $userType) {
+    count
+    usersData{
+      id,
+        email,
+        profile
+        {
+        profileId,
+        firstName,
+        lastName,
+        gender,
+        dateOfBirth,
+        phoneNumber,
+        countryCode,
+        preferredLanguage,
+        preferredCurrency,
+        location,
+        info,
+        createdAt
+        },
+        userBanStatus,
+    }
+   }
+}

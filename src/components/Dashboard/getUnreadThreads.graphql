@@ -1,0 +1,38 @@
+query getUnreadThreads{
+  getUnreadThreads {
+    id
+    listId
+    host
+    guest
+    listData {
+      city
+      state
+      country
+    }
+    threadItemUnread {
+      id
+      threadId
+      content
+      sentBy
+      isRead
+      type
+      createdAt
+      startDate
+      endDate
+      personCapacity
+    }
+    hostProfile {
+      profileId
+      displayName
+      firstName
+      picture
+    }
+    guestProfile {
+      profileId
+      displayName
+      firstName
+      picture
+    }
+    status
+  }
+}

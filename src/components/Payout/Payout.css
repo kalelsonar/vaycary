@@ -1,0 +1,139 @@
+@import '../../components/variables.css';
+
+.noBorder {
+	border: 0px none !important;
+}
+
+.rowBorder {
+	border-bottom: 1px solid var(--border-color);
+}
+
+.titleText {
+	margin: 0px 0px 18px 0px;
+	font-size: 22px;
+}
+
+.textTruncate {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.textMuted {
+	color: var(--common-text-Secondry-color);
+}
+
+.textSpace {
+	margin-left: 10px;
+	color: var(--btn-primary-bg);
+}
+
+.textSpace:hover {
+	color: var(--btn-primary-bg);
+}
+
+.radioText {
+	font-size: 14px;
+	font-weight: normal;
+	display: inline;
+	padding-right: 5px;
+}
+
+.btnRight {
+	margin-right: 30px;
+}
+
+.displayInline {
+	display: inline-block;
+}
+
+.infoBox {
+	font-size: 14px;
+	color: var(--common-text-Secondry-color);
+	;
+}
+
+.transparentText {
+	/* color: transparent !important; */
+}
+
+.marginLeft {
+	margin-right: 18px;
+	display: inline-block;
+}
+
+.toolTipIcon {
+	width: 100%;
+	max-width: 16px;
+	margin: 0px 0px 2px 4px;
+}
+
+.linkText,
+.linkText:hover,
+.linkText:focus {
+	color: var(--btn-secondary-bg);
+}
+
+.displayGrid {
+	display: grid;
+	grid-template-columns: 48% 48%;
+	column-gap: 27px;
+}
+
+.displayBlock {
+	display: block;
+}
+
+.stripeLink,
+.stripeLink:hover,
+.stripeLink:focus {
+	color: var(--btn-secondary-bg);
+}
+
+.backBtn,
+.backBtn:hover,
+.backBtn:focus {
+	padding: 0px !important;
+	border: none !important;
+	color: var(--btn-secondary-bg) !important;
+	background-color: transparent !important;
+}
+
+.plusIcon {
+	margin: 0px 6px 2px 0px;
+	width: 100%;
+	max-width: 14px;
+}
+
+.addBtn {
+	border-radius: 23px;
+	margin-top: 5px;
+}
+
+.textCenter {
+	text-align: center !important;
+}
+
+.methodsFlex {
+	display: flex;
+	column-gap: 5px;
+	align-items: center;
+}
+.VisibleXS{
+	display: none;
+}
+@media screen and (max-width: 767px) {
+	.displayGrid {
+		grid-template-columns: 100%;
+	}
+
+	.addBtn {
+		margin-top: 20px;
+	}
+	.VisibleXS{
+		display: block;
+	}
+	.hiddenXS{
+		display: none !important;
+	}
+}

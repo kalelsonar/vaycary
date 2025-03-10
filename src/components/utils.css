@@ -1,0 +1,9 @@
+@import 'variables.css';
+
+.errorMessage {
+  margin: 5px 0px;
+  display: block;
+  color: #ff0000;
+  font-size: 14px;
+  font-weight: normal;
+}

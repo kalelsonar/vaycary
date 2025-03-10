@@ -1,0 +1,21 @@
+@import '../../components/variables.css';
+.root {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.container {
+  margin: 0px auto;
+  padding-top: 30px;
+  max-width: var(--max-container-width);
+  padding-bottom: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+  .mainSection {
+    margin-bottom: 60px;
+    margin-top: 30px;
+  }
+  .container {
+    padding-top: 75px;
+  }
+}

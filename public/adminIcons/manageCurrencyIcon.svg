@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19" height="19" viewBox="0 0 19 19">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_53" data-name="Path 53" d="M0,0H19V19H0Z" fill="rgba(0,0,0,0)"/>
+    </clipPath>
+  </defs>
+  <g id="manage_service_fee" data-name="manage service fee" clip-path="url(#clip-path)">
+    <path id="Path_48" data-name="Path 48" d="M19.907,3.759a.384.384,0,0,1-.341.2H17.575a1.729,1.729,0,0,1-.925-.23A1.511,1.511,0,0,1,16,2.383V.392a.392.392,0,0,1,.669-.277L19.843,3.29a.388.388,0,0,1,.065.469Z" transform="translate(-3.333 0)" fill="#fff"/>
+    <path id="Path_49" data-name="Path 49" d="M11.167,12.375c1.749,0,3.167-.532,3.167-1.187S12.916,10,11.167,10,8,10.532,8,11.188,9.418,12.375,11.167,12.375Z" transform="translate(-1.667 -2.083)" fill="#fff"/>
+    <path id="Path_50" data-name="Path 50" d="M14.333,13A6.292,6.292,0,0,1,8,13v1.52a6.285,6.285,0,0,0,6.333,0Z" transform="translate(-1.667 -2.708)" fill="#fff"/>
+    <path id="Path_51" data-name="Path 51" d="M8,16a6.292,6.292,0,0,0,6.333,0v1.52A6.285,6.285,0,0,1,8,17.52Z" transform="translate(-1.667 -3.333)" fill="#fff"/>
+    <path id="Path_52" data-name="Path 52" d="M17.25,5.916a.4.4,0,0,0-.392-.4H13.292a1.583,1.583,0,0,1-1.583-1.583V1.4a.4.4,0,0,0-.4-.4H5.375A2.375,2.375,0,0,0,3,3.375V16.833a2.375,2.375,0,0,0,2.375,2.375h9.5a2.375,2.375,0,0,0,2.375-2.375ZM4.583,3.375a.792.792,0,0,1,.792-.792h4.75V3.937A3.167,3.167,0,0,0,13.292,7.1h2.375v9.73a.792.792,0,0,1-.792.792h-9.5a.792.792,0,0,1-.792-.792Z" transform="translate(-0.625 -0.208)" fill="#fff" fill-rule="evenodd"/>
+  </g>
+</svg>

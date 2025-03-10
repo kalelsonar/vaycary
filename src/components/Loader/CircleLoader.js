@@ -1,0 +1,39 @@
+import React, { Component } from 'react';
+import { PropTypes } from 'prop-types';
+
+// Component
+import MDSpinner from 'react-md-spinner';
+
+import s from './Loader.css';
+import {
+    PRIMARYCOLOR,
+  } from '../../constants';
+
+class CircleLoader extends Component {
+    static propTypes = {
+        show: PropTypes.bool.isRequired
+    };
+
+    static defaultProps = {
+        show: false
+    };
+
+    render() {
+        const { show } = this.props;
+
+        if (!show) {
+            return <div />;
+        }
+
+        return (
+            <div className={cx(s.textCenter)}>
+                <MDSpinner
+                    singleColor={PRIMARYCOLOR}
+                    size={48}
+                />
+            </div>
+        );
+    }
+}
+
+export default CircleLoader;

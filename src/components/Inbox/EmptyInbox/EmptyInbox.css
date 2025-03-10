@@ -1,0 +1,18 @@
+@import '../../variables.css';
+.textLead {
+	color: var(--common-text-color);
+	line-height: 1.1;
+}
+.widthImg{
+	width: 200px;
+}
+.textCenter{
+	text-align: center;
+	color: var(--common-text-Secondry-color);
+	max-width: 396px;
+	margin: 20px auto;
+	font-size: 18px;
+}
+.textMuted{
+	margin: 20px 0;
+}

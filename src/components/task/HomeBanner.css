@@ -1,0 +1,35 @@
+.homeBannerForm {
+    position: relative;
+}
+
+.formWrap {
+    color: #767676;
+    position: relative;
+    background: var(--white-color);
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 450px;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+}
+
+.sliderImage {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (min-width:1200px) {
+    .sliderImage {
+        height: calc(100% + 20%);
+    }
+}
+
+@media screen and (max-width:767px) {
+    .formWrap {
+        padding: 20px;
+    }
+
+}

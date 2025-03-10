@@ -1,0 +1,40 @@
+@import '../../../../components/variables.css';
+@import '../../admin-common.css';
+@import '../../admin-form.css';
+@import '../../../helpers.css';
+
+.faqImage {
+    width: 100%;
+    max-width: 20px;
+    margin-left: 3px;
+    margin-bottom: 3px;
+}
+
+.labelAddon {
+    display: inline;
+}
+
+.labelAddonSec {
+    margin: 6px 0;
+}
+
+.addonStyle {
+    border: 1px solid var(--border-color) !important;
+}
+
+.displayGrid {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    grid-column-gap: 20px;
+}
+
+.subHeadingTitle {
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+@media screen and (max-width: 1199px) {
+    .displayGrid {
+        grid-template-columns: 100%;
+    }
+}

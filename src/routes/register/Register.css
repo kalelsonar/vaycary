@@ -1,0 +1,114 @@
+@import '../../components/variables.css';
+ .root {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.container {
+	margin: 0 auto;
+	padding: 30px 0 40px;
+	max-width: 380px;
+}
+.lineThrough {
+	position: relative;
+	z-index: 1;
+	display: block;
+	margin: 12px 0px 20px;
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+}
+.horizontalLineThrough {
+	position: relative;
+	z-index: 1;
+	display: block;
+	margin: 15px 0px;
+	width: 100%;
+	color: #767676;
+	text-align: center;
+	font-size: 14px;
+}
+.formGroup {
+	margin-bottom: 6px;
+}
+.formSection {
+	overflow: hidden;
+}
+.noPadding {
+	padding: 0px !important;
+}
+.textAlignRight {
+	text-align: right;
+}
+.textAlignLeft {
+	text-align: left;
+}
+.modalCaptionLink {
+	color: var(--btn-secondary-bg);
+	cursor: pointer;
+}
+.modalCaptionLinkLarge {
+	font-size: 16px;
+	line-height: 32px;
+}
+.modalCaptionLink, .modalCaptionLink:hover, .modalCaptionLink:focus, .modalCaptionLink:active {
+	color: var(--btn-secondary-bg);
+	font-size: 14px;
+	text-decoration: underline;
+}
+.button {
+	display: block;
+	width: 100%;
+	text-align: center;
+	text-decoration: none !important;
+}
+.captionText {
+	font-size: 16px;
+	color: var(--common-text-color);
+	margin: 15px 0px;
+}
+.linkText {
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 500;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap:6px;
+	align-items: center;
+	justify-content: center;	
+	margin-bottom: 0px;
+	margin-top: 20px;
+}
+.linetext {
+    position: relative;
+    display: inline-block;
+}
+.linetext::before {
+	content: '';
+    position: absolute;
+    top: 9px;
+    left: -30px;
+    width: 26px;
+    height: 1px;
+    background-color: var(--common-text-color);
+}
+.linetext::after {
+	content: '';
+    position: absolute;
+    top: 9px;
+    right: -30px;
+    width: 26px;
+    height: 1px;
+    background-color: var(--common-text-color);
+}
+.loginHeading{
+	font-size: 18px;
+	text-align: center;
+	margin: 0 0 22px;
+}
+@media screen and (max-width: 1200px) {
+	.container {
+		margin: 0 auto;
+		padding: 100px 0 40px;
+		max-width: 380px;
+	}
+}

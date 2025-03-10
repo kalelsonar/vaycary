@@ -1,0 +1,78 @@
+@import '../../helpers.css';
+@import '../../variables.css';
+/** Common **/
+.textEllipsis {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+/** Common **/
+/** Home slider Item - Start **/
+.imgContainer {
+	position: relative;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.parent {
+	background: #282828 none repeat scroll 0 0;
+	padding-top: 66.6667%;
+	position: relative;
+	border-radius: 15px;
+}
+.children {
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%;
+}
+.content {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.imageContent {
+	height: 100%;
+	width: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	border-radius: 15px;
+}
+.infoContainer {
+margin-bottom: 25px;
+}
+.linkContainer,
+.linkContainer:hover {
+	display: block;
+	text-decoration: none;
+	cursor: pointer;
+}
+.infoText {
+	font-size: 18px;
+	padding-left: 3px;
+}
+.infoTitle {
+	font-size: 18px;
+	white-space: normal;
+    word-break: break-word;
+}
+.defaultBg{
+	background: #EFEFEF;
+}
+.defaultWishlistImg{
+    width: 78px;
+    height: 100%;   
+    display: block;
+    margin: auto;
+}
+.defaultImgSection{
+	height: 100%;
+}
+/** Home slider Item - Start **/

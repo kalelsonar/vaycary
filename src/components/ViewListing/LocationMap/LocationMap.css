@@ -1,0 +1,20 @@
+@import '../common.css';
+.locationSmallText{
+  font-size: 16px;
+  margin: 12px 0  0px;
+}
+.locationNameCss{
+  font-size: 16px;
+  margin: 12px 0 20px;
+}
+.neighborhoodMap {
+  width: 100%;
+  max-height: 650px;
+  display: block;
+  position: relative;
+}
+@media screen and (max-width: 1024px) {
+  .neighborhoodMap {
+    max-height: 350px;
+  } 
+}

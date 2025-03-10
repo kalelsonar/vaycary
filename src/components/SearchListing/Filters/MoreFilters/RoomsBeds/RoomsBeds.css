@@ -1,0 +1,25 @@
+.roomsBedGap {
+    gap: 11px;
+}
+
+.bedIcon {
+    width: 100%;
+    max-width: 22px;
+    min-width: 22px;
+}
+
+.bedsWidth {
+    width: 70%;
+}
+
+@media screen and (max-width: 767px) {
+    .roomsBedGapSection {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .bedsWidth {
+        width: 100%;
+    }
+}

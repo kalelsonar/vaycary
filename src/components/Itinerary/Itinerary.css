@@ -1,0 +1,162 @@
+@import '../../components/variables.css';
+@import '../../components/helpers.css';
+.landingContainer {
+	max-width: var( --max-container-width);
+	margin: 0 auto;
+}
+.titleText {
+	font-size: 26px;
+	font-weight: 600;
+	margin: 0px 0px 6px;
+}
+.parent {
+	background: #d8d8d8 none repeat scroll 0 0;
+	padding-top: 71.6667%;
+	position: relative;
+	border-radius: 15px;
+}
+.children {
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%;
+}
+.content {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+.imageContent {
+	height: 100%;
+	width: 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	border-radius: 15px;
+}
+.profileAvatarLink {
+	backface-visibility: hidden;
+	position: relative;
+	display: inline-block;
+	vertical-align: bottom;
+	overflow: hidden;
+	background-color: #bbb;
+	border-radius: 50%;
+	border: 2px solid #fff;
+}
+.profileAvatar {
+	height: 63px;
+	width: 63px;
+}
+.textWidth {
+	word-break: break-word;
+}
+.avatarDisplayFlex {
+	display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.hostedTitle {
+	margin: 10px 0px 0px;
+    font-size: 18px;
+    font-weight: 500;
+	color: var(--common-text-color);
+	display: block;
+}
+.detailsSection {
+	border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 25px;
+    width: 100%;    
+}
+.biilingGrid {
+	display: grid;
+    grid-template-columns: 66% 34%;
+}
+.subText {
+	font-size: 16px;
+}
+.textBoldMedium {
+	font-weight: 500;
+}
+.rightArrow {
+	width: 6px;
+    height: 12px;
+    margin-left: 4px;
+}
+.linkText, .linkText:hover, .linkText:focus, .linkText:active {
+	color: var(--btn-secondary-bg);
+	text-decoration: underline;
+	font-size: 16px;
+}
+.hostTitlePadding {
+	padding-left: 15px;
+}
+.locationText {
+	font-size: 14px;
+    color: var(--common-text-Secondry-color);
+    margin: 3px 0px 5px 0px;
+}
+.hrLine {
+	margin: 18px 0px;
+    border-top: 1px solid var(--border-color);
+}
+.dateGrid {
+	display: grid;
+    grid-template-columns: 40% 26% 34%;
+}
+.dateText {
+	font-size: 16px;
+    color: var(--common-text-Secondry-color);
+}
+.displayBlock {
+	display: block;
+}
+.starSection {
+	display: inline-block;
+    vertical-align: middle;
+	padding-right: 2px;
+}
+.dateArrow {
+	width: 42px;
+    height: 42px;
+    margin-top: 15px;
+}
+.reviewCircle {
+	position: relative;
+	margin-left: 12px;
+}
+.reviewCircle::before {
+	content: '';
+    position: absolute;
+    left: -7px;
+    top: 7px;
+    width: 3px;
+    height: 3px;
+    background-color: var(--common-text-color);
+    border-radius: 50%;
+}
+.StarSectionTop{
+	margin: 15px 0 6px;
+}
+.hostTitleTwo{
+	margin-top: 15px;
+}
+@media screen and (max-width: 767px) {
+	.biilingGrid {
+		grid-template-columns: 100%;
+	}
+	.detailsSection {
+		margin-bottom: 30px;
+	}	
+}
+
+@media screen and (min-width:768px) {
+	.billingPadding{
+		padding-right: 60px;
+	}
+}

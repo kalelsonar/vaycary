@@ -1,0 +1,46 @@
+query getAllInquiryAdmin ($currentPage:Int, $searchList: String){
+  getAllInquiryAdmin (currentPage: $currentPage, searchList: $searchList){
+     count
+     inquiryData{
+      data
+      id
+      threadId
+      sentBy
+      content
+      startDate
+      endDate
+      personCapacity
+      type
+      threadsData{
+        id
+        listId
+        host
+        guest
+        isRead
+        messageUpdatedDate
+        guestProfile{
+          displayName
+          userId
+          profileId
+        }
+        guestUserData{
+          email
+          id
+        }
+        hostProfile{
+          displayName
+          userId
+          profileId
+        }
+        hostUserData{
+          id
+          email
+        }
+        listData{
+          id
+          title
+        }
+      }
+  }
+  }
+}

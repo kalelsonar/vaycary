@@ -1,0 +1,6 @@
+query getAdminUserStatus{
+  getAdminUserStatus {
+    status
+    userExistStatus
+  }
+}

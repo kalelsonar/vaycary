@@ -1,0 +1,6 @@
+{
+    "name": "CancellationPolicyManagement",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./CancellationPolicyManagement.js"
+}
